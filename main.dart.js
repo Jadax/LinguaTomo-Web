@@ -110183,9 +110183,7 @@ for(q=-d,p=d*d,o=a.a,n=q;n<=d;n+=r)for(m=n*n,l=b+n,k=l+r,j=q;j<=d;j+=r)if(m+j*j<
 h=s.cZ()
 o.drawRect(A.d3(new A.D(l,i,k,i+r)),h)
 h.delete()}},
-Xo(a,b,c,d,e,f){$.a4()
-A.aO().r=f.gp(0)
-this.oP(a,b-d*0.3,c,d*0.6,e,f)
+Xo(a,b,c,d,e,f){this.oP(a,b-d*0.3,c,d*0.6,e,f)
 this.oP(a,b-d*0.15,c-e*0.4,d*0.5,e*0.8,f)
 this.oP(a,b+d*0.1,c+e*0.1,d*0.35,e*0.65,f)},
 xi(a,b,c,d){var s,r,q,p,o
