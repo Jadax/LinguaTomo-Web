@@ -108887,13 +108887,13 @@ $S:112}
 A.l2.prototype={
 I(){return"LeoMood."+this.b}}
 A.b16.prototype={
-$1(a){var s,r,q,p=a.bs($.fT(),t.d),o=a.bs($.j6(),t.cp),n=a.bs($.afU(),t.jv),m=o.a
-if(B.b.n(B.a_l,m.gq(m)))return B.Y6
+$1(a){var s,r,q,p=a.bs($.fT(),t.d),o=a.bs($.j6(),t.cp),n=a.bs($.afU(),t.jv),m=o.a,l=m.gq(m)
+if(B.b.n(B.a_l,l))return B.Y6
 if(p.gCl()>=3)return B.Y5
 if(n.gQd().length!==0)return B.Y8
 m=o.e
 s=m.gaa(m)?null:m.iC(0,new A.b15())
-if(s!=null){r=A.AH(s)
+if((l>0||o.c.length!==0)&&s!=null){r=A.AH(s)
 if(r!=null)if(B.k.bW(new A.bB(Date.now(),0,!1).eY(r).a,864e8)>=2)return B.Y7}q=o.c.length
 if(q>=3)if(o.d/q<0.4)return B.Ya
 if(B.k.aY(A.b46(new A.bB(Date.now(),0,!1)),7)===3)return B.Y9
