@@ -55320,7 +55320,7 @@ h=r[4]
 g=r[5]
 f=r[6]
 e=r[7]
-for(d=l,q=0;q<64;++q,e=f,f=g,g=h,h=b,i=j,j=k,k=d,d=a){c=(e+(((h>>>6|h<<26)^(h>>>11|h<<21)^(h>>>25|h<<7))>>>0)>>>0)+(((h&g^~h&f)>>>0)+(B.a_7[q]+s[q]>>>0)>>>0)>>>0
+for(d=l,q=0;q<64;++q,e=f,f=g,g=h,h=b,i=j,j=k,k=d,d=a){c=(e+(((h>>>6|h<<26)^(h>>>11|h<<21)^(h>>>25|h<<7))>>>0)>>>0)+(((h&g^~h&f)>>>0)+(B.a_8[q]+s[q]>>>0)>>>0)>>>0
 b=i+c>>>0
 a=c+((((d>>>2|d<<30)^(d>>>13|d<<19)^(d>>>22|d<<10))>>>0)+((d&k^d&j^k&j)>>>0)>>>0)>>>0}r.$flags&2&&A.a7(r)
 r[0]=d+l>>>0
@@ -61357,7 +61357,7 @@ A.aSv.prototype={
 $2(a,b){return this.a.F$.cI(a,this.b)},
 $S:17}
 A.a48.prototype={
-gJJ(){return B.a_3},
+gJJ(){return B.a_4},
 Pa(a){var s
 switch(a.a){case 0:s=this.d.b
 break
@@ -108263,7 +108263,7 @@ q=!q||B.bO.gkK()==null}if(q)return
 q=s.y
 if(q!=null)q.av(0)
 s.y=A.ck(B.SX,new A.aIU(s,r,a))},
-G(a){var s,r,q=this,p=null,o=q.gcP(),n=o.bs($.FE(),t.xi),m=[B.S1,B.Y5,B.azc,B.aOt,B.a7y],l=t.p,k=A.bH(A.b([A.An(A.bY(13),A.b9t("assets/branding/leo-face-icon.png",p,p,B.jl,40,"Leo",40),B.b8),B.by,B.QI],l),B.A,B.q,B.aJ,0)
+G(a){var s,r,q=this,p=null,o=q.gcP(),n=o.bs($.FE(),t.xi),m=[B.S1,B.Y5,B.azc,B.aOt,B.a7y],l=t.p,k=A.bH(A.b([A.An(A.bY(13),A.b9t("assets/branding/leo-face-icon.png",p,p,B.jl,40,"Leo",40),B.b8),B.by,B.QJ],l),B.A,B.q,B.aJ,0)
 k=A.hg(A.b([A.k7(p,p,A.jo(o.bs($.TH(),t.mz).a===B.GR?B.Vt:B.Va,p,p,p),p,p,new A.aJ_(a),p,p,"Account and sync",p),A.k7(p,p,B.WP,p,p,new A.aJ0(q,a),p,p,"Experience: "+A.b91(n),p),B.lo],l),p,p,k)
 s=q.w
 l=A.b([],l)
@@ -108316,7 +108316,7 @@ A.aJ0.prototype={
 $0(){return this.a.ayV(this.b)},
 $S:0}
 A.aIY.prototype={
-$1(a){var s,r,q,p=null,o=this.a,n=t.xi,m=o.gcP().bZ(0,$.FE(),n),l=A.b([A.J("Choose your experience",p,p,p,A.Q(a).ok.f,p,p),B.aGu,B.a4],t.p)
+$1(a){var s,r,q,p=null,o=this.a,n=t.xi,m=o.gcP().bZ(0,$.FE(),n),l=A.b([A.J("Choose your experience",p,p,p,A.Q(a).ok.f,p,p),B.aGt,B.a4],t.p)
 for(s=0;s<3;++s){r=B.vZ[s]
 q=A.J(A.b91(r),p,p,p,B.bc,p,p)
 l.push(A.bT(A.ayf(p,m,new A.aIX(o,a),A.J(A.bna(r),p,p,p,p,p,p),q,r,n),p,p,B.eC))}return A.ie(!0,new A.an(B.nr,A.aV(l,B.a8,B.q,B.aJ),p),!1,B.Q,!0)},
@@ -109655,28 +109655,28 @@ break
 case 6:case 1:return A.v(q,r)
 case 2:return A.u(o.at(-1),r)}})
 return A.w($async$Ei,r)},
-G(a){var s,r,q,p,o=this,n=null,m=o.gcP(),l=$.TH(),k=m.bs(l,t.mz),j=B.bO.gkK(),i=A.hg(n,n,n,B.aGN),h=t.p,g=A.b([A.J("Local first, cloud optional",n,n,n,A.Q(a).ok.f,n,n),B.b4,B.aGi,B.br],h),f=B.d.b6("https://lfoczkivkesxxmuowebm.supabase.co","https://")
+G(a){var s,r,q,p,o=this,n=null,m=o.gcP(),l=$.TH(),k=m.bs(l,t.mz),j=B.bO.gkK(),i=A.hg(n,n,n,B.aGM),h=t.p,g=A.b([A.J("Local first, cloud optional",n,n,n,A.Q(a).ok.f,n,n),B.b4,B.aGh,B.br],h),f=B.d.b6("https://lfoczkivkesxxmuowebm.supabase.co","https://")
 if(!f)g.push(B.aOJ)
 else if(j==null){m=A.a1V(B.a0N,o.w,B.Xo,B.pU,n,1,n,n)
 l=o.z
 f=l?n:o.gayr()
-B.b.D(g,A.b([A.bT(new A.an(B.bo,A.aV(A.b([B.aFW,B.ay,m,B.ay,A.rC(B.Wa,A.J(l?"Sending\u2026":"Email me a sign-in link",n,n,n,n,n,n),f,n)],h),B.a8,B.q,B.u),n),n,n,n)],h))}else{f=j.z
-f=A.bT(A.t8(!1,n,n,n,!0,n,n,n,!0,n,B.MN,n,n,n,n,n,!1,n,n,n,n,n,B.aGT,n,A.J(f==null?"LinguaTomo learner":f,n,n,n,n,n,n),n,n,n),n,B.at,n)
+B.b.D(g,A.b([A.bT(new A.an(B.bo,A.aV(A.b([B.aFV,B.ay,m,B.ay,A.rC(B.Wa,A.J(l?"Sending\u2026":"Email me a sign-in link",n,n,n,n,n,n),f,n)],h),B.a8,B.q,B.u),n),n,n,n)],h))}else{f=j.z
+f=A.bT(A.t8(!1,n,n,n,!0,n,n,n,!0,n,B.MN,n,n,n,n,n,!1,n,n,n,n,n,B.aGS,n,A.J(f==null?"LinguaTomo learner":f,n,n,n,n,n,n),n,n,n),n,B.at,n)
 s=A.a1V(B.cI,o.x,B.Xp,n,24,1,n,n)
 r=o.at
 q=o.ax
 p=q?n:o.gaxI()
-s=A.bT(new A.an(B.bo,A.aV(A.b([B.aH3,B.f2,B.aFE,B.ay,s,new A.a1L(r,new A.aIg(o),B.aGt,B.aFX,B.Q,n),A.rC(B.WO,A.J(q?"Saving\u2026":"Save profile choice",n,n,n,n,n,n),p,n)],h),B.a8,B.q,B.u),n),n,n,n)
+s=A.bT(new A.an(B.bo,A.aV(A.b([B.aH2,B.f2,B.aFD,B.ay,s,new A.a1L(r,new A.aIg(o),B.aGs,B.aFW,B.Q,n),A.rC(B.WO,A.J(q?"Saving\u2026":"Save profile choice",n,n,n,n,n,n),p,n)],h),B.a8,B.q,B.u),n),n,n,n)
 r=k.a===B.pP
 m=r?n:m.bZ(0,l.gdm(),t.q1).gair()
-B.b.D(g,A.b([f,B.ay,s,B.ay,A.rC(B.W2,A.J(r?"Syncing\u2026":"Back up progress now",n,n,n,n,n,n),m,n),A.D6(B.aHb,n,n,new A.aIh(o),n,n)],h))}m=o.Q
+B.b.D(g,A.b([f,B.ay,s,B.ay,A.rC(B.W2,A.J(r?"Syncing\u2026":"Back up progress now",n,n,n,n,n,n),m,n),A.D6(B.aHa,n,n,new A.aIh(o),n,n)],h))}m=o.Q
 if(m!=null)g.push(new A.an(B.uc,A.J(m,n,n,n,n,n,n),n))
 m=k.c
 if(m!=null)g.push(new A.an(B.uc,A.J(m,n,n,n,n,n,n),n))
 g.push(B.br)
 g.push(B.aQ0)
 g.push(B.a4)
-g.push(A.bT(new A.an(B.bo,B.QL,n),n,n,n))
+g.push(A.bT(new A.an(B.bo,B.QI,n),n,n,n))
 return A.ft(i,n,new A.dU(A.aV(g,B.a8,B.q,B.u),n),n)}}
 A.aIi.prototype={
 $1(a){return this.abi(a)},
@@ -109766,7 +109766,7 @@ return A.w($async$$0,r)},
 $S:13}
 A.a4d.prototype={
 G(a){var s=null
-return A.bT(new A.an(B.bo,A.aV(A.b([B.awH,B.ae,B.aHp,B.ae,A.dd(s,B.awU,B.C,s,s,new A.c5(B.aU,s,s,A.bY(10),s,s,B.a9),s,s,s,B.ud,s,s,1/0)],t.p),B.Y,B.q,B.u),s),s,B.at,s)}}
+return A.bT(new A.an(B.bo,A.aV(A.b([B.awH,B.ae,B.aHo,B.ae,A.dd(s,B.awU,B.C,s,s,new A.c5(B.aU,s,s,A.bY(10),s,s,B.a9),s,s,s,B.ud,s,s,1/0)],t.p),B.Y,B.q,B.u),s),s,B.at,s)}}
 A.a97.prototype={
 G(a){return B.M6}}
 A.zJ.prototype={
@@ -109793,12 +109793,12 @@ s=A.bY(10)
 m.push(A.dd(p,A.J(o.f,p,p,p,B.aDo,p,p),B.C,p,p,new A.c5(l,p,p,s,p,p,B.a9),p,p,p,B.ul,p,p,p))}return A.JL(A.bT(new A.an(B.e8,A.bH(m,B.A,B.q,B.u,0),p),p,p,B.eC),n)},
 $S:697}
 A.A3.prototype={
-G(a){var s=null,r=A.hg(s,s,s,B.aFu),q=A.b([A.J("What do the levels mean?",s,s,s,A.Q(a).ok.f,s,s),B.b4,B.aFQ,B.dv],t.p),p=B.Be.gfd(B.Be),o=t.l7
+G(a){var s=null,r=A.hg(s,s,s,B.aFu),q=A.b([A.J("What do the levels mean?",s,s,s,A.Q(a).ok.f,s,s),B.b4,B.aFP,B.dv],t.p),p=B.Be.gfd(B.Be),o=t.l7
 B.b.D(q,p.cm(p,new A.aie(this),o))
 q.push(B.dv)
 q.push(A.J("JLPT Reference",s,s,s,A.Q(a).ok.f,s,s))
 q.push(B.b4)
-q.push(B.aHw)
+q.push(B.aHv)
 q.push(B.a4)
 p=B.B5.gfd(B.B5)
 B.b.D(q,p.cm(p,new A.aif(this),o))
@@ -109838,7 +109838,7 @@ b=A.b([],t.OK)
 for(s=f.d,r=0;r<18;++r){q=B.fN[r]
 p=q.as
 if(s.n(0,p))b.push(new A.Qg(q.at,"mission:"+q.a,p))}for(s=$.n9(),r=0;r<84;++r){o=s[r]
-if(o.e===B.af&&o.r.$1(c)>=o.w)b.push(new A.Qg(o.c,"achievement:"+o.a,o.f))}s=A.hg(g,g,g,B.aGA)
+if(o.e===B.af&&o.r.$1(c)>=o.w)b.push(new A.Qg(o.c,"achievement:"+o.a,o.f))}s=A.hg(g,g,g,B.aGz)
 p=A.J("Your cosy world",g,g,g,A.Q(a0).ok.f,g,g)
 n=""+a
 $.n9()
@@ -109854,7 +109854,7 @@ b=A.cb(A.J("Achievement memories",g,g,g,A.Q(a0).ok.w,g,g),1)
 $.n9()
 p.push(A.bH(A.b([b,A.J(n+"/84",g,g,g,B.lB,g,g)],l),B.A,B.q,B.u,0))
 p.push(B.aV)
-p.push(B.aGI)
+p.push(B.aGH)
 p.push(B.ay)
 p.push(A.b9l(B.Lw,new A.aiY(c),84,B.Bl,!0))
 return A.ft(s,g,new A.dU(A.aV(p,B.a8,B.q,B.u),g),g)}}
@@ -109936,7 +109936,7 @@ return A.ie(!0,new A.an(B.TH,A.aV(A.b([s,B.ae,q,B.ae,l,B.a4,p,B.b4,A.J(m?r.f:"Th
 $S:111}
 A.Az.prototype={
 G(a){var s=null
-return A.ft(A.hg(s,s,s,B.aG1),s,new A.dU(A.aV(A.b([A.J("Learning content you can trace",s,s,s,A.Q(a).ok.f,s,s),B.ae,B.aGa,B.ayZ,B.Mc,B.M3,B.M4],t.p),B.a8,B.q,B.u),s),s)}}
+return A.ft(A.hg(s,s,s,B.aG0),s,new A.dU(A.aV(A.b([A.J("Learning content you can trace",s,s,s,A.Q(a).ok.f,s,s),B.ae,B.aG9,B.ayZ,B.Mc,B.M3,B.M4],t.p),B.a8,B.q,B.u),s),s)}}
 A.VS.prototype={
 ii(a0,a1){var s,r,q,p,o,n,m,l,k,j=null,i=a1.bs($.fT(),t.d),h=a1.bs($.b2q(),t.xB),g=a1.bs($.FE(),t.xi),f=a1.bs($.na(),t.Cs),e=a1.bs($.afU(),t.jv).gQd().length+f.gGk(),d=a1.bs($.TE(),t.g5),c=$.n9(),b=A.a_(c),a=b.h("a8<1>")
 b=b.h("dT<1,h>")
@@ -109956,7 +109956,7 @@ B.b.D(c,new A.dT(new A.a8(l,new A.ajS(m,s),k.h("a8<1>")),new A.ajT(),k.h("dT<1,h
 a=t.p
 c=A.b([A.bH(A.b([A.cb(A.aV(A.b([A.J(A.bvo(o),j,j,j,A.Q(a0).ok.f,j,j),A.J(""+b.gq(b)+" words learned \xb7 "+A.kX(o.b),j,j,j,j,j,j)],a),B.Y,B.q,B.u),1),new A.Rs(B.v7,""+i.gCl(),"days",j),B.c5,new A.Rs(B.v1,""+i.r,"XP",j)],a),B.A,B.q,B.u,0),B.bi,new A.a4T(o,j),B.ay,new A.PJ(h,c,g===B.k9,new A.ajU(a0),j),B.b4,new A.a7e(j),B.ay,new A.acW(q,r.length,j),B.bi,new A.a4j(o,j),B.a4],a)
 if(b.gq(b)>0)B.b.D(c,A.b([new A.adx(o,j),B.a4,new A.ady(o,j),B.a4,B.aQb,B.a4,B.aQj,B.a4],a))
-if(b.gq(b)<10)B.b.D(c,A.b([B.b4,new A.an(B.cs,A.mJ(B.ck,A.b([B.aGm,A.J("\ud83d\udcd6 20 for stories",j,j,j,A.d5(j,j,B.ac.bn(0.7),j,j,j,j,j,j,j,j,12,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j)],a),0,12),j)],a))
+if(b.gq(b)<10)B.b.D(c,A.b([B.b4,new A.an(B.cs,A.mJ(B.ck,A.b([B.aGl,A.J("\ud83d\udcd6 20 for stories",j,j,j,A.d5(j,j,B.ac.bn(0.7),j,j,j,j,j,j,j,j,12,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j)],a),0,12),j)],a))
 c.push(B.a4)
 c.push(new A.a4k(o,j))
 c.push(B.a4)
@@ -110036,7 +110036,7 @@ $1(a){return B.Fd},
 $S:282}
 A.ajE.prototype={
 $1(a){var s=null
-return A.b7x(A.b([A.D6(B.aG2,s,s,new A.ajD(a),s,s)],t.p),B.aHy,B.aFC)},
+return A.b7x(A.b([A.D6(B.aG1,s,s,new A.ajD(a),s,s)],t.p),B.aHy,B.aFB)},
 $S:283}
 A.ajD.prototype={
 $0(){A.cH(this.a,!1).m0(null)
@@ -110046,7 +110046,7 @@ A.a86.prototype={
 ii(a,b){var s,r=null,q=b.bs($.bk_(),t.Bd)
 if(q==null)return B.aK
 s=t.p
-return A.bT(A.hN(!1,A.bY(20),!0,new A.an(B.e8,A.bH(A.b([B.aGC,B.du,A.cb(A.aV(A.b([B.aFz,A.J(q.b,r,r,r,B.Hh,r,r),A.J(q.r,1,B.aL,r,B.Hg,r,r)],s),B.Y,B.q,B.u),1),B.WB],s),B.A,B.q,B.u,0),r),r,!0,r,r,r,r,r,r,r,r,new A.aQO(a),r,r,r,r,r,r,r),r,B.jS,B.Q)}}
+return A.bT(A.hN(!1,A.bY(20),!0,new A.an(B.e8,A.bH(A.b([B.aGB,B.du,A.cb(A.aV(A.b([B.aFy,A.J(q.b,r,r,r,B.Hh,r,r),A.J(q.r,1,B.aL,r,B.Hg,r,r)],s),B.Y,B.q,B.u),1),B.WB],s),B.A,B.q,B.u,0),r),r,!0,r,r,r,r,r,r,r,r,new A.aQO(a),r,r,r,r,r,r,r),r,B.jS,B.Q)}}
 A.aQO.prototype={
 $0(){return A.cH(this.a,!1).dn(A.eW(new A.aQN(),null,t.z))},
 $S:0}
@@ -110059,11 +110059,11 @@ G(a){var s,r=null,q=this.c.b,p=A.a_($.bfg).h("a8<1>"),o=A.a0(new A.a8($.bfg,new 
 if(o.length===0)return B.aK
 s=o[B.k.aY(A.pX(new A.bB(Date.now(),0,!1)),o.length)]
 p=t.p
-return A.bT(A.hN(!1,A.bY(20),!0,new A.an(B.bo,A.aV(A.b([A.bH(A.b([B.aGr,B.c5,B.U1,A.J(A.kX(q),r,r,r,B.q_,r,r)],p),B.A,B.q,B.u,0),B.ay,A.J(s.a,r,r,r,B.aDb,r,r),A.J(s.b,r,r,r,B.Hf,r,r),B.b4,A.J(s.c,r,r,r,B.q0,r,r),A.J(s.d,r,r,r,B.Hf,r,r),B.ae,B.aGU],p),B.Y,B.q,B.u),r),r,!0,r,r,r,r,r,r,r,r,new A.aKN(this,a,s),r,r,r,r,r,r,r),r,B.jJ,B.Q)}}
+return A.bT(A.hN(!1,A.bY(20),!0,new A.an(B.bo,A.aV(A.b([A.bH(A.b([B.aGq,B.c5,B.U1,A.J(A.kX(q),r,r,r,B.q_,r,r)],p),B.A,B.q,B.u,0),B.ay,A.J(s.a,r,r,r,B.aDb,r,r),A.J(s.b,r,r,r,B.Hf,r,r),B.b4,A.J(s.c,r,r,r,B.q0,r,r),A.J(s.d,r,r,r,B.Hf,r,r),B.ae,B.aGT],p),B.Y,B.q,B.u),r),r,!0,r,r,r,r,r,r,r,r,new A.aKN(this,a,s),r,r,r,r,r,r,r),r,B.jJ,B.Q)}}
 A.aKL.prototype={
-$1(a){var s=null,r=this.a,q=t.p,p=A.bH(A.b([A.J(r.f,s,s,s,B.lC,s,s),B.c5,B.aHf],q),B.A,B.q,B.u,0)
-r=A.CK(A.aV(A.b([A.J(r.a,s,s,s,B.j1,s,s),A.J(r.b,s,s,s,B.Hn,s,s),B.br,A.J(r.c,s,s,s,B.Hm,s,s),A.J(r.d,s,s,s,B.Hn,s,s),B.ha,A.mJ(B.ck,A.b([A.rC(B.vn,B.aHj,new A.aKI(r),s),A.xl(B.vn,B.aGP,new A.aKJ(r),s)],q),0,8)],q),B.Y,B.q,B.u),s,B.as)
-return A.b7x(A.b([A.D6(B.aFK,s,s,new A.aKK(a),s,s)],q),r,p)},
+$1(a){var s=null,r=this.a,q=t.p,p=A.bH(A.b([A.J(r.f,s,s,s,B.lC,s,s),B.c5,B.aHe],q),B.A,B.q,B.u,0)
+r=A.CK(A.aV(A.b([A.J(r.a,s,s,s,B.j1,s,s),A.J(r.b,s,s,s,B.Hn,s,s),B.br,A.J(r.c,s,s,s,B.Hm,s,s),A.J(r.d,s,s,s,B.Hn,s,s),B.ha,A.mJ(B.ck,A.b([A.rC(B.vn,B.aHi,new A.aKI(r),s),A.xl(B.vn,B.aGO,new A.aKJ(r),s)],q),0,8)],q),B.Y,B.q,B.u),s,B.as)
+return A.b7x(A.b([A.D6(B.aFJ,s,s,new A.aKK(a),s,s)],q),r,p)},
 $S:283}
 A.aKI.prototype={
 $0(){$.FC().hA(this.a.a)},
@@ -110089,7 +110089,7 @@ A.aPx.prototype={
 $0(){return this.a.ayX(this.b,this.c)},
 $S:0}
 A.aPw.prototype={
-$1(a){var s,r,q,p=null,o=this.a,n=t.mB,m=o.bZ(0,$.afR(),n),l=A.b([A.J("Choose your level",p,p,p,A.Q(a).ok.f,p,p),B.aV,B.aG5,B.br],t.p)
+$1(a){var s,r,q,p=null,o=this.a,n=t.mB,m=o.bZ(0,$.afR(),n),l=A.b([A.J("Choose your level",p,p,p,A.Q(a).ok.f,p,p),B.aV,B.aG4,B.br],t.p)
 for(s=0;s<5;++s){r=B.dl[s]
 q=A.J(A.kX(r),p,p,p,B.bc,p,p)
 l.push(A.bT(A.ayf(p,m,new A.aPv(o,a),A.J(A.akj(r),p,p,p,p,p,p),q,r,n),p,p,B.eC))}return A.ie(!0,new A.an(B.nr,A.aV(l,B.a8,B.q,B.aJ),p),!1,B.Q,!0)},
@@ -110207,7 +110207,7 @@ return A.jo(B.v_,B.aU.bn(0.18),s,22)},
 $S:711}
 A.adm.prototype={
 ii(a,b){var s=null,r=b.bs($.bk7(),t.xz),q=r.a,p=t.p,o=A.b([A.J(A.bll(q)+" Weekly Challenge",s,s,s,B.b6,s,s),B.cj],p)
-if(r.c)o.push(A.dd(s,B.aG9,B.C,s,s,new A.c5(B.a_.bn(0.15),s,s,A.bY(12),s,s,B.a9),s,s,s,B.nt,s,s,s))
+if(r.c)o.push(A.dd(s,B.aG8,B.C,s,s,new A.c5(B.a_.bn(0.15),s,s,A.bY(12),s,s,B.a9),s,s,s,B.nt,s,s,s))
 else o.push(A.J(""+B.k.bR(7-B.k.bW(new A.bB(Date.now(),0,!1).eY(r.b).a,864e8),0,7)+"d left",s,s,s,B.Ht,s,s))
 return A.bT(new A.an(B.bo,A.aV(A.b([A.bH(o,B.A,B.q,B.u,0),B.b4,A.J(A.blm(q),s,s,s,B.Hh,s,s),B.aV,A.J(A.blk(q),s,s,s,B.dA,s,s),B.ae,A.bH(A.b([B.WD,B.lo,A.J(""+r.d+" week streak",s,s,s,B.pX,s,s),B.Gr,B.WJ,B.lo,A.J("Best: "+r.e+"%",s,s,s,B.pX,s,s)],p),B.A,B.q,B.u,0)],p),B.Y,B.q,B.u),s),s,s,B.Q)}}
 A.R1.prototype={
@@ -110223,7 +110223,7 @@ r=m?o:s.b
 r=A.J(r==null?k.b:r,o,o,o,B.Ho,o,o)
 q=A.J(m?"Now in Japan: "+k.c:"Festival season: "+s.c,o,o,o,B.b6,o,o)
 p=t.p
-return A.bT(new A.an(B.k6,A.bH(A.b([r,B.du,A.cb(A.aV(A.b([q,A.J(m?k.a:s.d+" \xb7 "+s.f+". Being here during a festival adds to your festival memories.",o,o,o,o,o,o)],p),B.Y,B.q,B.u),1),A.D6(B.aFV,o,o,new A.aUn(a),o,o)],p),B.A,B.q,B.u,0),o),o,B.Ps,o)}}
+return A.bT(new A.an(B.k6,A.bH(A.b([r,B.du,A.cb(A.aV(A.b([q,A.J(m?k.a:s.d+" \xb7 "+s.f+". Being here during a festival adds to your festival memories.",o,o,o,o,o,o)],p),B.Y,B.q,B.u),1),A.D6(B.aFU,o,o,new A.aUn(a),o,o)],p),B.A,B.q,B.u,0),o),o,B.Ps,o)}}
 A.aUo.prototype={
 $0(){return this.a.gcP().bZ(0,$.b78().gdm(),t.vA).Hn()},
 $S:13}
@@ -110247,7 +110247,7 @@ else o=o===B.f?"\ud83c\udf1f":"\ud83c\udfc6"
 s=A.dd(B.W,A.J(o,q,q,q,B.Hs,q,q),B.C,q,q,new A.c5(B.a6,q,q,s,q,q,B.a9),q,56,q,q,q,q,56)
 o=A.J(""+n+" of "+m+" words learned",q,q,q,A.Q(a).ok.w,q,q)
 r=t.p
-return A.bT(A.hN(!1,p,!0,new A.an(B.dN,A.bH(A.b([s,B.h8,A.cb(A.aV(A.b([B.aH6,o,B.b4,A.mb(q,q,q,6,m>0?n/m:0,q)],r),B.Y,B.q,B.u),1),B.vk],r),B.A,B.q,B.u,0),q),q,!0,q,q,q,q,q,q,q,q,new A.aKH(this,a),q,q,q,q,q,q,q),q,B.jF,B.Q)},
+return A.bT(A.hN(!1,p,!0,new A.an(B.dN,A.bH(A.b([s,B.h8,A.cb(A.aV(A.b([B.aH5,o,B.b4,A.mb(q,q,q,6,m>0?n/m:0,q)],r),B.Y,B.q,B.u),1),B.vk],r),B.A,B.q,B.u,0),q),q,!0,q,q,q,q,q,q,q,q,new A.aKH(this,a),q,q,q,q,q,q,q),q,B.jF,B.Q)},
 ayZ(a,b){var s=t.Ia,r=A.a0(new A.a8(B.op,new A.aKF(b),s),s.h("p.E"))
 A.Tg(new A.aKG(this,b,r,a),B.JP,a,!0,!0,t.z)}}
 A.aKH.prototype={
@@ -110342,7 +110342,7 @@ h.m(0,o,(n==null?0:n)+1)}r=r.a
 m=r.gq(r)
 r=m===1?"":"s"
 q=t.p
-r=A.bH(A.b([B.aHa,B.cj,A.J(""+m+" word"+r+" planted",i,i,i,B.dA,i,i)],q),B.A,B.q,B.u,0)
+r=A.bH(A.b([B.aH9,B.cj,A.J(""+m+" word"+r+" planted",i,i,i,B.dA,i,i)],q),B.A,B.q,B.u,0)
 n=A.b([],q)
 for(s=0;s<4;++s){o=B.vM[s]
 l=A.bcD(o)
@@ -110447,7 +110447,7 @@ q=n.a.d
 q=A.b([h,B.ay,s,B.lr,r,B.bi,new A.R2("How it works",A.J(q.f,m,m,m,m,m,m),m,m),new A.R2("Build the pattern",A.bbu(q.r,B.bc),B.QE,m),A.J("Examples in context",m,m,m,A.Q(a).ok.w,m,m),B.ae],g)
 for(h=n.a.d.w,s=h.length,p=0;p<h.length;h.length===s||(0,A.G)(h),++p){o=h[p]
 q.push(A.bT(new A.an(B.Tw,A.bH(A.b([new A.k_(1,B.cY,A.aV(A.b([A.bbu(o.a,B.Hr),B.Gu,A.J(o.b,m,m,m,B.he,m,m),A.J(o.c,m,m,m,m,m,m)],g),B.Y,B.q,B.u),m),A.k7(m,m,B.vd,m,m,new A.aNy(n,o),m,m,"Hear warm Japanese playback",m)],g),B.Y,B.q,B.u,0),m),m,m,B.ub))}q.push(B.b4)
-if(!k)q.push(A.rC(B.q3,B.aHt,new A.aNz(n,a),m))
+if(!k)q.push(A.rC(B.q3,B.aHs,new A.aNz(n,a),m))
 else q.push(new A.a9s(n.x,new A.aNA(n),new A.aNB(n,a),m))
 q.push(B.bi)
 q.push(B.M5)
@@ -110496,8 +110496,8 @@ A.R2.prototype={
 G(a){var s=null
 return A.bT(new A.an(B.hY,A.aV(A.b([A.J(this.c,s,s,s,A.Q(a).ok.w,s,s),B.lr,this.d],t.p),B.Y,B.q,B.u),s),s,this.e,B.T9)}}
 A.a9s.prototype={
-G(a){var s=this,r=null,q=t.p,p=A.b([A.J("A tiny recall check",r,r,r,A.Q(a).ok.w,r,r),B.aGR,B.ay],q)
-if(!s.c)p.push(A.b3k(B.aGS,s.d))
+G(a){var s=this,r=null,q=t.p,p=A.b([A.J("A tiny recall check",r,r,r,A.Q(a).ok.w,r,r),B.aGQ,B.ay],q)
+if(!s.c)p.push(A.b3k(B.aGR,s.d))
 else p.push(A.mJ(B.lT,A.b([new A.za("Again",new A.aSq(s),r),new A.za("Hard",new A.aSr(s),r),new A.za("Good",new A.aSs(s),r),new A.za("Easy",new A.aSt(s),r)],q),7,7))
 return A.bT(new A.an(B.bo,A.aV(p,B.a8,B.q,B.u),r),r,B.PL,r)}}
 A.aSq.prototype={
@@ -110519,7 +110519,7 @@ A.wk.prototype={
 ab(){return new A.a6o()}}
 A.a6o.prototype={
 G(a){var s=null,r=this.gcP(),q=r.bs($.afQ(),t.Vg),p=r.bs($.na(),t.Cs)
-return A.ft(A.hg(A.b([A.k7(s,s,B.vm,s,s,new A.aNM(a),s,s,"Sources and licences",s)],t.p),s,s,B.aGo),s,A.b2J(q,new A.aNN(this,p,a),new A.aNO(this),new A.aNP()),s)}}
+return A.ft(A.hg(A.b([A.k7(s,s,B.vm,s,s,new A.aNM(a),s,s,"Sources and licences",s)],t.p),s,s,B.aGn),s,A.b2J(q,new A.aNN(this,p,a),new A.aNO(this),new A.aNP()),s)}}
 A.aNM.prototype={
 $0(){return A.cH(this.a,!1).dn(A.eW(new A.aNL(),null,t.z))},
 $S:0}
@@ -110531,7 +110531,7 @@ $0(){return B.jt},
 $S:286}
 A.aNO.prototype={
 $2(a,b){var s=null
-return A.e6(new A.an(B.i_,A.aV(A.b([B.WG,B.ay,B.aGV,B.ay,A.ph(B.aGd,new A.aNF(this.a),s)],t.p),B.A,B.q,B.aJ),s),s,s)},
+return A.e6(new A.an(B.i_,A.aV(A.b([B.WG,B.ay,B.aGU,B.ay,A.ph(B.aGc,new A.aNF(this.a),s)],t.p),B.A,B.q,B.aJ),s),s,s)},
 $S:718}
 A.aNF.prototype={
 $0(){var s=this.a.gcP(),r=$.afQ()
@@ -110653,7 +110653,7 @@ G(a4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=this,a=null,a0=b.gcP().bs($.j6(),t
 if(b.y.length===0){s=A.J("Paste Japanese text or try a sample",a,a,a,A.Q(a4).ok.w,a,a)
 r=A.J("Tap any word you don't know to look it up.",a,a,a,A.d5(a,a,B.ac,a,a,a,a,a,a,a,a,a,a,a,a,a,a,!0,a,a,a,a,a,a,a,a),a,a)
 q=A.b([],a2)
-for(p=0;p<8;++p){o=B.ZY[p]
+for(p=0;p<8;++p){o=B.ZZ[p]
 q.push(new A.TR(A.J(b.azN(o.b),a,a,a,a,a,a),A.J(o.c,a,a,a,B.pY,a,a),new A.aOm(b,o),a))}B.b.D(a3,A.b([s,B.aV,r,B.a4,A.mJ(B.ck,q,8,8),B.br],a2))}s=b.w
 r=b.y.length===0
 q=r?4:2
@@ -110783,7 +110783,7 @@ s=A.b([new A.DR(A.kX(m.f),B.a6,o),B.h9,new A.DR(A.aHi(m.e),B.cr,o)],j)
 if(k){r=p.d
 q=m.a
 B.b.D(s,A.b([B.h9,new A.DR(A.bcD(r.U_(q))+" "+A.bcE(r.U_(q)),B.a_,o)],j))}s.push(B.cj)
-if(!k&&!p.r)s.push(A.bbX(B.Wh,B.aGx,new A.aXy(p,m),A.aFs(o,o,o,o,o,o,o,o,o,B.a6,o,o,B.ue,o,o,o,o,o,o,o)))
+if(!k&&!p.r)s.push(A.bbX(B.Wh,B.aGw,new A.aXy(p,m),A.aFs(o,o,o,o,o,o,o,o,o,B.a6,o,o,B.ue,o,o,o,o,o,o,o)))
 if(p.r)s.push(A.J("\u2713 Saved",o,o,o,A.d5(o,o,B.a_,o,o,o,o,o,o,o,o,12,o,o,B.bQ,o,o,!0,o,o,o,o,o,o,o,o),o,o))
 l.push(A.bH(s,B.A,B.q,B.u,0))
 B.b.D(n,l)}else B.b.D(n,A.b([B.ae,A.J("No match in your word bank yet.",o,o,o,A.d5(o,o,B.ac.bn(0.7),o,o,o,o,o,o,o,o,14,B.i4,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o),B.aV,A.J("Keep learning \u2014 you'll recognise this word soon!",o,o,o,A.d5(o,o,B.ac.bn(0.6),o,o,o,o,o,o,o,o,13,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o)],j))
@@ -110795,7 +110795,7 @@ A.DR.prototype={
 G(a){var s=null,r=this.d,q=r.bn(0.1),p=A.bY(8)
 return A.dd(s,A.J(this.c,s,s,s,A.d5(s,s,r,s,s,s,s,s,s,s,s,11,s,s,B.bQ,s,s,!0,s,s,s,s,s,s,s,s),s,s),B.C,s,s,new A.c5(q,s,s,p,s,s,B.a9),s,s,s,B.ul,s,s,s)}}
 A.Br.prototype={
-ii(a,b){var s,r,q=null,p=b.bs($.j6(),t.cp),o=p.a,n=o.gq(o)/400,m=A.hg(q,q,q,B.aH7),l=t.p
+ii(a,b){var s,r,q=null,p=b.bs($.j6(),t.cp),o=p.a,n=o.gq(o)/400,m=A.hg(q,q,q,B.aH6),l=t.p
 o=A.b([A.bT(new A.an(B.dN,A.aV(A.b([A.bH(A.b([B.WV,B.by,A.cb(A.J(""+o.gq(o)+" of 500 words",q,q,q,A.Q(a).ok.w,q,q),1),A.J(""+B.h.aF(n*100)+"%",q,q,q,B.aBm,q,q)],l),B.A,B.q,B.u,0),B.ay,A.mb(q,A.bY(4),q,8,n,q)],l),B.a8,B.q,B.u),q),q,B.jF,q),B.lp],l)
 for(s=0;s<5;++s){r=B.dl[s]
 B.b.D(o,A.b([new A.acq(r,p,q),B.ae,new A.abq(r,p,q),B.lq],l))}return A.ft(m,q,A.ba2(o,B.Tz,q,!1),q)}}
@@ -110910,12 +110910,12 @@ G(a){var s,r,q,p=null,o=this.gcP(),n=$.b79(),m=o.bs(n,t.PS),l=m.a,k=$.b2n().i(0,
 k.toString
 s=A.a_(k).h("a8<1>")
 r=A.a0(new A.a8(k,new A.aP8(m),s),s.h("p.E"))
-k=A.hg(p,p,p,B.aG0)
+k=A.hg(p,p,p,B.aG_)
 s=A.J("Meet the characters",p,p,p,A.Q(a).ok.f,p,p)
 q=t.KV
 q=A.aBg(new A.aP9(this),B.a1e,A.cG([l],q),!1,q)
 n=o.bZ(0,n.gdm(),t.q8)
-n=A.b([s,B.aV,B.aGv,B.br,q,B.a4,A.a1V(B.cI,p,B.Xq,p,p,1,n.gacj(n),p),B.a4,A.J(""+r.length+" characters",p,p,p,A.Q(a).ok.as,p,p),B.ae],t.p)
+n=A.b([s,B.aV,B.aGu,B.br,q,B.a4,A.a1V(B.cI,p,B.Xq,p,p,1,n.gacj(n),p),B.a4,A.J(""+r.length+" characters",p,p,p,A.Q(a).ok.as,p,p),B.ae],t.p)
 if(r.length===0)n.push(B.aP1)
 else n.push(A.Yn(new A.aPa(this,r)))
 return A.ft(k,p,A.ie(!0,new A.dU(A.aV(n,B.a8,B.q,B.u),p),!1,B.Q,!0),p)},
@@ -110972,7 +110972,7 @@ n.push(A.dJ(A.k7(q,q,p,q,q,s,q,q,"Play "+o,B.lM),34,q))
 return A.bT(A.hN(!1,q,!0,new A.an(B.TN,A.aV(n,B.A,B.d0,B.u),q),q,!0,q,q,q,q,q,q,q,q,r.f,q,q,q,q,q,q,q),B.b8,q,B.Q)}}
 A.DI.prototype={
 G(a){var s,r=null,q=this.c,p=q.a,o=t.p,n=A.bH(A.b([A.J(p,r,r,r,B.aD7,r,r),B.Gr,A.cb(A.aV(A.b([A.J(q.b,r,r,r,A.Q(a).ok.r,r,r),A.J(q.c,r,r,r,B.he,r,r)],o),B.Y,B.q,B.u),1),new A.wt(r,r,r,B.vd,r,this.d,"Play pronunciation",r,r,B.aP7,r)],o),B.A,B.q,B.u,0),m=A.J("Stroke order",r,r,r,A.Q(a).ok.w,r,r),l=B.d.fg(B.k.jy(new A.mq(p).gN(0),16),5,"0")
-p=A.b([n,B.a4,m,B.ae,A.bT(A.dJ(new A.an(B.i_,new A.a1H(new A.Mf("https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/"+l+".svg",r,r,r,r),new A.aKg(),p+" stroke order from KanjiVG",r,r),r),210,r),r,r,r),B.a4,A.bT(B.a7c,r,B.cr.bn(0.08),r),B.a4,A.rC(B.ve,B.aHh,new A.aKh(this,a),A.HZ(r,r,B.ayS,r,r,r))],o)
+p=A.b([n,B.a4,m,B.ae,A.bT(A.dJ(new A.an(B.i_,new A.a1H(new A.Mf("https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/"+l+".svg",r,r,r,r),new A.aKg(),p+" stroke order from KanjiVG",r,r),r),210,r),r,r,r),B.a4,A.bT(B.a7c,r,B.cr.bn(0.08),r),B.a4,A.rC(B.ve,B.aHg,new A.aKh(this,a),A.HZ(r,r,B.ayS,r,r,r))],o)
 q=q.d
 n=q.length
 if(n!==0){o=A.b([B.br,A.J("Example words",r,r,r,A.Q(a).ok.w,r,r),B.b4],o)
@@ -110991,15 +110991,15 @@ $1(a){return new A.qv(this.a.c.a,null)},
 $S:288}
 A.a5K.prototype={
 G(a){var s=null
-return A.bT(new A.an(B.uk,A.aV(A.b([B.aHn,B.ae,A.J("Leo could not find that one.",s,s,s,A.Q(a).ok.w,s,s),B.aHu],t.p),B.A,B.q,B.u),s),s,s,s)}}
+return A.bT(new A.an(B.uk,A.aV(A.b([B.aHm,B.ae,A.J("Leo could not find that one.",s,s,s,A.Q(a).ok.w,s,s),B.aHt],t.p),B.A,B.q,B.u),s),s,s,s)}}
 A.wJ.prototype={
 ab(){return new A.a78()}}
 A.a78.prototype={
 au(){this.aN()
 this.e=B.bO.Hj()},
-G(a){var s=null,r=A.hg(s,s,s,B.aH2),q=A.J("Cheer, never pressure",s,s,s,A.Q(a).ok.f,s,s),p=this.e
+G(a){var s=null,r=A.hg(s,s,s,B.aH1),q=A.J("Cheer, never pressure",s,s,s,A.Q(a).ok.f,s,s),p=this.e
 p===$&&A.a()
-return A.ft(r,s,new A.dU(A.aV(A.b([q,B.f2,B.aGq,B.bi,A.b9h(new A.aPg(this),p,t.wE)],t.p),B.a8,B.q,B.u),s),s)}}
+return A.ft(r,s,new A.dU(A.aV(A.b([q,B.f2,B.aGp,B.bi,A.b9h(new A.aPg(this),p,t.wE)],t.p),B.a8,B.q,B.u),s),s)}}
 A.aPg.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l=null
 if(B.bO.gkK()==null)return B.M2
@@ -111117,7 +111117,7 @@ o=A.bb_(i)
 n=A.Q(a).ok.r
 m=j.a
 l=t.p
-m=A.b([B.aH5,A.J(o,k,k,k,n==null?k:n.bX(B.x),k,k),A.J(""+m.gq(m)+" verified Can-Dos",k,k,k,B.aBF,k,k)],l)
+m=A.b([B.aH4,A.J(o,k,k,k,n==null?k:n.bX(B.x),k,k),A.J(""+m.gq(m)+" verified Can-Dos",k,k,k,B.aBF,k,k)],l)
 if(r!=null){o=r.f
 n=A.cs(" title$",!0,!1)
 m.push(A.J("Title earned: "+A.hf(o,n,""),k,k,k,B.aD2,k,k))}q=A.dd(k,A.bH(A.b([p,B.h8,A.cb(A.aV(m,B.Y,B.q,B.u),1)],l),B.A,B.q,B.u,0),B.C,k,k,new A.c5(k,k,k,q,k,B.Ye,B.a9),k,k,k,B.hZ,k,k,k)
@@ -111125,7 +111125,7 @@ p=A.bH(A.b([A.cb(new A.Ee("JLPT readiness",A.bpR(i),"Knowledge, reading, listeni
 o=A.J("Skill evidence",k,k,k,A.Q(a).ok.w,k,k)
 n=t.VA
 n=A.a0(new A.ab(B.ol,new A.awq(j),n),n.h("aE.E"))
-return new A.dU(A.aV(A.b([h,B.aV,B.aGJ,B.br,q,B.bi,p,B.dv,o,B.ae,A.bT(new A.an(B.bo,A.aV(n,B.A,B.q,B.u),k),k,k,k),B.bi,A.xl(B.Wj,B.aGg,new A.awr(j,i),k),B.iP,A.xl(B.VX,B.aGO,new A.aws(a),k),B.bi,B.Mf],l),B.a8,B.q,B.u),k)}}
+return new A.dU(A.aV(A.b([h,B.aV,B.aGI,B.br,q,B.bi,p,B.dv,o,B.ae,A.bT(new A.an(B.bo,A.aV(n,B.A,B.q,B.u),k),k,k,k),B.bi,A.xl(B.Wj,B.aGf,new A.awr(j,i),k),B.iP,A.xl(B.VX,B.aGN,new A.aws(a),k),B.bi,B.Mf],l),B.a8,B.q,B.u),k)}}
 A.awn.prototype={
 $1(a){return a.e===B.bM},
 $S:31}
@@ -111158,16 +111158,16 @@ G(a){var s=null,r=this.d,q=B.h.bR(r/6,0,1),p=this.c,o=p.b
 return new A.an(B.Tg,A.bH(A.b([A.jo(A.bra(p),B.a_,s,s),B.by,A.dJ(A.J(o[0].toUpperCase()+B.d.c7(o,1),s,s,s,s,s,s),s,82),A.cb(A.mb(s,A.bY(8),s,8,q,s),1),B.c5,A.J(""+r,s,s,s,B.bc,s,s)],t.p),B.A,B.q,B.u,0),s)}}
 A.C3.prototype={
 ii(a,b){var s,r,q,p,o,n=null,m=b.bs($.fT(),t.d),l=b.bs($.j6(),t.cp),k=l.a
-if(k.gq(k)<10)return A.ft(A.hg(n,n,n,B.HC),n,new A.dU(A.aV(A.b([B.aFD,B.br,A.J("Postcards are locked",n,n,n,A.Q(a).ok.f,n,n),B.ae,B.aFn,B.ae,A.J(""+k.gq(k)+"/10 words learned",n,n,n,B.bc,n,n),B.aV,A.mb(n,n,n,8,k.gq(k)/10,n)],t.p),B.A,B.d0,B.u),n),n)
+if(k.gq(k)<10)return A.ft(A.hg(n,n,n,B.HC),n,new A.dU(A.aV(A.b([B.aFC,B.br,A.J("Postcards are locked",n,n,n,A.Q(a).ok.f,n,n),B.ae,B.aFn,B.ae,A.J(""+k.gq(k)+"/10 words learned",n,n,n,B.bc,n,n),B.aV,A.mb(n,n,n,8,k.gq(k)/10,n)],t.p),B.A,B.d0,B.u),n),n)
 k=J.fV(b.bs($.b2t(),t.t1),new A.ax7())
 s=k.$ti.h("dT<1,h>")
 r=A.a0(new A.dT(k,new A.ax8(),s),s.h("p.E"))
 k=A.hg(n,n,n,B.HC)
 s=t.p
-q=A.b([A.J("A tiny piece of Japan each day",n,n,n,A.Q(a).ok.f,n,n),B.b4,B.aGj,B.br],s)
+q=A.b([A.J("A tiny piece of Japan each day",n,n,n,A.Q(a).ok.f,n,n),B.b4,B.aGi,B.br],s)
 for(p=m.c,o=0;o<l.gOU();++o)q.push(new A.an(B.u7,new A.a93(o,p.n(0,B.or[o].a),r,new A.ax9(b,o),n),n))
 if(l.gOU()<30){p=B.at.bn(0.3)
-B.b.D(q,A.b([B.ae,A.bT(new A.an(B.dN,A.bH(A.b([B.aGL,B.du,A.cb(A.J(""+(30-l.gOU())+" more postcards await! Keep learning words to unlock them.",n,n,n,B.Hg,n,n),1)],s),B.A,B.q,B.u,0),n),n,p,n)],s))}q.push(B.M8)
+B.b.D(q,A.b([B.ae,A.bT(new A.an(B.dN,A.bH(A.b([B.aGK,B.du,A.cb(A.J(""+(30-l.gOU())+" more postcards await! Keep learning words to unlock them.",n,n,n,B.Hg,n,n),1)],s),B.A,B.q,B.u,0),n),n,p,n)],s))}q.push(B.M8)
 return A.ft(k,n,new A.dU(A.aV(q,B.a8,B.q,B.u),n),n)}}
 A.ax7.prototype={
 $1(a){return a.e===B.dF},
@@ -111289,9 +111289,9 @@ $0(){return this.a.w=!1},
 $S:0}
 A.a6p.prototype={
 G(a){var s=this,r=null,q=t.p,p=A.bH(A.b([A.cb(A.J("A grammar plant is ready",r,r,r,A.Q(a).ok.f,r,r),1),A.J(""+s.d+" due",r,r,r,r,r,r)],q),B.A,B.q,B.u,0),o=s.c,n=A.b([A.A7(r,A.J(o.b+" reference",r,r,r,r,r,r),r,r),B.ay,A.J(o.d,r,r,r,B.Hx,B.ai,r)],q),m=s.e
-if(!m)B.b.D(n,A.b([B.br,A.b3k(B.aGy,s.f)],q))
+if(!m)B.b.D(n,A.b([B.br,A.b3k(B.aGx,s.f)],q))
 else B.b.D(n,A.b([B.bi,A.J(o.e,r,r,r,r,B.ai,r),B.ae,A.J(o.r,r,r,r,B.bc,B.ai,r)],q))
-p=A.b([p,B.lr,B.aGQ,B.br,A.bT(new A.an(B.TF,A.aV(n,B.A,B.q,B.u),r),r,r,r)],q)
+p=A.b([p,B.lr,B.aGP,B.br,A.bT(new A.an(B.TF,A.aV(n,B.A,B.q,B.u),r),r,r,r)],q)
 if(m)B.b.D(p,A.b([B.a4,B.HB,B.ae,A.mJ(B.lT,A.b([new A.mU("Again",B.a6,new A.aNQ(s),r),new A.mU("Hard",B.tc,new A.aNR(s),r),new A.mU("Good",B.a_,new A.aNS(s),r),new A.mU("Easy",B.cr,new A.aNT(s),r)],q),8,8)],q))
 return A.aV(p,B.a8,B.q,B.u)}}
 A.aNQ.prototype={
@@ -111309,8 +111309,8 @@ $S:0}
 A.aau.prototype={
 G(a){var s=this,r=null,q=t.p,p=A.bH(A.b([A.cb(A.J("A calm review",r,r,r,A.Q(a).ok.f,r,r),1),A.J(""+s.d+" due",r,r,r,B.Hk,r,r)],q),B.A,B.q,B.u,0),o=s.c,n=A.b([A.J(o.r,r,r,r,B.aED,B.ai,r),B.dv],q),m=s.e
 if(m)B.b.D(n,A.b([A.J(o.w,r,r,r,B.he,B.ai,r),B.b4,A.J(o.x,r,r,r,A.Q(a).ok.w,B.ai,r)],q))
-else n.push(A.b3k(B.aGb,s.f))
-p=A.b([p,B.b4,B.aGf,B.dv,A.bT(new A.an(B.i_,A.aV(n,B.A,B.q,B.u),r),r,r,r)],q)
+else n.push(A.b3k(B.aGa,s.f))
+p=A.b([p,B.b4,B.aGe,B.dv,A.bT(new A.an(B.i_,A.aV(n,B.A,B.q,B.u),r),r,r,r)],q)
 if(m)B.b.D(p,A.b([B.bi,B.HB,B.iP,A.mJ(B.lT,A.b([new A.mU("Again",B.a6,new A.aTz(s),r),new A.mU("Hard",B.tc,new A.aTA(s),r),new A.mU("Good",B.a_,new A.aTB(s),r),new A.mU("Easy",B.cr,new A.aTC(s),r)],q),8,8)],q))
 return A.aV(p,B.a8,B.q,B.u)}}
 A.aTz.prototype={
@@ -111330,16 +111330,16 @@ G(a){var s=null,r=this.d
 r=A.Zo(s,s,s,s,s,s,s,s,s,r,s,s,s,s,s,new A.b6(r,1,B.I,-1),s,s,s,s)
 return A.baz(A.J(this.c,s,s,s,s,s,s),this.e,r)}}
 A.yQ.prototype={
-G(a){var s,r=null,q=t.p,p=A.b([B.aFU,A.J("Your memory garden is tidy",r,r,r,A.Q(a).ok.f,r,r),B.ae,B.aHc],q),o=this.c
+G(a){var s,r=null,q=t.p,p=A.b([B.aFT,A.J("Your memory garden is tidy",r,r,r,A.Q(a).ok.f,r,r),B.ae,B.aHb],q),o=this.c
 if(o>0){s=o===1?"":"s"
 B.b.D(p,A.b([B.ae,A.J(""+o+" grammar plant"+s+" are growing.",r,r,r,r,r,r)],q))}return A.aV(p,B.A,B.q,B.u)}}
 A.Cy.prototype={
 G(a){var s,r,q,p,o,n,m,l,k,j,i=null,h=A.hS(new A.bB(Date.now(),0,!1).fC().fX(324e8)),g=t.__,f=A.a0(new A.a8(B.ia,new A.aBc(),g),g.h("p.E"))
 g=A.a0(B.oo,t.PR)
 B.b.es(g,new A.aBd(h))
-s=A.hg(i,i,i,B.aG6)
+s=A.hg(i,i,i,B.aG5)
 r=t.p
-q=A.b([A.J("24 stories through the year",i,i,i,A.Q(a).ok.f,i,i),B.b4,B.aG3,B.bi,new A.a5S(f,i),B.br,A.J("Seasonal story archive",i,i,i,A.Q(a).ok.w,i,i),B.ae],r)
+q=A.b([A.J("24 stories through the year",i,i,i,A.Q(a).ok.f,i,i),B.b4,B.aG2,B.bi,new A.a5S(f,i),B.br,A.J("Seasonal story archive",i,i,i,A.Q(a).ok.w,i,i),B.ae],r)
 for(p=g.length,o=0;o<g.length;g.length===p||(0,A.G)(g),++o){n=g[o].a
 m=A.J(n[0],i,i,i,B.q1,i,i)
 l=n[2]
@@ -111370,8 +111370,8 @@ n=A.b([new A.dR(B.d9,k,k,A.J(r.r+". "+r.w,k,k,k,k,k,k),k),B.ae],h)
 for(m=r.x,l=0;l<3;++l)n.push(new A.dR(B.d9,k,k,A.J("\u2022 "+m[l],k,k,k,k,k,k),k))
 n.push(B.ae)
 n.push(new A.dR(B.d9,k,k,A.A7(k,A.J("Memory reward: "+r.y,k,k,k,k,k,k),k,k),k))
-g.push(A.bT(A.b3g(n,B.Tr,!1,q,o,p),k,k,B.eC))}g.push(A.xl(B.Wu,B.aFG,new A.aMy(a),k))
-return A.bT(A.b3g(g,B.Tn,!0,B.WL,i,B.aFT),k,B.at,k)}}
+g.push(A.bT(A.b3g(n,B.Tr,!1,q,o,p),k,k,B.eC))}g.push(A.xl(B.Wu,B.aFF,new A.aMy(a),k))
+return A.bT(A.b3g(g,B.Tn,!0,B.WL,i,B.aFS),k,B.at,k)}}
 A.aMy.prototype={
 $0(){return A.Tg(new A.aMx(),null,this.a,!0,!0,t.H)},
 $S:0}
@@ -111426,7 +111426,7 @@ q=l.y
 p=A.a_(h).h("ab<1,lT<h>>")
 p=A.a0(new A.ab(h,new A.aVc(),p),p.h("aE.E"))
 o=t.p
-q=A.bT(new A.an(B.e8,A.bH(A.b([B.aFL,B.du,A.cb(new A.AS(A.b8Q(k,!0,p,new A.aVd(l),q,t.N),k),1)],o),B.A,B.q,B.u,0),k),k,k,k)
+q=A.bT(new A.an(B.e8,A.bH(A.b([B.aFK,B.du,A.cb(new A.AS(A.b8Q(k,!0,p,new A.aVd(l),q,t.N),k),1)],o),B.A,B.q,B.u,0),k),k,k,k)
 p=l.Q
 if(p==null)p=B.aOC
 else{p=A.b([new A.ww(A.bbl(k,k,new A.tg(p,1)),k,k,k,k,B.mt,k,k)],o)
@@ -111434,11 +111434,11 @@ if(l.at)p.push(A.dd(k,B.jt,B.C,B.am,k,k,k,k,k,k,k,k,k))
 p=A.ii(B.cn,p,B.a2,B.GC,k)}p=A.bT(p,B.b8,k,B.Q)
 n=l.at
 m=A.cb(A.rC(B.vj,B.aHz,n?k:new A.aVe(l),k),1)
-j=A.b([j,B.aV,B.aG_,B.ay,r,B.bi,q,B.ay,new A.zQ(1.3333333333333333,p,k),B.ay,A.bH(A.b([m,B.c5,A.cb(A.xl(B.Wi,B.aFt,n?k:new A.aVf(l),k),1)],o),B.A,B.q,B.u,0)],o)
+j=A.b([j,B.aV,B.aFZ,B.ay,r,B.bi,q,B.ay,new A.zQ(1.3333333333333333,p,k),B.ay,A.bH(A.b([m,B.c5,A.cb(A.xl(B.Wi,B.aFt,n?k:new A.aVf(l),k),1)],o),B.A,B.q,B.u,0)],o)
 r=l.ax
 if(r!=null)j.push(new A.an(B.Ta,A.J(r,k,k,k,B.aE8,k,k),k))
 j.push(B.bi)
-j.push(A.bT(new A.an(B.k6,A.aV(A.b([B.awF,B.ay,A.xl(B.Wv,B.aG4,new A.aVg(l,a),A.Zo(k,k,k,k,k,k,k,k,k,B.a_,k,k,k,k,k,B.JC,k,k,k,k))],o),B.a8,B.q,B.u),k),k,B.at,k))
+j.push(A.bT(new A.an(B.k6,A.aV(A.b([B.awF,B.ay,A.xl(B.Wv,B.aG3,new A.aVg(l,a),A.Zo(k,k,k,k,k,k,k,k,k,B.a_,k,k,k,k,k,B.JC,k,k,k,k))],o),B.a8,B.q,B.u),k),k,B.at,k))
 r=J.az(s)
 if(r.gck(s))B.b.D(j,A.b([B.bi,A.J("Recent improvement",k,k,k,A.Q(a).ok.w,k,k),B.ae,A.dJ(A.b3M(new A.aVh(s),Math.min(r.gq(s),8),B.ar,new A.aVi()),82,k)],o))
 return new A.dU(A.aV(j,B.a8,B.q,B.u),k)}}
@@ -111527,7 +111527,7 @@ return A.n(o.bZ(0,$.fT().gdm(),t.Tp).Fe(A.bo7(n)),$async$qR)
 case 8:case 7:case 1:return A.v(q,r)}})
 return A.w($async$qR,r)},
 G(a){var s,r,q,p,o,n=this,m=null,l=n.gcP().bs($.FE(),t.xi),k=t.p
-k=A.b([B.dv,A.aV(A.b([A.J("Welcome to LinguaTomo",m,m,m,A.Q(a).ok.e,m,m),B.aGG],k),B.Y,B.q,B.u),B.dv,new A.IW(l===B.k9,m),B.az_,A.J("Choose your level",m,m,m,A.Q(a).ok.r,m,m),B.aV,B.aGK,B.ay,B.M7,B.bi],k)
+k=A.b([B.dv,A.aV(A.b([A.J("Welcome to LinguaTomo",m,m,m,A.Q(a).ok.e,m,m),B.aGF],k),B.Y,B.q,B.u),B.dv,new A.IW(l===B.k9,m),B.az_,A.J("Choose your level",m,m,m,A.Q(a).ok.r,m,m),B.aV,B.aGJ,B.ay,B.M7,B.bi],k)
 for(l=t.mB,s=0;s<5;++s){r=B.dl[s]
 q=n.w
 p=q===r?B.at:B.x
@@ -111536,7 +111536,7 @@ k.push(new A.an(B.ub,A.bT(A.ayf(m,q,new A.aXk(n),A.J(A.akj(r),m,m,m,m,m,m),o,r,l
 l=n.w==null||n.x?m:n.galA()
 k.push(A.rC(B.vk,A.J(n.x?"Preparing your route...":"Start learning",m,m,m,m,m,m),l,m))
 k.push(B.a4)
-k.push(B.aGe)
+k.push(B.aGd)
 return A.ft(m,m,A.ie(!0,new A.dU(A.aV(k,B.a8,B.q,B.u),m),!1,B.Q,!0),m)}}
 A.aXi.prototype={
 $0(){return this.a.x=!0},
@@ -111676,14 +111676,14 @@ $.bhK().I0()
 n=t.Pu
 s.al(n).f.aDw()
 k=t.p
-s.al(n).f.x4(A.bbM(i,i,i,B.fs,B.pB,B.a2,B.ac,A.bH(A.b([A.J(h,i,i,i,B.q1,i,i),B.h8,A.cb(A.aV(A.b([B.aFZ,A.J(o,i,i,i,B.aCX,i,i)],k),B.Y,B.q,B.aJ),1),B.Wb],k),B.A,B.q,B.u,0),i,B.hU,i,i,i,B.uf,i,B.Tx,i,new A.du(A.bY(16),B.F),!0,i))
+s.al(n).f.x4(A.bbM(i,i,i,B.fs,B.pB,B.a2,B.ac,A.bH(A.b([A.J(h,i,i,i,B.q1,i,i),B.h8,A.cb(A.aV(A.b([B.aFY,A.J(o,i,i,i,B.aCX,i,i)],k),B.Y,B.q,B.aJ),1),B.Wb],k),B.A,B.q,B.u,0),i,B.hU,i,i,i,B.uf,i,B.Tx,i,new A.du(A.bY(16),B.F),!0,i))
 k=j.c
 k.toString
 A.cH(k,!1).m0(new A.arO())}},
 G(a){var s,r,q=this,p=null,o=q.w
 o===$&&A.a()
 o=o.length
-if(o===0)return A.ft(A.hg(p,p,p,B.aH4),p,B.Mk,p)
+if(o===0)return A.ft(A.hg(p,p,p,B.aH3),p,B.Mk,p)
 s=q.y
 if(s===B.qx)return q.ajY()
 if(q.x>=o)return q.ak6()
@@ -111701,10 +111701,10 @@ k=A.J("Your first lesson!",n,n,n,A.Q(q).ok.f,B.ai,n)
 q=A.kX(m)
 p=o.c
 p.toString
-B.b.D(r,A.b([k,B.ae,A.J("5 "+q+" words coming your way!",n,n,n,A.Q(p).ok.w,B.ai,n),B.a4,B.aH9],s))}else{k=A.kX(m)
+B.b.D(r,A.b([k,B.ae,A.J("5 "+q+" words coming your way!",n,n,n,A.Q(p).ok.w,B.ai,n),B.a4,B.aH8],s))}else{k=A.kX(m)
 q.toString
 B.b.D(r,A.b([A.J("Next: 5 "+k+" words",n,n,n,A.Q(q).ok.f,B.ai,n),B.ae,B.aFr],s))}r.push(B.lu)
-r.push(new A.an(B.u9,A.ph(B.aFw,new A.aXB(o),A.HZ(n,n,B.ln,n,n,n)),n))
+r.push(new A.an(B.u9,A.ph(B.aFv,new A.aXB(o),A.HZ(n,n,B.ln,n,n,n)),n))
 return A.ft(l,n,A.ie(!0,new A.dU(A.aV(r,B.a8,B.q,B.u),n),!1,B.Q,!0),n)},
 ajZ(){var s,r,q,p,o=this,n=null,m=o.w
 m===$&&A.a()
@@ -111728,7 +111728,7 @@ m=o.cy
 m===$&&A.a()
 if(m)B.b.D(q,A.b([B.br,new A.RP("Tap the speaker to hear it!",n)],r))
 q.push(B.lu)
-q.push(new A.an(B.u9,A.ph(B.aFM,o.gazi(),A.HZ(n,n,B.ln,n,n,n)),n))
+q.push(new A.an(B.u9,A.ph(B.aFL,o.gazi(),A.HZ(n,n,B.ln,n,n,n)),n))
 return new A.dU(A.aV(q,B.a8,B.q,B.u),n)},
 ak5(){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g=i.w
 g===$&&A.a()
@@ -111843,10 +111843,10 @@ k=h.z
 j=""+k
 i=k*10
 n=A.b([B.ae,n,B.ae,A.J(k===f.length?j+" \xd7 10 XP + 15 perfect = "+(i+15)+" XP":j+" \xd7 10 XP = "+i+" XP",g,g,g,B.aDs,B.ai,g)],l)
-if(r===100)B.b.D(n,A.b([B.a4,B.aHr],l))
+if(r===100)B.b.D(n,A.b([B.a4,B.aHq],l))
 B.b.D(m,n)}m.push(B.cj)
-if(s)B.b.D(m,A.b([A.ph(B.aHe,h.gaxw(),A.HZ(g,g,B.ln,g,g,g))],l))
-else B.b.D(m,A.b([A.ph(B.aG8,h.ganI(),A.HZ(g,g,B.ln,g,g,g))],l))
+if(s)B.b.D(m,A.b([A.ph(B.aHd,h.gaxw(),A.HZ(g,g,B.ln,g,g,g))],l))
+else B.b.D(m,A.b([A.ph(B.aG7,h.ganI(),A.HZ(g,g,B.ln,g,g,g))],l))
 m.push(B.lp)
 return A.ft(g,g,A.ie(!0,new A.dU(A.aV(m,B.a8,B.q,B.u),g),!1,B.Q,!0),g)}}
 A.aXV.prototype={
@@ -111964,7 +111964,7 @@ return A.hN(!1,q,!0,A.dd(k,A.bH(m,B.A,B.q,B.u,0),B.C,k,k,new A.c5(s,k,n,o,k,k,B.
 A.arO.prototype={}
 A.RP.prototype={
 G(a){var s=null,r=A.bY(16),q=A.UJ(B.a6.bn(0.2),1)
-return A.e6(A.dd(s,A.bH(A.b([B.aGB,B.c5,new A.kY(1,B.e9,A.J(this.c,s,s,s,B.aCI,s,s),s)],t.p),B.A,B.q,B.aJ,0),B.C,s,B.JM,new A.c5(B.n6,s,q,r,s,s,B.a9),s,s,s,B.Tu,s,s,s),s,s)}}
+return A.e6(A.dd(s,A.bH(A.b([B.aGA,B.c5,new A.kY(1,B.e9,A.J(this.c,s,s,s,B.aCI,s,s),s)],t.p),B.A,B.q,B.aJ,0),B.C,s,B.JM,new A.c5(B.n6,s,q,r,s,s,B.a9),s,s,s,B.Tu,s,s,s),s,s)}}
 A.DM.prototype={
 G(a){var s=null,r=A.bY(16),q=A.UJ(B.Pb,1),p=t.p,o=A.b([B.WA,B.h9,A.J("In context",s,s,s,A.d5(s,s,B.mQ.bn(0.8),s,s,s,s,s,s,s,s,11,s,s,B.bQ,s,s,!0,s,s,s,s,s,s,s,s),s,s)],p)
 B.b.D(o,A.b([B.cj,B.Wg],p))
@@ -112001,7 +112001,7 @@ s.toString
 return new A.ab(s,new A.aZE(a),A.a_(s).h("ab<1,ez>"))},
 $S:763}
 A.aZE.prototype={
-$1(a){var s,r=A.k9(new A.a8(B.a_4,new A.aZD(a),t.w2))
+$1(a){var s,r=A.k9(new A.a8(B.a_5,new A.aZD(a),t.w2))
 if(r==null){switch(this.a.a){case 0:s="hiragana"
 break
 case 1:s="katakana"
@@ -112049,15 +112049,15 @@ o=A.bY(16)
 n=A.a_(e).h("ab<1,lT<ez>>")
 n=A.a0(new A.ab(e,new A.aYd(),n),n.h("aE.E"))
 m=t.p
-p=A.bT(new A.an(B.e8,A.bH(A.b([q,B.du,A.cb(new A.AS(A.b8Q(o,!0,n,new A.aYe(j),p,t.uu),i),1),B.c5,A.aV(A.b([B.aGX,A.J(""+s+"%",i,i,i,B.aDq,i,i)],m),B.A,B.q,B.u)],m),B.A,B.q,B.u,0),i),i,i,i)
+p=A.bT(new A.an(B.e8,A.bH(A.b([q,B.du,A.cb(new A.AS(A.b8Q(o,!0,n,new A.aYe(j),p,t.uu),i),1),B.c5,A.aV(A.b([B.aGW,A.J(""+s+"%",i,i,i,B.aDq,i,i)],m),B.A,B.q,B.u)],m),B.A,B.q,B.u,0),i),i,i,i)
 n=A.bT(A.Yn(new A.aYf(j)),B.b8,i,B.Q)
 o=A.Zo(i,i,i,i,i,i,i,i,i,i,i,i,B.cs,i,i,i,i,i,i,i)
 q=j.y
-o=A.cb(A.xl(B.W_,B.aFI,q.length===0?i:j.gaA1(),o),1)
+o=A.cb(A.xl(B.W_,B.aFH,q.length===0?i:j.gaA1(),o),1)
 l=A.Zo(i,i,i,i,i,i,i,i,i,i,i,i,B.cs,i,i,i,i,i,i,i)
 q=q.length===0
-l=A.cb(A.xl(B.W4,B.aHx,q?i:j.gal5(j),l),1)
-h=A.b([h,B.aV,B.aFO,B.ay,r,B.bi,p,B.a4,new A.zQ(1,n,i),B.ay,A.bH(A.b([o,B.c5,l,B.c5,A.cb(A.rC(B.Wt,B.aFy,q?i:j.gakO(),i),2)],m),B.A,B.q,B.u,0)],m)
+l=A.cb(A.xl(B.W4,B.aHw,q?i:j.gal5(j),l),1)
+h=A.b([h,B.aV,B.aFN,B.ay,r,B.bi,p,B.a4,new A.zQ(1,n,i),B.ay,A.bH(A.b([o,B.c5,l,B.c5,A.cb(A.rC(B.Wt,B.aFx,q?i:j.gakO(),i),2)],m),B.A,B.q,B.u,0)],m)
 k=j.z
 if(k!=null)B.b.D(h,A.b([B.a4,new A.a7c(k,j.w.c.length!==0,i)],m))
 h.push(B.br)
@@ -112399,7 +112399,7 @@ for(r=t.mB,q=0;q<5;++q){p=B.dl[q]
 o=m.w===p?B.PX:B.x
 n=A.J(A.kX(p),l,l,l,B.bc,l,l)
 s.push(new A.an(B.ua,A.bT(A.ayf(!0,l,l,A.J(A.akj(p),l,l,l,l,l,l),n,p,r),l,o,l),l))}k=A.b([new A.zQ(2,j,l),B.dv,k,B.b4,i,B.bi,A.dJ(A.CK(new A.Ca(new A.aPq(m),A.aV(s,B.a8,B.q,B.u),l,t.V5),l,B.as),260,l),B.a4],h)
-if(m.r)k.push(A.ph(B.aFS,m.w==null?l:new A.aPr(m),l))
+if(m.r)k.push(A.ph(B.aFR,m.w==null?l:new A.aPr(m),l))
 return A.ft(l,B.n6,A.ie(!0,A.e6(new A.eE(B.fj,new A.an(B.i_,A.CK(A.aV(k,B.A,B.d0,B.aJ),l,B.as),l),l),l,l),!1,B.Q,!0),l)}}
 A.aPt.prototype={
 $1(a){var s=this.a
@@ -112436,7 +112436,7 @@ s=s?-1:1
 n=A.pW(q,new A.kz(A.tf(s,1,1),B.W,!0,q,new A.jt(l,110,u.l,q),q),q,q,k,q,n,q)
 o=o.r
 m=o?m-72:52+r.b*(m-100)
-return A.ii(B.cn,A.b([n,A.pW(q,B.aH1,q,q,m,q,o?p-46:p-26+14*Math.abs(Math.sin(r.d*3.141592653589793*2)),q)],t.p),B.C,B.c6,q)},
+return A.ii(B.cn,A.b([n,A.pW(q,B.aH0,q,q,m,q,o?p-46:p-26+14*Math.abs(Math.sin(r.d*3.141592653589793*2)),q)],t.p),B.C,B.c6,q)},
 $S:775}
 A.aPq.prototype={
 $1(a){var s
@@ -124888,10 +124888,10 @@ B.cm=new A.ve(4,"trophy")
 B.Iw=new A.zJ(null)
 B.bN=new A.lH(1,0,0,1,0,0,1)
 B.d9=new A.fa(-1,0)
-B.aFR=new A.ai("Regional schedules, bloom dates and lunar-calendar observances can move. LinguaTomo uses date windows and keeps every activity available in the archive.",null,null,null,null,null,null,null,null)
-B.Ix=new A.dR(B.d9,null,null,B.aFR,null)
-B.aGE=new A.ai("Story lessons unlock in route order. The preview is always free.",null,null,null,null,null,null,null,null)
-B.Iy=new A.dR(B.d9,null,null,B.aGE,null)
+B.aFQ=new A.ai("Regional schedules, bloom dates and lunar-calendar observances can move. LinguaTomo uses date windows and keeps every activity available in the archive.",null,null,null,null,null,null,null,null)
+B.Ix=new A.dR(B.d9,null,null,B.aFQ,null)
+B.aGD=new A.ai("Story lessons unlock in route order. The preview is always free.",null,null,null,null,null,null,null,null)
+B.Iy=new A.dR(B.d9,null,null,B.aGD,null)
 B.Iz=new A.i2(0,1)
 B.IA=new A.i2(0,-1)
 B.qJ=new A.i2(1,0)
@@ -125350,21 +125350,21 @@ B.LY=new A.UT(1,"front")
 B.dI=new A.vx(3,"experimentalWebParagraph")
 B.M1=new A.vy(null,null,null,null,null,null,null)
 B.dN=new A.ao(18,18,18,18)
-B.aHk=new A.ai("Sign in from Account & Sync, choose a nickname, then opt in if you want to join.",null,null,null,null,null,null,null,null)
-B.a7p=new A.an(B.dN,B.aHk,null)
+B.aHj=new A.ai("Sign in from Account & Sync, choose a nickname, then opt in if you want to join.",null,null,null,null,null,null,null,null)
+B.a7p=new A.an(B.dN,B.aHj,null)
 B.aRH=new A.aKc(0,"elevated")
 B.M2=new A.hj(null,null,null,B.a7p,null)
 B.at=new A.C(1,0.8666666666666667,0.9058823529411765,0.8274509803921568,B.l)
 B.hY=new A.ao(17,17,17,17)
-B.aGw=new A.ai("JLPT level labels are study references. Since 2010, the JLPT does not publish official vocabulary, kanji or grammar lists. CEFR and ILR mappings are broad guidance, not score conversions or certificates.",null,null,null,null,null,null,null,null)
-B.a7n=new A.an(B.hY,B.aGw,null)
+B.aGv=new A.ai("JLPT level labels are study references. Since 2010, the JLPT does not publish official vocabulary, kanji or grammar lists. CEFR and ILR mappings are broad guidance, not score conversions or certificates.",null,null,null,null,null,null,null,null)
+B.a7n=new A.an(B.hY,B.aGv,null)
 B.M3=new A.hj(B.at,null,null,B.a7n,null)
-B.aGH=new A.ai("Quality promise: sourced content is reviewed before it becomes assessment material. A source badge means traceable provenance, not official endorsement by the source organisation.",null,null,null,null,null,null,null,null)
-B.a7l=new A.an(B.hY,B.aGH,null)
+B.aGG=new A.ai("Quality promise: sourced content is reviewed before it becomes assessment material. A source badge means traceable provenance, not official endorsement by the source organisation.",null,null,null,null,null,null,null,null)
+B.a7l=new A.an(B.hY,B.aGG,null)
 B.M4=new A.hj(null,null,null,B.a7l,null)
 B.e8=new A.ao(14,14,14,14)
-B.aGD=new A.ai("Source: Hanabira Japanese grammar, CC BY-SA 3.0. Community-reviewed learning material, not an official JLPT question.",null,null,null,null,null,null,null,null)
-B.a7g=new A.an(B.e8,B.aGD,null)
+B.aGC=new A.ai("Source: Hanabira Japanese grammar, CC BY-SA 3.0. Community-reviewed learning material, not an official JLPT question.",null,null,null,null,null,null,null,null)
+B.a7g=new A.an(B.e8,B.aGC,null)
 B.M5=new A.hj(B.at,null,null,B.a7g,null)
 B.bo=new A.ao(16,16,16,16)
 B.q=new A.tb(0,"start")
@@ -125376,66 +125376,66 @@ B.Vi=new A.ba(62329,"MaterialIcons",!1)
 B.Ws=new A.bh(B.Vi,null,B.a_,null,null)
 B.by=new A.cC(10,null,null,null)
 B.cY=new A.WT(0,"tight")
-B.aHm=new A.ai("Handwriting photos stay on this device by default. Public profiles, direct messages, and community posting are disabled for child-mode accounts in the cloud security policy.",null,null,null,null,null,null,null,null)
-B.TZ=new A.k_(1,B.cY,B.aHm,null)
+B.aHl=new A.ai("Handwriting photos stay on this device by default. Public profiles, direct messages, and community posting are disabled for child-mode accounts in the cloud security policy.",null,null,null,null,null,null,null,null)
+B.TZ=new A.k_(1,B.cY,B.aHl,null)
 B.Ze=s([B.Ws,B.by,B.TZ],t.p)
 B.awD=new A.lb(B.ar,B.q,B.u,B.Y,null,B.bk,null,0,B.Ze,null)
 B.a7k=new A.an(B.bo,B.awD,null)
 B.M6=new A.hj(null,null,null,B.a7k,null)
-B.aGz=new A.ai("Start by learning Japanese words. Each lesson teaches 5 words with pictures, audio and romaji. No alphabet knowledge needed \u2014 just tap and learn. Leo walks beside you the whole way.",null,null,null,null,null,null,null,null)
-B.a7i=new A.an(B.e8,B.aGz,null)
+B.aGy=new A.ai("Start by learning Japanese words. Each lesson teaches 5 words with pictures, audio and romaji. No alphabet knowledge needed \u2014 just tap and learn. Leo walks beside you the whole way.",null,null,null,null,null,null,null,null)
+B.a7i=new A.an(B.e8,B.aGy,null)
 B.M7=new A.hj(B.at,null,null,B.a7i,null)
 B.A=new A.vK(2,"center")
 B.aB1=new A.t(!0,null,null,null,null,null,34,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aHi=new A.ai("\ud83c\udf81",null,B.aB1,null,null,null,null,null,null)
+B.aHh=new A.ai("\ud83c\udf81",null,B.aB1,null,null,null,null,null,null)
 B.du=new A.cC(12,null,null,null)
-B.aGY=new A.ai("Collect seven postcards to unlock a virtual souvenir. Missed days remain waiting for you.",null,null,null,null,null,null,null,null)
-B.U_=new A.k_(1,B.cY,B.aGY,null)
-B.a0t=s([B.aHi,B.du,B.U_],t.p)
+B.aGX=new A.ai("Collect seven postcards to unlock a virtual souvenir. Missed days remain waiting for you.",null,null,null,null,null,null,null,null)
+B.U_=new A.k_(1,B.cY,B.aGX,null)
+B.a0t=s([B.aHh,B.du,B.U_],t.p)
 B.awE=new A.lb(B.ar,B.q,B.u,B.A,null,B.bk,null,0,B.a0t,null)
 B.a7r=new A.an(B.dN,B.awE,null)
 B.M8=new A.hj(B.at,null,null,B.a7r,null)
 B.hZ=new A.ao(20,20,20,20)
-B.aHl=new A.ai("No lessons match yet. Try a broader search or show all lessons.",null,null,null,null,null,null,null,null)
-B.a7e=new A.an(B.hZ,B.aHl,null)
+B.aHk=new A.ai("No lessons match yet. Try a broader search or show all lessons.",null,null,null,null,null,null,null,null)
+B.a7e=new A.an(B.hZ,B.aHk,null)
 B.M9=new A.hj(null,null,null,B.a7e,null)
 B.k6=new A.ao(15,15,15,15)
-B.aH0=new A.ai("Complete your first Can-Do to unlock a placeable Nest memory.",null,null,null,null,null,null,null,null)
-B.a7u=new A.an(B.k6,B.aH0,null)
+B.aH_=new A.ai("Complete your first Can-Do to unlock a placeable Nest memory.",null,null,null,null,null,null,null,null)
+B.a7u=new A.an(B.k6,B.aH_,null)
 B.Ma=new A.hj(null,null,null,B.a7u,null)
 B.VD=new A.ba(63572,"MaterialIcons",!1)
 B.fr=new A.C(1,1,0.4196078431372549,0.4196078431372549,B.l)
 B.WF=new A.bh(B.VD,null,B.fr,null,null)
-B.aHg=new A.ai("Writing tip: match the stroke count and cover the full guide. Accuracy matters more than speed.",null,null,null,null,null,null,null,null)
-B.TX=new A.k_(1,B.cY,B.aHg,null)
+B.aHf=new A.ai("Writing tip: match the stroke count and cover the full guide. Accuracy matters more than speed.",null,null,null,null,null,null,null,null)
+B.TX=new A.k_(1,B.cY,B.aHf,null)
 B.a1I=s([B.WF,B.by,B.TX],t.p)
 B.awC=new A.lb(B.ar,B.q,B.u,B.Y,null,B.bk,null,0,B.a1I,null)
 B.a7t=new A.an(B.bo,B.awC,null)
 B.Mb=new A.hj(null,null,null,B.a7t,null)
 B.b_=new A.jm(900)
 B.aEv=new A.t(!0,null,null,null,null,null,17,B.b_,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aFH=new A.ai("Hanabira Japanese grammar",null,B.aEv,null,null,null,null,null,null)
+B.aFG=new A.ai("Hanabira Japanese grammar",null,B.aEv,null,null,null,null,null,null)
 B.b4=new A.cC(null,6,null,null)
 B.aHB=new A.ai("828 community-proofread grammar points, N5 to N1.",null,null,null,null,null,null,null,null)
-B.aH_=new A.ai("Source: hanabira.org and tristcoil/hanabira.org-japanese-content",null,null,null,null,null,null,null,null)
-B.aFY=new A.ai("Licence: Creative Commons BY-SA 3.0",null,null,null,null,null,null,null,null)
-B.aGs=new A.ai("Imported source revision: fb2d03f14e8000ef3c77612c7770e425c012c904",null,null,null,null,null,null,null,null)
+B.aGZ=new A.ai("Source: hanabira.org and tristcoil/hanabira.org-japanese-content",null,null,null,null,null,null,null,null)
+B.aFX=new A.ai("Licence: Creative Commons BY-SA 3.0",null,null,null,null,null,null,null,null)
+B.aGr=new A.ai("Imported source revision: fb2d03f14e8000ef3c77612c7770e425c012c904",null,null,null,null,null,null,null,null)
 B.ay=new A.cC(null,10,null,null)
 B.aFq=new A.ai("LinguaTomo adds navigation, stable identifiers, bookmarks and FSRS scheduling. We exclude the repository\u2019s commercial-textbook-derived sentence collections.",null,null,null,null,null,null,null,null)
-B.Yx=s([B.aFH,B.b4,B.aHB,B.b4,B.aH_,B.aFY,B.aGs,B.ay,B.aFq],t.p)
-B.QJ=new A.rm(B.as,B.q,B.u,B.Y,null,B.bk,null,0,B.Yx,null)
-B.a7j=new A.an(B.hY,B.QJ,null)
+B.Yx=s([B.aFG,B.b4,B.aHB,B.b4,B.aGZ,B.aFX,B.aGr,B.ay,B.aFq],t.p)
+B.QK=new A.rm(B.as,B.q,B.u,B.Y,null,B.bk,null,0,B.Yx,null)
+B.a7j=new A.an(B.hY,B.QK,null)
 B.Mc=new A.hj(null,null,null,B.a7j,null)
-B.aGF=new A.ai("The board is quiet. Be the first learner to opt in from Account & Sync.",null,null,null,null,null,null,null,null)
-B.a7m=new A.an(B.dN,B.aGF,null)
+B.aGE=new A.ai("The board is quiet. Be the first learner to opt in from Account & Sync.",null,null,null,null,null,null,null,null)
+B.a7m=new A.an(B.dN,B.aGE,null)
 B.Md=new A.hj(null,null,null,B.a7m,null)
-B.aGZ=new A.ai("The cosy board is not available yet. Your private progress is unaffected.",null,null,null,null,null,null,null,null)
-B.a7s=new A.an(B.dN,B.aGZ,null)
+B.aGY=new A.ai("The cosy board is not available yet. Your private progress is unaffected.",null,null,null,null,null,null,null,null)
+B.a7s=new A.an(B.dN,B.aGY,null)
 B.Me=new A.hj(null,null,null,B.a7s,null)
 B.v6=new A.ba(63509,"MaterialIcons",!1)
 B.Wm=new A.bh(B.v6,null,B.a_,null,null)
-B.aFJ=new A.ai("JLPT, CEFR, and ILR measure different abilities. These labels are learning targets, not official certificates. Speaking and writing evidence remain separate from JLPT readiness.",null,null,null,null,null,null,null,null)
-B.U0=new A.k_(1,B.cY,B.aFJ,null)
+B.aFI=new A.ai("JLPT, CEFR, and ILR measure different abilities. These labels are learning targets, not official certificates. Speaking and writing evidence remain separate from JLPT readiness.",null,null,null,null,null,null,null,null)
+B.U0=new A.k_(1,B.cY,B.aFI,null)
 B.a2j=s([B.Wm,B.by,B.U0],t.p)
 B.awB=new A.lb(B.ar,B.q,B.u,B.Y,null,B.bk,null,0,B.a2j,null)
 B.a7o=new A.an(B.bo,B.awB,null)
@@ -125451,8 +125451,8 @@ B.rG=new A.A9(null,null,null,null,null,null,null,null)
 B.a7d=new A.an(B.uk,B.rG,null)
 B.Mj=new A.hk(B.W,null,null,B.a7d,null)
 B.jt=new A.hk(B.W,null,null,B.rG,null)
-B.aGl=new A.ai("No words available. Try a different tier.",null,null,null,null,null,null,null,null)
-B.Mk=new A.hk(B.W,null,null,B.aGl,null)
+B.aGk=new A.ai("No words available. Try a different tier.",null,null,null,null,null,null,null,null)
+B.Mk=new A.hk(B.W,null,null,B.aGk,null)
 B.i_=new A.ao(24,24,24,24)
 B.aJ=new A.YG(0,"min")
 B.Vb=new A.ba(61409,"MaterialIcons",!1)
@@ -125461,12 +125461,12 @@ B.a4=new A.cC(null,12,null,null)
 B.aF=new A.jm(800)
 B.bc=new A.t(!0,null,null,null,null,null,null,B.aF,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.ai=new A.ql(2,"center")
-B.aFx=new A.ai("Place one character near the centre of plain paper",null,B.bc,B.ai,null,null,null,null,null)
+B.aFw=new A.ai("Place one character near the centre of plain paper",null,B.bc,B.ai,null,null,null,null,null)
 B.f2=new A.cC(null,5,null,null)
-B.aGc=new A.ai("Use soft, even lighting and avoid shadows.",null,null,B.ai,null,null,null,null,null)
-B.a1x=s([B.Wy,B.a4,B.aFx,B.f2,B.aGc],t.p)
-B.QK=new A.rm(B.as,B.q,B.aJ,B.A,null,B.bk,null,0,B.a1x,null)
-B.a7h=new A.an(B.i_,B.QK,null)
+B.aGb=new A.ai("Use soft, even lighting and avoid shadows.",null,null,B.ai,null,null,null,null,null)
+B.a1x=s([B.Wy,B.a4,B.aFw,B.f2,B.aGb],t.p)
+B.QL=new A.rm(B.as,B.q,B.aJ,B.A,null,B.bk,null,0,B.a1x,null)
+B.a7h=new A.an(B.i_,B.QL,null)
 B.Ml=new A.hk(B.W,null,null,B.a7h,null)
 B.rD=new A.no(0,"vocabulary")
 B.Mp=new A.ri(1,"error")
@@ -125485,8 +125485,8 @@ B.jv=new A.A5(2,"isFalse")
 B.hA=new A.A5(3,"mixed")
 B.MG=new A.A8(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.q3=new A.ai("\ud83c\udf31",null,null,null,null,null,null,null,null)
-B.aFB=new A.ai("In Memory Garden",null,null,null,null,null,null,null,null)
-B.MH=new A.GA(B.q3,B.aFB,null,null,null)
+B.aFA=new A.ai("In Memory Garden",null,null,null,null,null,null,null,null)
+B.MH=new A.GA(B.q3,B.aFA,null,null,null)
 B.Vv=new A.ba(63218,"MaterialIcons",!1)
 B.W6=new A.bh(B.Vv,null,B.a_,null,null)
 B.MJ=new A.nq(B.W6,B.at,null,null,null)
@@ -125685,18 +125685,18 @@ B.QG=new A.C(1,0.6235294117647059,0.7215686274509804,0.7686274509803922,B.l)
 B.n6=new A.C(1,1,0.9686274509803922,0.9098039215686274,B.l)
 B.tH=new A.C(1,0.5058823529411764,0.7803921568627451,0.5176470588235295,B.l)
 B.QH=new A.C(1,1,0.9764705882352941,0.7686274509803922,B.l)
-B.aGh=new A.ai("LinguaTomo",null,B.bc,null,null,null,null,null,null)
-B.aB=new A.jm(500)
-B.aEM=new A.t(!0,null,null,null,null,null,11,B.aB,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aFA=new A.ai("Japanese, with a friend",null,B.aEM,null,null,null,null,null,null)
-B.a_J=s([B.aGh,B.aFA],t.p)
-B.QI=new A.rm(B.as,B.q,B.u,B.Y,null,B.bk,null,0,B.a_J,null)
 B.b6=new A.t(!0,null,null,null,null,null,null,B.b_,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aFv=new A.ai("LinguaTomo 1.15.0",null,B.b6,null,null,null,null,null,null)
+B.aHx=new A.ai("LinguaTomo 1.17.0",null,B.b6,null,null,null,null,null,null)
 B.aV=new A.cC(null,4,null,null)
 B.aHA=new A.ai("Created with \u2665 by Tushant Sharma",null,null,null,null,null,null,null,null)
-B.a_8=s([B.aFv,B.aV,B.aHA],t.p)
-B.QL=new A.rm(B.as,B.q,B.u,B.Y,null,B.bk,null,0,B.a_8,null)
+B.ZS=s([B.aHx,B.aV,B.aHA],t.p)
+B.QI=new A.rm(B.as,B.q,B.u,B.Y,null,B.bk,null,0,B.ZS,null)
+B.aGg=new A.ai("LinguaTomo",null,B.bc,null,null,null,null,null,null)
+B.aB=new A.jm(500)
+B.aEM=new A.t(!0,null,null,null,null,null,11,B.aB,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.aFz=new A.ai("Japanese, with a friend",null,B.aEM,null,null,null,null,null,null)
+B.a_J=s([B.aGg,B.aFz],t.p)
+B.QJ=new A.rm(B.as,B.q,B.u,B.Y,null,B.bk,null,0,B.a_J,null)
 B.tI=new A.GZ(0,"none")
 B.QM=new A.GZ(1,"waiting")
 B.jV=new A.GZ(3,"done")
@@ -126076,8 +126076,8 @@ B.ur=new A.w_(!1,!1,!1,!1)
 B.us=new A.w_(!1,!1,!1,!0)
 B.tn=new A.C(1,0.4823529411764706,0.12156862745098039,0.6352941176470588,B.l)
 B.aBP=new A.t(!0,B.tn,null,null,null,null,11,B.b_,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aGn=new A.ai("DAILY CONVERSATION",null,B.aBP,null,null,null,null,null,null)
-B.U1=new A.k_(1,B.cY,B.aGn,null)
+B.aGm=new A.ai("DAILY CONVERSATION",null,B.aBP,null,null,null,null,null,null)
+B.U1=new A.k_(1,B.cY,B.aGm,null)
 B.U2=new A.B2(null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.ut=new A.iy(0,"visualExplorer")
 B.uu=new A.iy(1,"standard")
@@ -126451,8 +126451,8 @@ B.Yj=new A.wR(4,"bottom")
 B.MI=new A.nq(B.vg,B.at,null,null,null)
 B.HD=new A.ai("Memory Garden",null,B.b6,null,null,null,null,null,null)
 B.dA=new A.t(!0,B.ac,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aHs=new A.ai("Unlocks after 5 words learned",null,B.dA,null,null,null,null,null,null)
-B.Yk=new A.wP(B.MI,B.HD,B.aHs,null,null,null,null,null,null,null,!1,null,null,!1,null,null,null,!1,null,null,null,null,null,null,68,null,!0,null,null)
+B.aHr=new A.ai("Unlocks after 5 words learned",null,B.dA,null,null,null,null,null,null)
+B.Yk=new A.wP(B.MI,B.HD,B.aHr,null,null,null,null,null,null,null,!1,null,null,!1,null,null,null,!1,null,null,null,null,null,null,68,null,!0,null,null)
 B.bR=s([82,9,106,213,48,54,165,56,191,64,163,158,129,243,215,251,124,227,57,130,155,47,255,135,52,142,67,68,196,222,233,203,84,123,148,50,166,194,35,61,238,76,149,11,66,250,195,78,8,46,161,102,40,217,36,178,118,91,162,73,109,139,209,37,114,248,246,100,134,104,152,22,212,164,92,204,93,101,182,146,108,112,72,80,253,237,185,218,94,21,70,87,167,141,157,132,144,216,171,0,140,188,211,10,247,228,88,5,184,179,69,6,208,44,30,143,202,63,15,2,193,175,189,3,1,19,138,107,58,145,17,65,79,103,220,234,151,242,207,206,240,180,230,115,150,172,116,34,231,173,53,133,226,249,55,232,28,117,223,110,71,241,26,113,29,41,197,137,111,183,98,14,170,24,190,27,252,86,62,75,198,210,121,32,154,219,192,254,120,205,90,244,31,221,168,51,136,7,199,49,177,18,16,89,39,128,236,95,96,81,127,169,25,181,74,13,45,229,122,159,147,201,156,239,160,224,59,77,174,42,245,176,200,235,187,60,131,83,153,97,23,43,4,126,186,119,214,38,225,105,20,99,85,33,12,125],t.t)
 B.Yn=s([0,6,12,18],t.t)
 B.Bk=new A.i9(0,"fireside")
@@ -126504,9 +126504,9 @@ B.qE=new A.QN(0,"named")
 B.Iq=new A.QN(1,"anonymous")
 B.Zf=s([B.qE,B.Iq],A.a9("D<QN>"))
 B.a_F=s([0.41233895,0.35762064,0.18051042],t.n)
-B.ZT=s([0.2126,0.7152,0.0722],t.n)
+B.ZU=s([0.2126,0.7152,0.0722],t.n)
 B.a28=s([0.01932141,0.11916382,0.95034478],t.n)
-B.eK=s([B.a_F,B.ZT,B.a28],t.zg)
+B.eK=s([B.a_F,B.ZU,B.a28],t.zg)
 B.vN=s([0,4,12,1,5,13,3,7,15],t.t)
 B.Zl=s([65533],t.t)
 B.Qq=new A.C(1,0.9686274509803922,0.7843137254901961,0.807843137254902,B.l)
@@ -126538,13 +126538,13 @@ B.YF=s([2.18349805,1.20311921],t.n)
 B.a1i=s([2.33888662,1.28698796],t.n)
 B.a1r=s([2.48660575,1.36351941],t.n)
 B.ZN=s([2.62226596,1.44717976],t.n)
-B.a_1=s([2.7514899,1.53385819],t.n)
+B.a_2=s([2.7514899,1.53385819],t.n)
 B.a07=s([3.36298265,1.98288283],t.n)
 B.a_p=s([4.08649929,2.23811846],t.n)
 B.a_Q=s([4.85481134,2.47563463],t.n)
 B.ZR=s([5.62945551,2.72948597],t.n)
 B.a_j=s([6.43023796,2.98020421],t.n)
-B.vO=s([B.a_g,B.YF,B.a1i,B.a1r,B.ZN,B.a_1,B.a07,B.a_p,B.a_Q,B.ZR,B.a_j],t.zg)
+B.vO=s([B.a_g,B.YF,B.a1i,B.a1r,B.ZN,B.a_2,B.a07,B.a_p,B.a_Q,B.ZR,B.a_j],t.zg)
 B.IU=new A.dy(0,"clear")
 B.IV=new A.dy(1,"src")
 B.J9=new A.dy(2,"dst")
@@ -126582,11 +126582,11 @@ B.af5=new A.mV("\u9031\u672b\u306f\u516c\u5712\u3067\u6563\u6b69\u3057\u307e\u30
 B.af2=new A.mV("\u5bb6\u65cf\u3067\u3054\u98ef\u3092\u98df\u3079\u307e\u3057\u305f\u3002\u6bcd\u304c\u4f5c\u3063\u305f\u6599\u7406\u306f\u3044\u3064\u3082\u304a\u3044\u3057\u3044\u3067\u3059\u3002\u3054\u3061\u305d\u3046\u3055\u307e\u3067\u3057\u305f\u3002",B.i,"Family dinner")
 B.af7=new A.mV("\u65c5\u9928\u306b\u6cca\u307e\u308a\u307e\u3057\u305f\u3002\u7573\u306e\u90e8\u5c4b\u3067\u3086\u3063\u304f\u308a\u904e\u3054\u3057\u307e\u3057\u305f\u3002\u304a\u98a8\u5442\u304b\u3089\u4e0a\u304c\u308b\u3068\u3001\u304a\u306a\u3058\u307f\u304c\u4e26\u3093\u3067\u3044\u307e\u3057\u305f\u3002",B.f,"At the ryokan")
 B.af6=new A.mV("\u4eac\u90fd\u306e\u753a\u5bb6\u3092\u6563\u6b69\u3057\u307e\u3057\u305f\u3002\u795e\u793e\u306b\u304a\u53c2\u308a\u3092\u3057\u3066\u3001\u304a\u5bfa\u306e\u5ead\u3067\u62b9\u8336\u3092\u98f2\u307f\u307e\u3057\u305f\u3002",B.f,"A Kyoto walk")
-B.ZY=s([B.af3,B.af0,B.af4,B.af1,B.af5,B.af2,B.af7,B.af6],A.a9("D<+text,tier,title(h,di,h)>"))
+B.ZZ=s([B.af3,B.af0,B.af4,B.af1,B.af5,B.af2,B.af7,B.af6],A.a9("D<+text,tier,title(h,di,h)>"))
 B.a0l=s(["\u4e00\u3064 \xb7 \u3072\u3068\u3064 \xb7 one thing"],t.s)
 B.ME=new A.ed("\u4e00","\u3044\u3061 \xb7 ichi","one",B.a0l)
-B.ZS=s(["\u65e5\u672c\u4eba \xb7 \u306b\u307b\u3093\u3058\u3093 \xb7 Japanese person"],t.s)
-B.MA=new A.ed("\u4eba","\u3072\u3068 \xb7 hito","person",B.ZS)
+B.ZT=s(["\u65e5\u672c\u4eba \xb7 \u306b\u307b\u3093\u3058\u3093 \xb7 Japanese person"],t.s)
+B.MA=new A.ed("\u4eba","\u3072\u3068 \xb7 hito","person",B.ZT)
 B.a0D=s(["\u65e5\u672c \xb7 \u306b\u307b\u3093 \xb7 Japan"],t.s)
 B.Mx=new A.ed("\u65e5","\u3072 / \u306b\u3061","day, sun",B.a0D)
 B.Yz=s(["\u6708\u66dc\u65e5 \xb7 \u3052\u3064\u3088\u3046\u3073 \xb7 Monday"],t.s)
@@ -126595,8 +126595,8 @@ B.a1t=s(["\u82b1\u706b \xb7 \u306f\u306a\u3073 \xb7 fireworks"],t.s)
 B.MD=new A.ed("\u706b","\u3072 / \u304b","fire",B.a1t)
 B.YC=s(["\u6c34\u66dc\u65e5 \xb7 \u3059\u3044\u3088\u3046\u3073 \xb7 Wednesday"],t.s)
 B.Mv=new A.ed("\u6c34","\u307f\u305a \xb7 mizu","water",B.YC)
-B.ZV=s(["\u6728\u66dc\u65e5 \xb7 \u3082\u304f\u3088\u3046\u3073 \xb7 Thursday"],t.s)
-B.My=new A.ed("\u6728","\u304d \xb7 ki","tree, wood",B.ZV)
+B.ZW=s(["\u6728\u66dc\u65e5 \xb7 \u3082\u304f\u3088\u3046\u3073 \xb7 Thursday"],t.s)
+B.My=new A.ed("\u6728","\u304d \xb7 ki","tree, wood",B.ZW)
 B.a_I=s(["\u304a\u91d1 \xb7 \u304a\u304b\u306d \xb7 money"],t.s)
 B.Mt=new A.ed("\u91d1","\u304b\u306d / \u304d\u3093","gold, money",B.a_I)
 B.Z3=s(["\u571f\u66dc\u65e5 \xb7 \u3069\u3088\u3046\u3073 \xb7 Saturday"],t.s)
@@ -126607,7 +126607,7 @@ B.Zx=s(["\u5c0f\u5ddd \xb7 \u304a\u304c\u308f \xb7 stream"],t.s)
 B.MB=new A.ed("\u5ddd","\u304b\u308f \xb7 kawa","river",B.Zx)
 B.a18=s(["\u672c \xb7 \u307b\u3093 \xb7 book"],t.s)
 B.Mw=new A.ed("\u672c","\u307b\u3093 \xb7 hon","book, origin",B.a18)
-B.ZZ=s([B.ME,B.MA,B.Mx,B.MC,B.MD,B.Mv,B.My,B.Mt,B.Mz,B.Mu,B.MB,B.Mw],A.a9("D<ed>"))
+B.a__=s([B.ME,B.MA,B.Mx,B.MC,B.MD,B.Mv,B.My,B.Mt,B.Mz,B.Mu,B.MB,B.Mw],A.a9("D<ed>"))
 B.Mm=new A.no(1,"speed")
 B.Mn=new A.no(2,"memory")
 B.Mo=new A.no(3,"culture")
@@ -126616,7 +126616,7 @@ B.cE=s([2817806672,1698790995,2752977603,1579629206,1806384075,1167925233,149282
 B.cl=new A.ok(0,"label")
 B.bX=new A.ok(1,"avatar")
 B.dC=new A.ok(2,"deleteIcon")
-B.a_3=s([B.cl,B.bX,B.dC],A.a9("D<ok>"))
+B.a_4=s([B.cl,B.bX,B.dC],A.a9("D<ok>"))
 B.a6n=new A.j(0.18,0.51)
 B.a6I=new A.j(0.82,0.49)
 B.a_O=s([B.a6n,B.a6I],t.yv)
@@ -126674,9 +126674,9 @@ B.a6u=new A.j(0.58,0.38)
 B.a0v=s([B.a6w,B.a68,B.a6K,B.a6j,B.a6D,B.a6m,B.a6u],t.yv)
 B.a_i=s([B.a2c,B.a_H,B.a0v],t.NL)
 B.aPW=new A.ez("\u3042","a \xb7 hiragana",B.a_i)
-B.a_4=s([B.aPX,B.aPU,B.aPV,B.aPT,B.aPW],A.a9("D<ez>"))
-B.a_6=s(["\u30a2","\u30a4","\u30a6","\u30a8","\u30aa","\u30ab","\u30ad","\u30af","\u30b1","\u30b3","\u30b5","\u30b7","\u30b9","\u30bb","\u30bd","\u30bf","\u30c1","\u30c4","\u30c6","\u30c8","\u30ca","\u30cb","\u30cc","\u30cd","\u30ce","\u30cf","\u30d2","\u30d5","\u30d8","\u30db","\u30de","\u30df","\u30e0","\u30e1","\u30e2","\u30e4","\u30e6","\u30e8","\u30e9","\u30ea","\u30eb","\u30ec","\u30ed","\u30ef","\u30f2","\u30f3"],t.s)
-B.a_7=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
+B.a_5=s([B.aPX,B.aPU,B.aPV,B.aPT,B.aPW],A.a9("D<ez>"))
+B.a_7=s(["\u30a2","\u30a4","\u30a6","\u30a8","\u30aa","\u30ab","\u30ad","\u30af","\u30b1","\u30b3","\u30b5","\u30b7","\u30b9","\u30bb","\u30bd","\u30bf","\u30c1","\u30c4","\u30c6","\u30c8","\u30ca","\u30cb","\u30cc","\u30cd","\u30ce","\u30cf","\u30d2","\u30d5","\u30d8","\u30db","\u30de","\u30df","\u30e0","\u30e1","\u30e2","\u30e4","\u30e6","\u30e8","\u30e9","\u30ea","\u30eb","\u30ec","\u30ed","\u30ef","\u30f2","\u30f3"],t.s)
+B.a_8=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
 B.vR=s([B.ju,B.mF,B.mG],A.a9("D<iw>"))
 B.IK=new A.jS("",6,"userDeleted")
 B.vS=s([B.fg,B.ht,B.hu,B.fh,B.hv,B.qV,B.IK,B.qU],A.a9("D<jS>"))
@@ -126811,8 +126811,8 @@ B.aMw=new A.A("be_08","\u5229\u76ca","rieki","Profit",B.c,B.f,"\ud83d\udc8e",nul
 B.aNs=new A.A("be_09","\u8ca0\u50b5","fusai","Debt",B.c,B.f,"\ud83d\udcc9",null,null)
 B.m=new A.hW(5,"places")
 B.aL2=new A.A("be_10","\u5e02\u5834","ichiba","Market",B.m,B.f,"\ud83c\udfea",null,null)
-B.ZX=s([B.aJR,B.aMq,B.aNi,B.aJV,B.aNK,B.aLW,B.aNH,B.aMw,B.aNs,B.aL2],t.G)
-B.aQq=new A.n0(B.ZX)
+B.ZY=s([B.aJR,B.aMq,B.aNi,B.aJV,B.aNK,B.aLW,B.aNH,B.aMw,B.aNs,B.aL2],t.G)
+B.aQq=new A.n0(B.ZY)
 B.aMp=new A.A("ca_01","\u82b8\u8853","geijutsu","Art",B.c,B.f,"\ud83c\udfa8",null,null)
 B.aK4=new A.A("ca_02","\u6587\u5316","bunka","Culture",B.c,B.f,"\ud83c\udfdb\ufe0f",null,null)
 B.aMO=new A.A("ca_03","\u6587\u5b66","bungaku","Literature",B.c,B.f,"\ud83d\udcda",null,null)
@@ -126890,8 +126890,8 @@ B.axM=new A.cw([4],t.R)
 B.Zz=s(["\u5c4b\u53f0 \xb7 \u3084\u305f\u3044 \xb7 festival float","\u884c\u5217 \xb7 \u304e\u3087\u3046\u308c\u3064 \xb7 procession","\u304b\u3089\u304f\u308a \xb7 mechanical performance"],t.s)
 B.UB=new A.d9("takayama_spring","\ud83c\udfee","Takayama Spring Festival","\u6625\u306e\u9ad8\u5c71\u796d",B.axM,"14\u201315 April","Takayama, Gifu","Ornate festival floats and traditional performances move through Takayama\u2019s historic streets.",B.Zz,"Festival float stamp")
 B.lg=new A.cw([5],t.R)
-B.ZU=s(["\u3053\u3044\u306e\u307c\u308a \xb7 carp streamer","\u5b50\u3069\u3082 \xb7 \u3053\u3069\u3082 \xb7 child","\u5143\u6c17 \xb7 \u3052\u3093\u304d \xb7 healthy and lively"],t.s)
-B.UC=new A.d9("kodomo","\ud83c\udf8f","Children\u2019s Day","\u3053\u3069\u3082\u306e\u65e5",B.lg,"5 May","Across Japan","Carp streamers symbolise vitality and hopes for children\u2019s healthy growth.",B.ZU,"Koinobori mobile")
+B.ZV=s(["\u3053\u3044\u306e\u307c\u308a \xb7 carp streamer","\u5b50\u3069\u3082 \xb7 \u3053\u3069\u3082 \xb7 child","\u5143\u6c17 \xb7 \u3052\u3093\u304d \xb7 healthy and lively"],t.s)
+B.UC=new A.d9("kodomo","\ud83c\udf8f","Children\u2019s Day","\u3053\u3069\u3082\u306e\u65e5",B.lg,"5 May","Across Japan","Carp streamers symbolise vitality and hopes for children\u2019s healthy growth.",B.ZV,"Koinobori mobile")
 B.a1j=s(["\u8475 \xb7 \u3042\u304a\u3044 \xb7 hollyhock","\u884c\u5217 \xb7 \u304e\u3087\u3046\u308c\u3064 \xb7 procession","\u88c5\u675f \xb7 \u3057\u3087\u3046\u305e\u304f \xb7 ceremonial costume"],t.s)
 B.Uc=new A.d9("aoi","\ud83c\udf3f","Aoi Matsuri","\u8475\u796d",B.lg,"15 May","Kyoto","A formal procession connected with the Kamo shrines features historical court dress and hollyhock leaves.",B.a1j,"Hollyhock postcard")
 B.a_9=s(["\u795e\u8f3f \xb7 \u307f\u3053\u3057 \xb7 portable shrine","\u62c5\u3050 \xb7 \u304b\u3064\u3050 \xb7 carry on shoulders","\u6d45\u8349 \xb7 \u3042\u3055\u304f\u3055 \xb7 Asakusa"],t.s)
@@ -126899,8 +126899,8 @@ B.Ua=new A.d9("sanja","\u26e9\ufe0f","Sanja Matsuri","\u4e09\u793e\u796d",B.lg,"
 B.a2e=s(["\u796d\u793c \xb7 \u3055\u3044\u308c\u3044 \xb7 shrine festival","\u795e\u793e \xb7 \u3058\u3093\u3058\u3083 \xb7 shrine","\u753a \xb7 \u307e\u3061 \xb7 neighbourhood"],t.s)
 B.Uu=new A.d9("kanda","\ud83c\udfee","Kanda Matsuri","\u795e\u7530\u796d",B.lg,"May in odd-numbered years; programme varies","Tokyo","One of Tokyo\u2019s major shrine festivals, with processions connecting Kanda and central districts.",B.a2e,"Three Great Festivals collection piece")
 B.axu=new A.cw([6],t.R)
-B.a_2=s(["\u6885\u96e8 \xb7 \u3064\u3086 \xb7 rainy season","\u7d2b\u967d\u82b1 \xb7 \u3042\u3058\u3055\u3044 \xb7 hydrangea","\u5098 \xb7 \u304b\u3055 \xb7 umbrella"],t.s)
-B.Ur=new A.d9("tsuyu","\u2614","Rainy-season traditions","\u6885\u96e8",B.axu,"Timing varies by region","Much of Japan","Hydrangeas, umbrellas and changing weather provide practical seasonal language.",B.a_2,"Rainy window ambience")
+B.a_3=s(["\u6885\u96e8 \xb7 \u3064\u3086 \xb7 rainy season","\u7d2b\u967d\u82b1 \xb7 \u3042\u3058\u3055\u3044 \xb7 hydrangea","\u5098 \xb7 \u304b\u3055 \xb7 umbrella"],t.s)
+B.Ur=new A.d9("tsuyu","\u2614","Rainy-season traditions","\u6885\u96e8",B.axu,"Timing varies by region","Much of Japan","Hydrangeas, umbrellas and changing weather provide practical seasonal language.",B.a_3,"Rainy window ambience")
 B.pj=new A.cw([7,8],t.R)
 B.a1Y=s(["\u4e03\u5915 \xb7 \u305f\u306a\u3070\u305f","\u9858\u3044\u4e8b \xb7 \u306d\u304c\u3044\u3054\u3068 \xb7 wish","\u77ed\u518a \xb7 \u305f\u3093\u3056\u304f \xb7 wish strip"],t.s)
 B.Uq=new A.d9("tanabata","\ud83c\udf8b","Tanabata","\u4e03\u5915",B.pj,"7 July; August in some regions","Across Japan","Wishes are written on colourful paper strips and hung from bamboo. Regional festival dates differ.",B.a1Y,"Butterfly and wish mobile")
@@ -127006,12 +127006,12 @@ B.a0O=s([],t.t)
 B.P=s([],t.ee)
 B.a0P=s([],t.XS)
 B.a19=s(["nanami","kyoko","haruka","sayaka","female","natural","enhanced"],t.s)
-B.aGk=new A.ai("Hiragana",null,null,null,null,null,null,null,null)
-B.Kx=new A.eP(B.ju,B.aGk,t.UJ)
+B.aGj=new A.ai("Hiragana",null,null,null,null,null,null,null,null)
+B.Kx=new A.eP(B.ju,B.aGj,t.UJ)
 B.aFl=new A.ai("Katakana",null,null,null,null,null,null,null,null)
 B.Ks=new A.eP(B.mF,B.aFl,t.UJ)
-B.aFN=new A.ai("N5 Kanji",null,null,null,null,null,null,null,null)
-B.Kv=new A.eP(B.mG,B.aFN,t.UJ)
+B.aFM=new A.ai("N5 Kanji",null,null,null,null,null,null,null,null)
+B.Kv=new A.eP(B.mG,B.aFM,t.UJ)
 B.a1e=s([B.Kx,B.Ks,B.Kv],A.a9("D<eP<iw>>"))
 B.p=new A.hW(1,"home")
 B.aJM=new A.A("n_01","\u4e00","ichi","One",B.p,B.e,"1\ufe0f\u20e3",null,null)
@@ -127089,8 +127089,8 @@ B.aLo=new A.A("ws_07","\u590f","natsu","Summer",B.n,B.e,"\ud83c\udfd6\ufe0f",nul
 B.aMA=new A.A("ws_08","\u79cb","aki","Autumn",B.n,B.e,"\ud83c\udf42",null,null)
 B.aJB=new A.A("ws_09","\u51ac","fuyu","Winter",B.n,B.e,"\u26c4",null,null)
 B.aKx=new A.A("ws_10","\u98a8\u90aa","kaze","Cold (illness)",B.n,B.e,"\ud83e\udd27",null,null)
-B.ZW=s([B.aKo,B.aLk,B.aK7,B.aJN,B.aL7,B.aNZ,B.aLo,B.aMA,B.aJB,B.aKx],t.G)
-B.aQp=new A.jM(B.ZW)
+B.ZX=s([B.aKo,B.aLk,B.aK7,B.aJN,B.aL7,B.aNZ,B.aLo,B.aMA,B.aJB,B.aKx],t.G)
+B.aQp=new A.jM(B.ZX)
 B.aMv=new A.A("tp_01","\u96fb\u8eca","densha","Train",B.m,B.e,"\ud83d\ude83",null,null)
 B.aMH=new A.A("tp_02","\u30d0\u30b9","basu","Bus",B.m,B.e,"\ud83d\ude8c",null,null)
 B.aL0=new A.A("tp_03","\u81ea\u8ee2\u8eca","jitensha","Bicycle",B.m,B.e,"\ud83d\udeb2",null,null)
@@ -127408,8 +127408,8 @@ B.aM4=new A.A("fe_07","\u697d\u3057\u3044","tanoshii","Fun/enjoyable",B.t,B.i,"\
 B.aL9=new A.A("fe_08","\u5bc2\u3057\u3044","sabishii","Lonely",B.t,B.i,"\ud83e\udd7a",null,null)
 B.aJt=new A.A("fe_09","\u7dca\u5f35","kinchou","Nervous",B.t,B.i,"\ud83d\ude30",null,null)
 B.aMf=new A.A("fe_10","\u81ea\u4fe1","jishin","Confidence",B.t,B.i,"\ud83d\udcaa",null,null)
-B.a_5=s([B.aM6,B.aKV,B.aMx,B.aLT,B.aKZ,B.aKr,B.aM4,B.aL9,B.aJt,B.aMf],t.G)
-B.aQs=new A.n_(B.a_5)
+B.a_6=s([B.aM6,B.aKV,B.aMx,B.aLT,B.aKZ,B.aKr,B.aM4,B.aL9,B.aJt,B.aMf],t.G)
+B.aQs=new A.n_(B.a_6)
 B.aLa=new A.A("te_01","\u643a\u5e2f","keitai","Mobile phone",B.p,B.i,"\ud83d\udcf1",null,null)
 B.aKc=new A.A("te_02","\u5199\u771f\u3092\u64ae\u308b","shashin wo toru","Take a photo",B.c,B.i,"\ud83d\udcf8",null,null)
 B.aJP=new A.A("te_03","\u9001\u308b","okuru","To send",B.c,B.i,"\ud83d\udce4",null,null)
@@ -127587,7 +127587,7 @@ B.JR=new A.bW(-1,B.a5,B.cV,B.ec,5)
 B.oS=new A.j(0,6)
 B.Kd=new A.bW(0,B.a5,B.db,B.oS,10)
 B.Kl=new A.bW(0,B.a5,B.cW,B.dr,18)
-B.a_0=s([B.JR,B.Kd,B.Kl],t.V)
+B.a_1=s([B.JR,B.Kd,B.Kl],t.V)
 B.oR=new A.j(0,5)
 B.JW=new A.bW(-3,B.a5,B.cV,B.oR,5)
 B.kR=new A.j(0,8)
@@ -127616,7 +127616,7 @@ B.a60=new A.j(0,24)
 B.Kh=new A.bW(3,B.a5,B.db,B.a60,38)
 B.Ka=new A.bW(8,B.a5,B.cW,B.Bp,46)
 B.a_D=s([B.JY,B.Kh,B.Ka],t.V)
-B.a3T=new A.dG([0,B.w1,1,B.a1L,2,B.ZI,3,B.a1u,4,B.YD,6,B.a_0,8,B.Z1,9,B.Zj,12,B.a_f,16,B.a_e,24,B.a_D],A.a9("dG<z,E<bW>>"))
+B.a3T=new A.dG([0,B.w1,1,B.a1L,2,B.ZI,3,B.a1u,4,B.YD,6,B.a_1,8,B.Z1,9,B.Zj,12,B.a_f,16,B.a_e,24,B.a_D],A.a9("dG<z,E<bW>>"))
 B.dm=new A.m(4294968065)
 B.pp=new A.aM(B.dm,!1,!1,!0,!1,B.E)
 B.cZ=new A.m(4294968066)
@@ -128773,13 +128773,13 @@ B.aRq=new A.Zq(0,"start")
 B.a79=new A.Zq(1,"end")
 B.a7a=new A.Zr(0,"nearestOverlay")
 B.a7b=new A.Zr(1,"rootOverlay")
-B.aGp=new A.ai("Pitch accent belongs to whole words and can vary by word and region. LinguaTomo teaches it with verified word audio, never as an invented property of an isolated character.",null,null,null,null,null,null,null,null)
-B.a7c=new A.an(B.e8,B.aGp,null)
-B.aHo=new A.ai("Real abilities are tracked separately and never flattened into a single fluency score. Use the Memory Garden for spaced review and Can-Do missions for real-world conversation practice.",null,null,null,null,null,null,null,null)
-B.a7f=new A.an(B.dN,B.aHo,null)
+B.aGo=new A.ai("Pitch accent belongs to whole words and can vary by word and region. LinguaTomo teaches it with verified word audio, never as an invented property of an isolated character.",null,null,null,null,null,null,null,null)
+B.a7c=new A.an(B.e8,B.aGo,null)
+B.aHn=new A.ai("Real abilities are tracked separately and never flattened into a single fluency score. Use the Memory Garden for spaced review and Can-Do missions for real-world conversation practice.",null,null,null,null,null,null,null,null)
+B.a7f=new A.an(B.dN,B.aHn,null)
 B.Th=new A.ao(10,6,10,6)
-B.aG7=new A.ai("Mrrp!",null,B.b6,null,null,null,null,null,null)
-B.a7q=new A.an(B.Th,B.aG7,null)
+B.aG6=new A.ai("Mrrp!",null,B.b6,null,null,null,null,null,null)
+B.a7q=new A.an(B.Th,B.aG6,null)
 B.Lo=new A.ZT()
 B.a3R=new A.dG([B.aA,B.Lo,B.a3,B.jo,B.b3,B.jo,B.bA,B.hw,B.bz,B.hw],t.Ce)
 B.Bz=new A.JS(B.a3R)
@@ -130344,21 +130344,21 @@ B.Fl=new A.Cq(2,"bubble")
 B.h2=new A.kr(null,null)
 B.W5=new A.bh(B.kr,null,null,null,null)
 B.h9=new A.cC(6,null,null,null)
-B.aGW=new A.ai("Start reading",null,null,null,null,null,null,null,null)
-B.a21=s([B.W5,B.h9,B.aGW],t.p)
+B.aGV=new A.ai("Start reading",null,null,null,null,null,null,null,null)
+B.a21=s([B.W5,B.h9,B.aGV],t.p)
 B.awA=new A.lb(B.ar,B.q,B.aJ,B.A,null,B.bk,null,0,B.a21,null)
 B.Vd=new A.ba(61509,"MaterialIcons",!1)
 B.WM=new A.bh(B.Vd,null,B.a_,null,null)
-B.aH8=new A.ai("Photo evidence can assess recognition and page balance. It cannot prove stroke order, pressure, or rhythm.",null,null,null,null,null,null,null,null)
-B.TY=new A.k_(1,B.cY,B.aH8,null)
-B.a__=s([B.WM,B.by,B.TY],t.p)
-B.awF=new A.lb(B.ar,B.q,B.u,B.Y,null,B.bk,null,0,B.a__,null)
-B.aFP=new A.ai("Start a word lesson",null,null,null,null,null,null,null,null)
-B.a_c=s([B.vf,B.h9,B.aFP],t.p)
+B.aH7=new A.ai("Photo evidence can assess recognition and page balance. It cannot prove stroke order, pressure, or rhythm.",null,null,null,null,null,null,null,null)
+B.TY=new A.k_(1,B.cY,B.aH7,null)
+B.a_0=s([B.WM,B.by,B.TY],t.p)
+B.awF=new A.lb(B.ar,B.q,B.u,B.Y,null,B.bk,null,0,B.a_0,null)
+B.aFO=new A.ai("Start a word lesson",null,null,null,null,null,null,null,null)
+B.a_c=s([B.vf,B.h9,B.aFO],t.p)
 B.awG=new A.lb(B.ar,B.q,B.aJ,B.A,null,B.bk,null,0,B.a_c,null)
 B.WN=new A.bh(B.v5,null,B.a_,null,null)
-B.aHq=new A.ai("Running in private local mode",null,B.b6,null,null,null,null,null,null)
-B.a0H=s([B.WN,B.by,B.aHq],t.p)
+B.aHp=new A.ai("Running in private local mode",null,B.b6,null,null,null,null,null,null)
+B.a0H=s([B.WN,B.by,B.aHp],t.p)
 B.awH=new A.lb(B.ar,B.q,B.u,B.A,null,B.bk,null,0,B.a0H,null)
 B.awI=new A.L6(1333)
 B.p4=new A.L6(2222)
@@ -130646,14 +130646,14 @@ B.az5=new A.o2(3,"hide")
 B.aRC=new A.o2(4,"remove")
 B.az6=new A.o2(5,"timeout")
 B.az7=new A.CO(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aHv=new A.ai("Saved. Your next visit has been scheduled.",null,null,null,null,null,null,null,null)
-B.az8=new A.o1(B.aHv,null,null,null,null,null,null,null,null,null,null,null,null,B.hU,!1,null,null,null,B.a2,null)
-B.aGM=new A.ai("Planted. Leo will bring this back before it fades.",null,null,null,null,null,null,null,null)
-B.az9=new A.o1(B.aGM,null,null,null,null,null,null,null,null,null,null,null,null,B.hU,!1,null,null,null,B.a2,null)
-B.aHd=new A.ai("Audio is unavailable just now. Please try again.",null,null,null,null,null,null,null,null)
-B.aza=new A.o1(B.aHd,null,null,null,null,null,null,null,null,null,null,null,null,B.hU,!1,null,null,null,B.a2,null)
-B.aFF=new A.ai("Your Nest has twelve display spaces. Remove one item before adding another.",null,null,null,null,null,null,null,null)
-B.azb=new A.o1(B.aFF,null,null,null,null,null,null,null,null,null,null,null,null,B.hU,!1,null,null,null,B.a2,null)
+B.aHu=new A.ai("Saved. Your next visit has been scheduled.",null,null,null,null,null,null,null,null)
+B.az8=new A.o1(B.aHu,null,null,null,null,null,null,null,null,null,null,null,null,B.hU,!1,null,null,null,B.a2,null)
+B.aGL=new A.ai("Planted. Leo will bring this back before it fades.",null,null,null,null,null,null,null,null)
+B.az9=new A.o1(B.aGL,null,null,null,null,null,null,null,null,null,null,null,null,B.hU,!1,null,null,null,B.a2,null)
+B.aHc=new A.ai("Audio is unavailable just now. Please try again.",null,null,null,null,null,null,null,null)
+B.aza=new A.o1(B.aHc,null,null,null,null,null,null,null,null,null,null,null,null,B.hU,!1,null,null,null,B.a2,null)
+B.aFE=new A.ai("Your Nest has twelve display spaces. Remove one item before adding another.",null,null,null,null,null,null,null,null)
+B.azb=new A.o1(B.aFE,null,null,null,null,null,null,null,null,null,null,null,null,B.hU,!1,null,null,null,B.a2,null)
 B.azc=new A.LX(null)
 B.GB=new A.LZ(0,"permissive")
 B.azd=new A.LZ(1,"normal")
@@ -131125,105 +131125,105 @@ B.aFr=new A.ai("See the word, learn it, then quiz.",null,B.q0,B.ai,null,null,nul
 B.aFs=new A.ai("Choose up to twelve small objects. Everything else stays safely in your collection, and trophies sit on their own shelf.",null,null,null,null,null,null,null,null)
 B.aFt=new A.ai("Choose photo",null,null,null,null,null,null,null,null)
 B.aFu=new A.ai("Course Levels",null,null,null,null,null,null,null,null)
-B.aFw=new A.ai("Let's go!",null,B.j1,null,null,null,null,null,null)
-B.aFy=new A.ai("Check",null,null,null,null,null,null,null,null)
+B.aFv=new A.ai("Let's go!",null,B.j1,null,null,null,null,null,null)
+B.aFx=new A.ai("Check",null,null,null,null,null,null,null,null)
 B.aF2=new A.t(!0,B.ti,null,null,null,null,11,B.b_,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aFz=new A.ai("NEXT CAN-DO",null,B.aF2,null,null,null,null,null,null)
-B.aFC=new A.ai("How the Memory Garden works",null,null,null,null,null,null,null,null)
-B.aFD=new A.ai("\ud83d\udcec",null,B.Hl,null,null,null,null,null,null)
-B.aFE=new A.ai("Your email is never shown. Joining the achievement board is optional and available only to adult accounts.",null,null,null,null,null,null,null,null)
-B.aFG=new A.ai("Browse the full festival year",null,null,null,null,null,null,null,null)
-B.aFI=new A.ai("Undo",null,null,null,null,null,null,null,null)
-B.aFK=new A.ai("Close",null,null,null,null,null,null,null,null)
-B.aFL=new A.ai("Target character",null,B.bc,null,null,null,null,null,null)
-B.aFM=new A.ai("Got it!",null,B.j1,null,null,null,null,null,null)
-B.aFO=new A.ai("Choose today\u2019s set, your current route, or the complete character library.",null,null,null,null,null,null,null,null)
-B.aFQ=new A.ai("LinguaTomo maps vocabulary to internationally recognised frameworks so you always know where you stand. These are approximate references, not certificates.",null,null,null,null,null,null,null,null)
-B.aFS=new A.ai("Start learning",null,null,null,null,null,null,null,null)
-B.aFT=new A.ai("Living festival calendar",null,B.b6,null,null,null,null,null,null)
+B.aFy=new A.ai("NEXT CAN-DO",null,B.aF2,null,null,null,null,null,null)
+B.aFB=new A.ai("How the Memory Garden works",null,null,null,null,null,null,null,null)
+B.aFC=new A.ai("\ud83d\udcec",null,B.Hl,null,null,null,null,null,null)
+B.aFD=new A.ai("Your email is never shown. Joining the achievement board is optional and available only to adult accounts.",null,null,null,null,null,null,null,null)
+B.aFF=new A.ai("Browse the full festival year",null,null,null,null,null,null,null,null)
+B.aFH=new A.ai("Undo",null,null,null,null,null,null,null,null)
+B.aFJ=new A.ai("Close",null,null,null,null,null,null,null,null)
+B.aFK=new A.ai("Target character",null,B.bc,null,null,null,null,null,null)
+B.aFL=new A.ai("Got it!",null,B.j1,null,null,null,null,null,null)
+B.aFN=new A.ai("Choose today\u2019s set, your current route, or the complete character library.",null,null,null,null,null,null,null,null)
+B.aFP=new A.ai("LinguaTomo maps vocabulary to internationally recognised frameworks so you always know where you stand. These are approximate references, not certificates.",null,null,null,null,null,null,null,null)
+B.aFR=new A.ai("Start learning",null,null,null,null,null,null,null,null)
+B.aFS=new A.ai("Living festival calendar",null,B.b6,null,null,null,null,null,null)
 B.aEx=new A.t(!0,null,null,null,null,null,68,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aFU=new A.ai("\ud83c\udf31",null,B.aEx,null,null,null,null,null,null)
-B.aFV=new A.ai("Explore",null,null,null,null,null,null,null,null)
-B.aFW=new A.ai("Sign in without a password",null,B.b6,null,null,null,null,null,null)
-B.aFX=new A.ai("Nickname, achievement count and XP only.",null,null,null,null,null,null,null,null)
+B.aFT=new A.ai("\ud83c\udf31",null,B.aEx,null,null,null,null,null,null)
+B.aFU=new A.ai("Explore",null,null,null,null,null,null,null,null)
+B.aFV=new A.ai("Sign in without a password",null,B.b6,null,null,null,null,null,null)
+B.aFW=new A.ai("Nickname, achievement count and XP only.",null,null,null,null,null,null,null,null)
 B.Hc=new A.t(!0,B.a6,null,null,null,null,11,B.b_,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aFZ=new A.ai("Achievement unlocked!",null,B.Hc,null,null,null,null,null,null)
-B.aG_=new A.ai("Write on paper, take a clear photo, and check recognition and page balance. Pick today\u2019s set, your route, or all available characters.",null,null,null,null,null,null,null,null)
-B.aG0=new A.ai("Kana and kanji studio",null,null,null,null,null,null,null,null)
-B.aG1=new A.ai("Sources and licences",null,null,null,null,null,null,null,null)
-B.aG2=new A.ai("Got it",null,null,null,null,null,null,null,null)
-B.aG3=new A.ai("The first stories match today\u2019s season in Japan. Every story remains in the archive, so nobody loses learning because they took a break. Dates that follow a lunar calendar or local bloom times are presented as cultural windows, not fixed national dates.",null,null,null,null,null,null,null,null)
-B.aG4=new A.ai("Open Writing Canvas",null,null,null,null,null,null,null,null)
-B.aG5=new A.ai("This changes which words you practise. You can switch at any time.",null,null,null,null,null,null,null,null)
-B.aG6=new A.ai("Seasonal Stories",null,null,null,null,null,null,null,null)
-B.aG8=new A.ai("Continue",null,B.j1,null,null,null,null,null,null)
+B.aFY=new A.ai("Achievement unlocked!",null,B.Hc,null,null,null,null,null,null)
+B.aFZ=new A.ai("Write on paper, take a clear photo, and check recognition and page balance. Pick today\u2019s set, your route, or all available characters.",null,null,null,null,null,null,null,null)
+B.aG_=new A.ai("Kana and kanji studio",null,null,null,null,null,null,null,null)
+B.aG0=new A.ai("Sources and licences",null,null,null,null,null,null,null,null)
+B.aG1=new A.ai("Got it",null,null,null,null,null,null,null,null)
+B.aG2=new A.ai("The first stories match today\u2019s season in Japan. Every story remains in the archive, so nobody loses learning because they took a break. Dates that follow a lunar calendar or local bloom times are presented as cultural windows, not fixed national dates.",null,null,null,null,null,null,null,null)
+B.aG3=new A.ai("Open Writing Canvas",null,null,null,null,null,null,null,null)
+B.aG4=new A.ai("This changes which words you practise. You can switch at any time.",null,null,null,null,null,null,null,null)
+B.aG5=new A.ai("Seasonal Stories",null,null,null,null,null,null,null,null)
+B.aG7=new A.ai("Continue",null,B.j1,null,null,null,null,null,null)
 B.aDy=new A.t(!0,B.a_,null,null,null,null,11,B.aF,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aG9=new A.ai("Complete",null,B.aDy,null,null,null,null,null,null)
-B.aGa=new A.ai("We show where reusable learning data came from, how it may be shared and what its limits are.",null,null,null,null,null,null,null,null)
-B.aGb=new A.ai("Show meaning",null,null,null,null,null,null,null,null)
-B.aGd=new A.ai("Try again",null,null,null,null,null,null,null,null)
-B.aGe=new A.ai("Beginner? Pick Starter \u2014 you do not need to know any Japanese to start. Leo teaches you words from your very first lesson.",null,B.dA,null,null,null,null,null,null)
-B.aGf=new A.ai("FSRS schedules each phrase for approximately 90% desired retention.",null,null,null,null,null,null,null,null)
-B.aGg=new A.ai("Share a privacy-safe milestone",null,null,null,null,null,null,null,null)
-B.aGi=new A.ai("LinguaTomo works fully without an account. Signing in only adds backup and cross-device continuity.",null,null,null,null,null,null,null,null)
-B.aGj=new A.ai("Three words, one useful phrase, and a cultural detail. Nothing expires.",null,null,null,null,null,null,null,null)
-B.aGm=new A.ai("\ud83d\udc8c 10 words to unlock postcards",null,B.dA,null,null,null,null,null,null)
+B.aG8=new A.ai("Complete",null,B.aDy,null,null,null,null,null,null)
+B.aG9=new A.ai("We show where reusable learning data came from, how it may be shared and what its limits are.",null,null,null,null,null,null,null,null)
+B.aGa=new A.ai("Show meaning",null,null,null,null,null,null,null,null)
+B.aGc=new A.ai("Try again",null,null,null,null,null,null,null,null)
+B.aGd=new A.ai("Beginner? Pick Starter \u2014 you do not need to know any Japanese to start. Leo teaches you words from your very first lesson.",null,B.dA,null,null,null,null,null,null)
+B.aGe=new A.ai("FSRS schedules each phrase for approximately 90% desired retention.",null,null,null,null,null,null,null,null)
+B.aGf=new A.ai("Share a privacy-safe milestone",null,null,null,null,null,null,null,null)
+B.aGh=new A.ai("LinguaTomo works fully without an account. Signing in only adds backup and cross-device continuity.",null,null,null,null,null,null,null,null)
+B.aGi=new A.ai("Three words, one useful phrase, and a cultural detail. Nothing expires.",null,null,null,null,null,null,null,null)
+B.aGl=new A.ai("\ud83d\udc8c 10 words to unlock postcards",null,B.dA,null,null,null,null,null,null)
 B.HB=new A.ai("How well did you remember?",null,B.bc,B.ai,null,null,null,null,null)
-B.aGo=new A.ai("Grammar Course Atlas",null,null,null,null,null,null,null,null)
-B.aGq=new A.ai("This optional board ranks collected achievement memories. It shows nicknames only, never email addresses. There are no prizes and you can leave at any time.",null,null,null,null,null,null,null,null)
+B.aGn=new A.ai("Grammar Course Atlas",null,null,null,null,null,null,null,null)
+B.aGp=new A.ai("This optional board ranks collected achievement memories. It shows nicknames only, never email addresses. There are no prizes and you can leave at any time.",null,null,null,null,null,null,null,null)
 B.Hq=new A.t(!0,null,null,null,null,null,18,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aGr=new A.ai("\ud83d\udcac",null,B.Hq,null,null,null,null,null,null)
-B.aGt=new A.ai("Join the cosy achievement board",null,null,null,null,null,null,null,null)
-B.aGu=new A.ai("This changes presentation, never access to learning.",null,null,null,null,null,null,null,null)
-B.aGv=new A.ai("Learn the basic syllabaries, then connect kanji to useful words.",null,null,null,null,null,null,null,null)
-B.aGx=new A.ai("Add to review",null,B.pY,null,null,null,null,null,null)
-B.aGy=new A.ai("Show the lesson",null,null,null,null,null,null,null,null)
+B.aGq=new A.ai("\ud83d\udcac",null,B.Hq,null,null,null,null,null,null)
+B.aGs=new A.ai("Join the cosy achievement board",null,null,null,null,null,null,null,null)
+B.aGt=new A.ai("This changes presentation, never access to learning.",null,null,null,null,null,null,null,null)
+B.aGu=new A.ai("Learn the basic syllabaries, then connect kanji to useful words.",null,null,null,null,null,null,null,null)
+B.aGw=new A.ai("Add to review",null,B.pY,null,null,null,null,null,null)
+B.aGx=new A.ai("Show the lesson",null,null,null,null,null,null,null,null)
 B.HC=new A.ai("Living Postcards",null,null,null,null,null,null,null,null)
-B.aGA=new A.ai("Nest Collection",null,null,null,null,null,null,null,null)
-B.aGB=new A.ai("\ud83d\udc31",null,B.Hq,null,null,null,null,null,null)
-B.aGC=new A.ai("\ud83c\udfaf",null,B.lC,null,null,null,null,null,null)
-B.aGG=new A.ai("Japanese, with a friend beside you.",null,null,null,null,null,null,null,null)
-B.aGI=new A.ai("Some memories stay mysterious until you are close. Tap any card to see its reward type.",null,null,null,null,null,null,null,null)
-B.aGJ=new A.ai("Real abilities are tracked separately and never flattened into one \u201cfluency\u201d score.",null,null,null,null,null,null,null,null)
-B.aGK=new A.ai("Pick where you feel comfortable. You can change this later from the dashboard.",null,null,null,null,null,null,null,null)
-B.aGL=new A.ai("\ud83d\udd12",null,B.Hs,null,null,null,null,null,null)
-B.aGN=new A.ai("Account & Sync",null,null,null,null,null,null,null,null)
-B.aGO=new A.ai("Open the cosy achievement board",null,null,null,null,null,null,null,null)
-B.aGP=new A.ai("Hear answer",null,null,null,null,null,null,null,null)
-B.aGQ=new A.ai("Recall the grammar pattern before revealing the notes.",null,null,null,null,null,null,null,null)
-B.aGR=new A.ai("Look away, recall the pattern, then answer honestly.",null,null,null,null,null,null,null,null)
-B.aGS=new A.ai("I have recalled it",null,null,null,null,null,null,null,null)
-B.aGT=new A.ai("Your local learning remains the source of truth.",null,null,null,null,null,null,null,null)
+B.aGz=new A.ai("Nest Collection",null,null,null,null,null,null,null,null)
+B.aGA=new A.ai("\ud83d\udc31",null,B.Hq,null,null,null,null,null,null)
+B.aGB=new A.ai("\ud83c\udfaf",null,B.lC,null,null,null,null,null,null)
+B.aGF=new A.ai("Japanese, with a friend beside you.",null,null,null,null,null,null,null,null)
+B.aGH=new A.ai("Some memories stay mysterious until you are close. Tap any card to see its reward type.",null,null,null,null,null,null,null,null)
+B.aGI=new A.ai("Real abilities are tracked separately and never flattened into one \u201cfluency\u201d score.",null,null,null,null,null,null,null,null)
+B.aGJ=new A.ai("Pick where you feel comfortable. You can change this later from the dashboard.",null,null,null,null,null,null,null,null)
+B.aGK=new A.ai("\ud83d\udd12",null,B.Hs,null,null,null,null,null,null)
+B.aGM=new A.ai("Account & Sync",null,null,null,null,null,null,null,null)
+B.aGN=new A.ai("Open the cosy achievement board",null,null,null,null,null,null,null,null)
+B.aGO=new A.ai("Hear answer",null,null,null,null,null,null,null,null)
+B.aGP=new A.ai("Recall the grammar pattern before revealing the notes.",null,null,null,null,null,null,null,null)
+B.aGQ=new A.ai("Look away, recall the pattern, then answer honestly.",null,null,null,null,null,null,null,null)
+B.aGR=new A.ai("I have recalled it",null,null,null,null,null,null,null,null)
+B.aGS=new A.ai("Your local learning remains the source of truth.",null,null,null,null,null,null,null,null)
 B.aCu=new A.t(!0,B.tn,null,null,null,null,11,B.ea,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aGU=new A.ai("Tap to listen & practise \u2192",null,B.aCu,null,null,null,null,null,null)
-B.aGV=new A.ai("The local course library could not be opened.",null,null,null,null,null,null,null,null)
+B.aGT=new A.ai("Tap to listen & practise \u2192",null,B.aCu,null,null,null,null,null,null)
+B.aGU=new A.ai("The local course library could not be opened.",null,null,null,null,null,null,null,null)
 B.aD1=new A.t(!0,B.ac,null,null,null,null,10,B.aF,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aGX=new A.ai("BEST",null,B.aD1,null,null,null,null,null,null)
-B.aH1=new A.ai("\ud83e\udd8b",null,B.lC,null,null,null,null,null,null)
-B.aH2=new A.ai("Cosy Achievement Board",null,null,null,null,null,null,null,null)
-B.aH3=new A.ai("Nickname and cosy board",null,B.b6,null,null,null,null,null,null)
-B.aH4=new A.ai("Word Lesson",null,null,null,null,null,null,null,null)
+B.aGW=new A.ai("BEST",null,B.aD1,null,null,null,null,null,null)
+B.aH0=new A.ai("\ud83e\udd8b",null,B.lC,null,null,null,null,null,null)
+B.aH1=new A.ai("Cosy Achievement Board",null,null,null,null,null,null,null,null)
+B.aH2=new A.ai("Nickname and cosy board",null,B.b6,null,null,null,null,null,null)
+B.aH3=new A.ai("Word Lesson",null,null,null,null,null,null,null,null)
 B.aDJ=new A.t(!0,B.am,null,null,null,null,10,B.b_,null,1.3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aH5=new A.ai("LINGUATOMO PASSPORT",null,B.aDJ,null,null,null,null,null,null)
-B.aH6=new A.ai("PICK A THEME",null,B.Hc,null,null,null,null,null,null)
-B.aH7=new A.ai("My Japanese Route",null,null,null,null,null,null,null,null)
+B.aH4=new A.ai("LINGUATOMO PASSPORT",null,B.aDJ,null,null,null,null,null,null)
+B.aH5=new A.ai("PICK A THEME",null,B.Hc,null,null,null,null,null,null)
+B.aH6=new A.ai("My Japanese Route",null,null,null,null,null,null,null,null)
 B.aCz=new A.t(!0,B.ac,null,null,null,null,15,null,null,null,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aH9=new A.ai("Leo shows you each word, then quizzes you.\nTap the speaker to hear it aloud.",null,B.aCz,B.ai,null,null,null,null,null)
-B.aHa=new A.ai("Word Garden",null,B.b6,null,null,null,null,null,null)
-B.aHb=new A.ai("Sign out",null,null,null,null,null,null,null,null)
-B.aHc=new A.ai("No phrases or grammar patterns are due right now. FSRS will bring them back when the timing is useful.",null,null,B.ai,null,null,null,null,null)
-B.aHe=new A.ai("Try again",null,B.j1,null,null,null,null,null,null)
-B.aHf=new A.ai("Daily conversation",null,null,null,null,null,null,null,null)
-B.aHh=new A.ai("Practise writing",null,null,null,null,null,null,null,null)
-B.aHj=new A.ai("Hear question",null,null,null,null,null,null,null,null)
-B.aHn=new A.ai("\ud83d\udc3e",null,B.Ho,null,null,null,null,null,null)
-B.aHp=new A.ai("To enable Supabase sync, provide the public project URL and anonymous key at build time:",null,null,null,null,null,null,null,null)
+B.aH8=new A.ai("Leo shows you each word, then quizzes you.\nTap the speaker to hear it aloud.",null,B.aCz,B.ai,null,null,null,null,null)
+B.aH9=new A.ai("Word Garden",null,B.b6,null,null,null,null,null,null)
+B.aHa=new A.ai("Sign out",null,null,null,null,null,null,null,null)
+B.aHb=new A.ai("No phrases or grammar patterns are due right now. FSRS will bring them back when the timing is useful.",null,null,B.ai,null,null,null,null,null)
+B.aHd=new A.ai("Try again",null,B.j1,null,null,null,null,null,null)
+B.aHe=new A.ai("Daily conversation",null,null,null,null,null,null,null,null)
+B.aHg=new A.ai("Practise writing",null,null,null,null,null,null,null,null)
+B.aHi=new A.ai("Hear question",null,null,null,null,null,null,null,null)
+B.aHm=new A.ai("\ud83d\udc3e",null,B.Ho,null,null,null,null,null,null)
+B.aHo=new A.ai("To enable Supabase sync, provide the public project URL and anonymous key at build time:",null,null,null,null,null,null,null,null)
 B.aC1=new A.t(!0,null,null,null,null,null,18,B.b_,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aHr=new A.ai("Perfect lesson!",null,B.aC1,B.ai,null,null,null,null,null)
-B.aHt=new A.ai("Plant in Memory Garden",null,null,null,null,null,null,null,null)
-B.aHu=new A.ai("Try a character, romaji reading or English meaning.",null,null,null,null,null,null,null,null)
-B.aHw=new A.ai("The Japanese Language Proficiency Test (JLPT) is the standard measure of Japanese ability. Levels shown are for reference \u2014 the real JLPT does not publish official word lists.",null,null,null,null,null,null,null,null)
-B.aHx=new A.ai("Clear",null,null,null,null,null,null,null,null)
+B.aHq=new A.ai("Perfect lesson!",null,B.aC1,B.ai,null,null,null,null,null)
+B.aHs=new A.ai("Plant in Memory Garden",null,null,null,null,null,null,null,null)
+B.aHt=new A.ai("Try a character, romaji reading or English meaning.",null,null,null,null,null,null,null,null)
+B.aHv=new A.ai("The Japanese Language Proficiency Test (JLPT) is the standard measure of Japanese ability. Levels shown are for reference \u2014 the real JLPT does not publish official word lists.",null,null,null,null,null,null,null,null)
+B.aHw=new A.ai("Clear",null,null,null,null,null,null,null,null)
 B.aHy=new A.ai("Each learned phrase or grammar pattern becomes a plant. FSRS estimates when that memory is likely to become difficult, then brings it back just before it fades. Again shortens the interval; Hard, Good and Easy lengthen it by different amounts. There is no penalty for returning late, and the garden never dies.",null,null,null,null,null,null,null,null)
 B.aHz=new A.ai("Take photo",null,null,null,null,null,null,null,null)
 B.aHC=new A.ai("Rooms provide space. Achievements add small objects, reactions, stamps and profile styles without making the Nest cluttered.",null,null,null,null,null,null,null,null)
@@ -132228,7 +132228,7 @@ q.u9($.b6s())
 return q})
 s($,"bGe","n9",()=>{var q="Explorer title"
 return A.b([A.b9("\ud83d\udc3e","first_steps",new A.b_1(),"Complete your first Can-Do.","Leo\u2019s happy hop",B.bZ,!1,1,"First Steps"),A.b9("\ud83e\uddf6","warm_welcome",new A.b_2(),"Complete 2 Can-Dos.","Welcome mat",B.af,!1,2,"Warm Welcome"),A.b9("\ud83c\udf31","memory_seedling",new A.b_3(),"Complete 3 Can-Dos.","Little fern",B.af,!1,3,"Memory Seedling"),A.b9("\ud83c\udfe1","nest_builder",new A.b_e(),"Complete 5 Can-Dos.","Reading lamp",B.af,!1,5,"Nest Builder"),A.b9("\ud83d\ude89","daily_life",new A.b_p(),"Complete 7 Can-Dos.","Traveller title",B.bM,!1,7,"Daily Life Ready"),A.b9("\ud83c\udf33","memory_grove",new A.b_A(),"Complete 10 Can-Dos.","Bonsai shelf",B.af,!1,10,"Memory Grove"),A.b9("\ud83d\uddfc","connected",new A.b_L(),"Complete 14 Can-Dos.","Indigo profile frame",B.bM,!1,14,"Connected Japan"),A.b9("\ud83c\udf93","professional_route",new A.b_W(),"Complete all 18 core Can-Dos.","Leo\u2019s grand celebration",B.bZ,!1,18,"Professional Route"),A.b9("\ud83d\udc8c","first_postcard",new A.b06(),"Collect 1 Living Postcard.","Leo paw stamp",B.dF,!1,1,"Postcard Friend"),A.b9("\ud83d\uddfe","three_postcards",new A.b0h(),"Collect 3 Living Postcards.","Postcard string",B.af,!1,3,"Pocket Traveller"),A.b9("\ud83d\uddfa\ufe0f","seven_stops",new A.b0l(),"Collect 7 Living Postcards.","Railway stamp",B.dF,!1,7,"Seven Stops"),A.b9("\ud83c\udf92","postcard_traveller",new A.b_4(),"Collect 12 Living Postcards.","Canvas travel bag",B.af,!1,12,"Postcard Traveller"),A.b9("\ud83e\udded","postcard_explorer",new A.b_5(),"Collect 20 Living Postcards.",q,B.bM,!1,20,"Postcard Explorer"),A.b9("\ud83d\udcec","all_postcards",new A.b_6(),"Collect all 30 Living Postcards.","Memory wall",B.af,!1,30,"Thirty Postcards"),A.b9("\u270d\ufe0f","paper_practice",new A.b_7(),"Save your first handwriting check.","Brush cup",B.af,!1,1,"Paper Practice"),A.b9("\ud83d\udd8c\ufe0f","steady_hand",new A.b_8(),"Reach an 80% handwriting score.","Leo\u2019s proud nod",B.bZ,!1,80,"Steady Hand"),A.b9("\u2728","ink_glow",new A.b_9(),"Reach a 90% handwriting score.","Ink-brush frame",B.bM,!1,90,"Ink Glow"),A.b9("\ud83d\udcc4","paper_stack",new A.b_a(),"Save 25 handwriting checks.","Practice folio",B.af,!1,25,"Paper Stack"),A.b9("\ud83d\udcaf","hundred_marks",new A.b_b(),"Save 100 handwriting checks.","Leo\u2019s ink-paw dance",B.bZ,!1,100,"Hundred Marks"),A.b9("\ud83c\udf3f","grammar_patch",new A.b_c(),"Plant 10 grammar memories.","Herb planter",B.af,!1,10,"Grammar Patch"),A.b9("\ud83e\udeb4","grammar_keeper",new A.b_d(),"Plant 50 grammar memories.","Tall plant stand",B.af,!1,50,"Grammar Keeper"),A.b9("\ud83c\udf3a","pattern_garden",new A.b_f(),"Plant 100 grammar memories.","Garden title",B.bM,!1,100,"Pattern Garden"),A.b9("\ud83c\udf32","grammar_forest",new A.b_g(),"Plant 250 grammar memories.","Indoor tree",B.af,!1,250,"Grammar Forest"),A.b9("\ud83c\udfde\ufe0f","living_language",new A.b_h(),"Plant 500 grammar memories.","Forest profile frame",B.bM,!1,500,"Living Language"),A.b9("\ud83d\uddfb","all_grammar",new A.b_i(),"Plant all 828 grammar memories.","Leo climbs Mount Grammar",B.bZ,!1,828,"All 828"),A.b9("\ud83d\udc08","study_pal",new A.b_j(),"Complete 25 grammar reviews.","Leo\u2019s slow blink",B.bZ,!1,25,"Leo\u2019s Study Pal"),A.b9("\ud83c\udf75","calm_reviewer",new A.b_k(),"Complete 100 grammar reviews.","Tea set",B.af,!1,100,"Calm Reviewer"),A.b9("\ud83d\udd6f\ufe0f","memory_glow",new A.b_l(),"Complete 500 grammar reviews.","Memory lantern",B.af,!1,500,"Memory Glow"),A.b9("\ud83c\udf1f","memory_master",new A.b_m(),"Complete 2,000 grammar reviews.","Starlight frame",B.bM,!1,2000,"Memory Master"),A.b9("\ud83d\udd25","cosy_week",new A.b_n(),"Learn on 7 consecutive days.","Knitted blanket",B.af,!1,7,"Cosy Week"),A.b9("\u2614","cosy_fortnight",new A.b_o(),"Learn on 14 consecutive days.","Rain-cloud stamp",B.dF,!1,14,"Rainy Fortnight"),A.b9("\ud83e\uddf6","cosy_month",new A.b_q(),"Learn on 30 consecutive days.","Window-seat cushion",B.af,!1,30,"Cosy Month"),A.b9("\ud83c\udf41","season_keeper",new A.b_r(),"Learn on 90 consecutive days.","Four Seasons frame",B.bM,!1,90,"Season Keeper"),A.b9("\ud83c\udfee","culture_friend",new A.b_s(),"Collect 3 culture evidence marks.","Lantern stamp",B.dF,!1,3,"Culture Friend"),A.b9("\u26e9\ufe0f","culture_guide",new A.b_t(),"Collect 8 culture evidence marks.","Culture Guide title",B.bM,!1,8,"Culture Guide"),A.b9("\ud83d\udcac","conversation_keeper",new A.b_u(),"Collect 6 interaction evidence marks.","Leo\u2019s cheerful meow",B.bZ,!1,6,"Conversation Keeper"),A.b9("\ud83e\udd1d","conversation_friend",new A.b_v(),"Collect 12 interaction evidence marks.","Conversation title",B.bM,!1,12,"Conversation Friend"),A.b9("\u2726","first_spark",new A.b_w(),"Earn 100 XP.","Tiny star jar",B.af,!1,100,"First Spark"),A.b9("\ud83c\udf19","warm_glow",new A.b_x(),"Earn 500 XP.","Moon lamp",B.af,!1,500,"Warm Glow"),A.b9("\ud83d\ude86","long_journey",new A.b_y(),"Earn 1,000 XP.","Night Train frame",B.bM,!1,1000,"Long Journey"),A.b9("\ud83d\udd70\ufe0f","first_habit",new A.b_z(),"Learn on 3 consecutive days.","Small woven rug",B.af,!1,3,"A Small Habit"),A.b9("\ud83e\udeb5","cosy_year",new A.b_B(),"Learn on 180 consecutive days.","Hearth trophy",B.cm,!1,180,"Cosy Hearth Year"),A.b9("\ud83d\udd2e","bright_path",new A.b_C(),"Earn 2,500 XP.","Star globe",B.af,!1,2500,"Bright Path"),A.b9("\ud83d\udca1","luminous",new A.b_D(),"Earn 5,000 XP.","Lighthouse trophy",B.cm,!1,5000,"Luminous Journey"),A.b9("\ud83e\udded","path_finder",new A.b_E(),"Complete 16 Can-Dos.","Compass trophy",B.cm,!1,16,"Path Finder"),A.b9("\ud83d\udcdc","perfect_page",new A.b_F(),"Reach a 100% handwriting score.","Golden brush",B.cm,!1,100,"Perfect Page"),A.b9("\ud83d\udd8b\ufe0f","ink_river",new A.b_G(),"Save 50 handwriting checks.","Inkstone",B.af,!1,50,"Ink River"),A.b9("\ud83c\udfee","tending_garden",new A.b_H(),"Complete 1,000 grammar reviews.","Garden lantern",B.af,!1,1000,"Tending the Garden"),A.b9("\ud83c\udf33","eternal_garden",new A.b_I(),"Complete 5,000 grammar reviews.","Eternal garden trophy",B.cm,!1,5000,"Eternal Garden"),A.b9("\ud83d\uddbc\ufe0f","postcard_curator",new A.b_J(),"Collect 25 Living Postcards.","Curator stamp",B.dF,!1,25,"Postcard Curator"),A.b9("\ud83c\udf8e","culture_keeper",new A.b_K(),"Collect 15 culture evidence marks.","Kokoro trophy",B.cm,!1,15,"Culture Keeper"),A.b9("\ud83c\udf09","bridge_builder",new A.b_M(),"Collect 20 interaction evidence marks.","Bridge trophy",B.cm,!1,20,"Bridge Builder"),A.b9("\ud83d\udecb\ufe0f","interior_touch",new A.b_N(),"Place 4 memory objects in the Nest.","Leo\u2019s approving purr",B.bZ,!1,4,"Interior Touch"),A.b9("\ud83e\ude91","nest_stylist",new A.b_O(),"Place 8 memory objects in the Nest.","Stylist title",B.bM,!1,8,"Nest Stylist"),A.b9("\ud83c\udf8f","festival_first",new A.b_P(),"Experience 1 Japanese festival window in the app.","Festival fan",B.af,!1,1,"First Festival"),A.b9("\ud83c\udf86","festival_friend",new A.b_Q(),"Experience 4 different festival windows.","Firework stamp",B.dF,!1,4,"Festival Friend"),A.b9("\ud83c\udfee","festival_traveller",new A.b_R(),"Experience 8 different festival windows.","Paper lantern",B.af,!1,8,"Festival Traveller"),A.b9("\ud83c\udf87","festival_master",new A.b_S(),"Experience 15 different festival windows.","Matsuri trophy",B.cm,!1,15,"Festival Master"),A.b9("\ud83d\uddd3\ufe0f","four_seasons",new A.b_T(),"Celebrate festivals in all four seasons.","Four Seasons crown",B.cm,!1,4,"Year-Round Learner"),A.b9("\ud83c\udf90","summer_hero",new A.b_U(),"Experience 3 summer festival windows.","Leo's yukata dance",B.bZ,!1,3,"Summer Festival Hero"),A.b9("\ud83d\udcd6","first_word",new A.b_V(),"Learn your first Japanese word.","Tiny book",B.af,!1,1,"First Word"),A.b9("\ud83d\udcda","ten_words",new A.b_X(),"Learn 10 Japanese words.","Word cards",B.af,!1,10,"Ten Words"),A.b9("\ud83c\udf1f","fifty_words",new A.b_Y(),"Learn 50 Japanese words.","Learner title",B.bM,!1,50,"Halfway There"),A.b9("\ud83d\udc8e","hundred_words",new A.b_Z(),"Learn 100 Japanese words.","Bookshelf",B.af,!1,100,"Century Learner"),A.b9("\ud83c\udfc6","two_hundred_words",new A.b0_(),"Learn all 400 Japanese words.","Dictionary trophy",B.cm,!1,500,"Word Master"),A.b9("\ud83d\udfe2","starter_complete",new A.b00(),"Complete all 40 Starter words.","Starter badge",B.af,!1,1,"Starter Set"),A.b9("\ud83d\udcdd","word_lesson_10",new A.b01(),"Complete 10 word lessons.","Study lamp",B.af,!1,10,"Lesson Regular"),A.b9("\ud83d\udcd6","word_lesson_50",new A.b02(),"Complete 50 word lessons.","Word Scholar title",B.bM,!1,50,"Dedicated Learner"),A.b9("\ud83d\udcaf","perfect_lesson",new A.b03(),"Complete a word lesson with 100%.","Leo's proud nod",B.bZ,!1,1,"Perfect Score"),A.b9("\ud83c\udf08","five_categories",new A.b04(),"Complete all words in 5 categories.",q,B.bM,!1,5,"Well Rounded"),A.b9("\ud83d\udcec","postcards_unlock",new A.b05(),"Unlock Living Postcards by learning 10 words.","Postbox key",B.af,!1,1,"Postbox Key"),A.b9("\ud83d\ude3a","secret_purr",new A.b07(),"A gentle surprise awaits.","Secret Leo reaction",B.bZ,!0,3,"Purrfect Timing"),A.b9("\ud83d\udcda","secret_books",new A.b08(),"A quiet reading habit reveals this memory.","Hidden book stack",B.af,!0,25,"Midnight Reader"),A.b9("\ud83d\udc8c","secret_post",new A.b09(),"Keep exploring the postcard trail.","Secret Leo stamp",B.dF,!0,5,"A Letter from Leo"),A.b9("\ud83d\udc3e","secret_ink",new A.b0a(),"Keep practising by hand.","Ink-paw animation",B.bZ,!0,10,"Inky Paws"),A.b9("\ud83e\udd8b","secret_garden",new A.b0b(),"Something visits a thriving garden.","Butterfly mobile",B.af,!0,250,"Garden Visitor"),A.b9("\ud83c\udfe0","secret_home",new A.b0c(),"Follow the route all the way home.","Japan Nest key",B.af,!0,18,"Home in Japan"),A.b9("\ud83e\udd41","secret_matsuri",new A.b0d(),"The summer drums are calling.","Secret festival meow",B.bZ,!0,1,"Matsuri Whisper"),A.b9("\u26c4","secret_snow",new A.b0e(),"A quiet snowfall hides a small friend.","Hidden snow globe",B.af,!0,1,"Snow Country Guest"),A.b9("\ud83c\udf91","secret_seasons",new A.b0f(),"Three seasons have noticed you.","Seasonal round stamp",B.dF,!0,3,"The Turning Year"),A.b9("\u2b50","quiz_pass_5",new A.b0g(),"Pass 5 word lessons (3 out of 5 or better).","Bronze star",B.cm,!1,5,"Getting the hang of it"),A.b9("\ud83c\udfa9","perfect_3",new A.b0i(),"Score 100% on 3 word lessons.","Magic hat toss",B.bZ,!1,3,"Hat trick"),A.b9("\u2728","quiz_pass_25",new A.b0j(),"Pass 25 word lessons.","Gold star",B.cm,!1,25,"Dedicated Scholar"),A.b9("\ud83d\udcaf","perfect_5",new A.b0k(),"Score 100% on 5 word lessons.","Golden book",B.af,!1,5,"Flawless Five")],A.a9("D<it>"))})
-s($,"bGj","b2n",()=>A.ak([B.ju,A.bf_(B.a0K),B.mF,A.bf_(B.a_6),B.mG,B.ZZ],t.KV,A.a9("E<ed>")))
+s($,"bGj","b2n",()=>A.ak([B.ju,A.bf_(B.a0K),B.mF,A.bf_(B.a_7),B.mG,B.a__],t.KV,A.a9("E<ed>")))
 s($,"bGc","bjO",()=>{var q,p=null,o="\ud83d\ude4f",n="\ud83d\ude47",m="\ud83e\udd1d",l="\ud83c\udfe0",k="\ud83d\udeaa",j="\ud83d\udc69",i="\ud83d\udca7",h="\ud83c\udf75",g="\ud83d\udcda",f="\ud83c\udfde\ufe0f",e="\ud83c\udf05",d="\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",c="\ud83c\udf71",b="\ud83c\udfa9",a="Acquaintance",a0="\u26e9\ufe0f",a1="\ud83c\udfef",a2="\ud83d\udcdc",a3="Flower arranging",a4=A.b([A.o(B.z,"\ud83d\udc4b","Hello",p,p,"s_01","\u3053\u3093\u306b\u3061\u306f","konnichiwa",B.o),A.o(B.z,o,"Thank you",p,p,"s_02","\u3042\u308a\u304c\u3068\u3046","arigatou",B.o),A.o(B.z,"\ud83d\udc4b","Goodbye",p,p,"s_03","\u3055\u3088\u3046\u306a\u3089","sayounara",B.o),A.o(B.z,"\u2705","Yes",p,p,"s_04","\u306f\u3044","hai",B.o),A.o(B.z,n,"Excuse me",p,p,"s_05","\u3059\u307f\u307e\u305b\u3093","sumimasen",B.o),A.o(B.z,o,"Please",p,p,"s_06","\u304a\u9858\u3044\u3057\u307e\u3059","onegaishimasu",B.o),A.o(B.z,"\ud83d\ude14","Sorry",p,p,"s_07","\u3054\u3081\u3093\u306a\u3055\u3044","gomen nasai",B.o),A.o(B.z,m,"Nice to meet you",p,p,"s_08","\u306f\u3058\u3081\u307e\u3057\u3066","hajimemashite",B.o),A.o(B.z,"\ud83c\udf19","Good night",p,p,"s_09","\u304a\u3084\u3059\u307f","oyasumi",B.o),A.o(B.z,l,"I am home",p,p,"s_10","\u305f\u3060\u3044\u307e","tadaima",B.o),A.o(B.p,l,"House",p,p,"s_11","\u5bb6","ie",B.o),A.o(B.p,"\ud83e\ude91","Table",p,p,"s_12","\u673a","tsukue",B.o),A.o(B.p,"\ud83d\udcba","Chair",p,p,"s_13","\u6905\u5b50","isu",B.o),A.o(B.p,"\u23f0","Clock",p,p,"s_14","\u6642\u8a08","tokei",B.o),A.o(B.p,"\ud83d\udecf\ufe0f","Bed",p,p,"s_15","\u30d9\u30c3\u30c9","beddo",B.o),A.o(B.p,k,"Door",p,p,"s_16","\u30c9\u30a2","doa",B.o),A.o(B.p,"\ud83e\ude9f","Window",p,p,"s_17","\u7a93","mado",B.o),A.o(B.p,k,"Room",p,p,"s_18","\u90e8\u5c4b","heya",B.o),A.o(B.p,"\ud83d\udcfa","Television",p,p,"s_19","\u30c6\u30ec\u30d3","terebi",B.o),A.o(B.p,"\ud83e\uddca","Refrigerator",p,p,"s_20","\u51b7\u8535\u5eab","reizouko",B.o),A.o(B.t,j,"Mother",p,p,"s_21","\u6bcd","haha",B.o),A.o(B.t,"\ud83d\udc68","Father",p,p,"s_22","\u7236","chichi",B.o),A.o(B.t,"\ud83d\udc76","Child",p,p,"s_23","\u5b50","ko",B.o),A.o(B.t,m,"Friend",p,p,"s_24","\u53cb\u9054","tomodachi",B.o),A.o(B.t,"\ud83e\uddd1\u200d\ud83c\udfeb","Teacher",p,p,"s_25","\u5148\u751f","sensei",B.o),A.o(B.t,"\ud83d\udc66","Older brother",p,p,"s_26","\u5144","ani",B.o),A.o(B.t,"\ud83d\udc67","Older sister",p,p,"s_27","\u59c9","ane",B.o),A.o(B.t,"\ud83d\udc75","Grandmother",p,p,"s_28","\u304a\u3070\u3042\u3055\u3093","obaasan",B.o),A.o(B.t,"\ud83d\udc74","Grandfather",p,p,"s_29","\u304a\u3058\u3044\u3055\u3093","ojiisan",B.o),A.o(B.t,"\ud83d\udc76","Baby",p,p,"s_30","\u8d64\u3061\u3083\u3093","akachan",B.o),A.o(B.w,"\ud83c\udf5a","Rice",p,p,"s_31","\u3054\u98ef","gohan",B.o),A.o(B.w,i,"Water",p,p,"s_32","\u6c34","mizu",B.o),A.o(B.w,"\ud83d\udc1f","Fish",p,p,"s_33","\u9b5a","sakana",B.o),A.o(B.w,"\ud83e\udd69","Meat",p,p,"s_34","\u8089","niku",B.o),A.o(B.w,"\ud83c\udf5e","Bread",p,p,"s_35","\u30d1\u30f3","pan",B.o),A.o(B.w,h,"Tea",p,p,"s_36","\u304a\u8336","ocha",B.o),A.o(B.w,"\ud83e\udd5a","Egg",p,p,"s_37","\u5375","tamago",B.o),A.o(B.w,"\ud83c\udf4e","Fruit",p,p,"s_38","\u679c\u7269","kudamono",B.o),A.o(B.w,"\ud83e\udd5b","Milk",p,p,"s_39","\u725b\u4e73","gyuunyuu",B.o),A.o(B.w,"\ud83e\udd6c","Vegetable",p,p,"s_40","\u91ce\u83dc","yasai",B.o),A.o(B.c,"\ud83d\udeb6","Walk",p,p,"s_41","\u6b69\u304f","aruku",B.o),A.o(B.c,"\u26c5","Eat",p,p,"s_42","\u98df\u3079\u308b","taberu",B.o),A.o(B.c,"\ud83e\udd64","Drink",p,p,"s_43","\u98f2\u3080","nomu",B.o),A.o(B.c,"\ud83c\udfc3","Run",p,p,"s_44","\u8d70\u308b","hashiru",B.o),A.o(B.c,"\ud83d\udc41\ufe0f","See",p,p,"s_45","\u898b\u308b","miru",B.o),A.o(B.c,"\ud83c\udfca","Swim",p,p,"s_46","\u6cf3\u3050","oyogu",B.o),A.o(B.c,"\ud83d\udcd6","Read",p,p,"s_47","\u8aad\u3080","yomu",B.o),A.o(B.c,"\ud83c\udfa7","Listen",p,p,"s_48","\u8074\u304f","kiku",B.o),A.o(B.c,"\u270d\ufe0f","Write",p,p,"s_49","\u66f8\u304f","kaku",B.o),A.o(B.c,"\ud83c\udfa4","Sing",p,p,"s_50","\u6b4c\u3046","utau",B.o),A.o(B.m,"\ud83c\udfeb","School",p,p,"s_51","\u5b66\u6821","gakkou",B.o),A.o(B.m,"\ud83c\udfea","Shop",p,p,"s_52","\u5e97","mise",B.o),A.o(B.m,"\ud83d\ude89","Station",p,p,"s_53","\u99c5","eki",B.o),A.o(B.m,"\ud83d\udee4\ufe0f","Road",p,p,"s_54","\u9053","michi",B.o),A.o(B.m,"\ud83c\udfe5","Hospital",p,p,"s_55","\u75c5\u9662","byouin",B.o),A.o(B.m,"\ud83d\ude83","Train",p,p,"s_56","\u96fb\u8eca","densha",B.o),A.o(B.m,"\ud83c\udf2a\ufe0f","Car",p,p,"s_57","\u8eca","kuruma",B.o),A.o(B.m,g,"Library",p,p,"s_58","\u56f3\u66f8\u9928","toshokan",B.o),A.o(B.m,"\u2708\ufe0f","Airport",p,p,"s_59","\u7a7a\u6e2f","kuukou",B.o),A.o(B.m,"\ud83c\udf33","Park",p,p,"s_60","\u516c\u5712","kouen",B.o),A.o(B.n,"\u26f0\ufe0f","Mountain",p,p,"s_61","\u5c71","yama",B.o),A.o(B.n,f,"River",p,p,"s_62","\u5ddd","kawa",B.o),A.o(B.n,"\ud83c\udf38","Flower",p,p,"s_63","\u82b1","hana",B.o),A.o(B.n,"\ud83c\udf33","Tree",p,p,"s_64","\u6728","ki",B.o),A.o(B.n,"\ud83c\udf24\ufe0f","Sky",p,p,"s_65","\u7a7a","sora",B.o),A.o(B.n,"\ud83c\udf27\ufe0f","Rain",p,p,"s_66","\u96e8","ame",B.o),A.o(B.n,"\u2744\ufe0f","Snow",p,p,"s_67","\u96ea","yuki",B.o),A.o(B.n,"\ud83c\udf2c\ufe0f","Wind",p,p,"s_68","\u98a8","kaze",B.o),A.o(B.n,"\ud83c\udf32","Forest",p,p,"s_69","\u68ee","mori",B.o),A.o(B.n,"\ud83c\udf0a","Sea",p,p,"s_70","\u6d77","umi",B.o),A.o(B.G,"\ud83d\udc31","Cat",p,p,"s_71","\u732b","neko",B.o),A.o(B.G,"\ud83d\udc36","Dog",p,p,"s_72","\u72ac","inu",B.o),A.o(B.G,"\ud83d\udc26","Bird",p,p,"s_73","\u9ce5","tori",B.o),A.o(B.G,"\ud83d\udc30","Rabbit",p,p,"s_74","\u514e","usagi",B.o),A.o(B.G,"\ud83d\udc20","Goldfish",p,p,"s_75","\u91d1\u9b5a","kingyo",B.o),A.o(B.G,"\ud83d\udc04","Cow",p,p,"s_76","\u725b","ushi",B.o),A.o(B.G,"\ud83d\udc34","Horse",p,p,"s_77","\u99ac","uma",B.o),A.o(B.G,"\ud83d\udc14","Chicken",p,p,"s_78","\u9d8f","niwatori",B.o),A.o(B.G,"\ud83d\udc12","Monkey",p,p,"s_79","\u733f","saru",B.o),A.o(B.G,"\ud83d\udc11","Sheep",p,p,"s_80","\u7f8a","hitsuji",B.o),A.o(B.z,e,"Good morning",p,p,"e_01","\u304a\u306f\u3088\u3046","ohayou",B.e),A.o(B.z,"\u274c","No",p,p,"e_02","\u3044\u3044\u3048","iie",B.e),A.o(B.z,"\ud83d\udc4d","I am fine",p,p,"e_03","\u5927\u4e08\u592b","daijoubu",B.e),A.o(B.z,"\ud83d\ude0a","How are you?",p,p,"e_04","\u304a\u5143\u6c17\u3067\u3059\u304b","ogenki desu ka",B.e),A.o(B.z,"\ud83d\udcaa","Good luck",p,p,"e_05","\u9811\u5f35\u3063\u3066","ganbatte",B.e),A.o(B.z,"\u2705","Of course",p,p,"e_06","\u3082\u3061\u308d\u3093\u3067\u3059","mochiron desu",B.e),A.o(B.z,"\u26c5","Bon appetit",p,p,"e_07","\u3044\u305f\u3060\u304d\u307e\u3059","itadakimasu",B.e),A.o(B.z,o,"Thanks for the meal",p,p,"e_08","\u3054\u3061\u305d\u3046\u3055\u307e","gochisousama",B.e),A.o(B.z,"\ud83d\udca1","I understand",p,p,"e_09","\u308f\u304b\u308a\u307e\u3057\u305f","wakarimashita",B.e),A.o(B.z,"\ud83d\udc9b","Take care",p,p,"e_10","\u6c17\u3092\u3064\u3051\u3066","ki wo tsukete",B.e),A.o(B.p,"\ud83c\udf73","Kitchen",p,p,"e_11","\u53f0\u6240","daidokoro",B.e),A.o(B.p,"\ud83c\udf3f","Garden",p,p,"e_12","\u5ead","niwa",B.e),A.o(B.p,"\ud83e\udee7","Washing machine",p,p,"e_13","\u6d17\u6fef\u6a5f","sentakuki",B.e),A.o(B.p,"\ud83d\udebf","Shower",p,p,"e_14","\u30b7\u30e3\u30ef\u30fc","shawaa",B.e),A.o(B.p,k,"Entrance",p,p,"e_15","\u7384\u95a2","genkan",B.e),A.o(B.p,"\ud83e\ude9c","Stairs",p,p,"e_16","\u968e\u6bb5","kaidan",B.e),A.o(B.p,"\ud83d\udec1","Bathroom",p,p,"e_17","\u30d0\u30b9\u30eb\u30fc\u30e0","basuruumu",B.e),A.o(B.p,"\ud83d\udc55","Laundry",p,p,"e_18","\u6d17\u6fef","sentaku",B.e),A.o(B.p,"\ud83e\uddf9","Cleaning",p,p,"e_19","\u6383\u9664","souji",B.e),A.o(B.p,"\ud83d\udd11","Key",p,p,"e_20","\u9375","kagi",B.e),A.o(B.t,"\ud83d\udc68","Husband",p,p,"e_21","\u592b","otto",B.e),A.o(B.t,j,"Wife",p,p,"e_22","\u59bb","tsuma",B.e),A.o(B.t,"\ud83d\udc54","Colleague",p,p,"e_23","\u540c\u50da","douryou",B.e),A.o(B.t,"\ud83c\udfe1","Neighbour",p,p,"e_24","\u96a3\u306e\u4eba","tonari no hito",B.e),A.o(B.t,"\ud83c\udf7c","Newborn",p,p,"e_25","\u8d64\u3061\u3083\u3093","neobii",B.e),A.o(B.t,"\ud83d\udc65","Siblings",p,p,"e_26","\u5144\u5f1f","kyoudai",B.e),A.o(B.t,"\ud83c\udf96\ufe0f","Senior colleague",p,p,"e_27","\u5148\u8f29","senpai",B.e),A.o(B.t,"\ud83c\udf1f","Junior colleague",p,p,"e_28","\u5f8c\u8f29","kouhai",B.e),A.o(B.t,m,"Comrade",p,p,"e_29","\u4ef2\u9593","nakama",B.e),A.o(B.t,d,"Family",p,p,"e_30","\u5bb6\u65cf","kazoku",B.e),A.o(B.w,"\ud83e\udd57","Salad",p,p,"e_31","\u30b5\u30e9\u30c0","sarada",B.e),A.o(B.w,"\ud83c\udf64","Tempura",p,p,"e_32","\u5929\u3077\u3089","tempura",B.e),A.o(B.w,"\ud83c\udf76","Alcohol",p,p,"e_33","\u304a\u9152","osake",B.e),A.o(B.w,"\u2615","Coffee",p,p,"e_34","\u30b3\u30fc\u30d2\u30fc","koohii",B.e),A.o(B.w,c,"Lunchbox",p,p,"e_35","\u5f01\u5f53","bentou",B.e),A.o(B.w,"\ud83c\udf70","Cake",p,p,"e_36","\u30b1\u30fc\u30ad","keeki",B.e),A.o(B.w,"\ud83e\uddc3","Juice",p,p,"e_37","\u30b8\u30e5\u30fc\u30b9","juusu",B.e),A.o(B.w,"\ud83e\uddc8","Butter",p,p,"e_38","\u30d0\u30bf\u30fc","bataa",B.e),A.o(B.w,"\ud83c\udf5c","Ramen",p,p,"e_39","\u30e9\u30fc\u30e1\u30f3","raamen",B.e),A.o(B.w,"\ud83c\udf63","Sushi",p,p,"e_40","\u5bff\u53f8","sushi",B.e),A.o(B.c,"\ud83c\udfae","Play",p,p,"e_41","\u904a\u3076","asobu",B.e),A.o(B.c,"\ud83d\uded2","Buy",p,p,"e_42","\u8cb7\u3046","kau",B.e),A.o(B.c,"\ud83d\udd27","Use",p,p,"e_43","\u4f7f\u3046","tsukau",B.e),A.o(B.c,"\u23f3","Wait",p,p,"e_44","\u5f85\u3064","matsu",B.e),A.o(B.c,"\ud83d\udee0\ufe0f","Make",p,p,"e_45","\u4f5c\u308b","tsukuru",B.e),A.o(B.c,"\ud83d\ude34","Sleep",p,p,"e_46","\u5bdd\u308b","neru",B.e),A.o(B.c,e,"Wake up",p,p,"e_47","\u8d77\u304d\u308b","okiru",B.e),A.o(B.c,"\ud83d\udca8","Hurry",p,p,"e_48","\u6025\u3050","isogu",B.e),A.o(B.c,m,"Hand over",p,p,"e_49","\u6e21\u3059","watasu",B.e),A.o(B.c,m,"Help",p,p,"e_50","\u624b\u4f1d\u3046","tetsudau",B.e),A.o(B.m,"\ud83d\ude87","Subway",p,p,"e_51","\u5730\u4e0b\u9244","chikatetsu",B.e),A.o(B.m,"\ud83d\ude84","Bullet train",p,p,"e_52","\u65b0\u5e79\u7dda","shinkansen",B.e),A.o(B.m,"\ud83c\udf09","Bridge",p,p,"e_53","\u6a4b","hashi",B.e),A.o(B.m,"\u26f5","Harbour",p,p,"e_54","\u6e2f","minato",B.e),A.o(B.m,"\ud83c\udfe2","Building",p,p,"e_55","\u30d3\u30eb","biru",B.e),A.o(B.m,"\u26c5","Restaurant",p,p,"e_56","\u30ec\u30b9\u30c8\u30e9\u30f3","resutoran",B.e),A.o(B.m,"\ud83c\udfe8","Hotel",p,p,"e_57","\u30db\u30c6\u30eb","hoteru",B.e),A.o(B.m,"\ud83c\udfe6","Bank",p,p,"e_58","\u9280\u884c","ginkou",B.e),A.o(B.m,"\ud83d\udcee","Post office",p,p,"e_59","\u90f5\u4fbf\u5c40","yuubinkyoku",B.e),A.o(B.m,"\ud83c\udfec","Market",p,p,"e_60","\u5e02\u5834","ichiba",B.e),A.o(B.n,"\u2600\ufe0f","Sun",p,p,"e_61","\u592a\u967d","taiyou",B.e),A.o(B.n,"\ud83c\udf19","Moon",p,p,"e_62","\u6708","tsuki",B.e),A.o(B.n,"\u2b50","Star",p,p,"e_63","\u661f","hoshi",B.e),A.o(B.n,"\ud83c\udfdd\ufe0f","Island",p,p,"e_64","\u5cf6","shima",B.e),A.o(B.n,f,"Lake",p,p,"e_65","\u6e56","mizuumi",B.e),A.o(B.n,"\ud83c\udf41","Autumn leaves",p,p,"e_66","\u7d05\u8449","kouyou",B.e),A.o(B.n,"\ud83c\udf38","Cherry blossom",p,p,"e_67","\u685c","sakura",B.e),A.o(B.n,"\ud83c\udf00","Typhoon",p,p,"e_68","\u53f0\u98a8","taifuu",B.e),A.o(B.n,"\ud83c\udf0b","Earthquake",p,p,"e_69","\u5730\u9707","jishin",B.e),A.o(B.n,f,"Scenery",p,p,"e_70","\u666f\u8272","keshiki",B.e),A.o(B.G,"\ud83d\udc18","Elephant",p,p,"e_71","\u8c61","zou",B.e),A.o(B.G,"\ud83e\udd81","Lion",p,p,"e_72","\u30e9\u30a4\u30aa\u30f3","raion",B.e),A.o(B.G,"\ud83d\udc3c","Panda",p,p,"e_73","\u30d1\u30f3\u30c0","panda",B.e),A.o(B.G,"\ud83d\udc2c","Dolphin",p,p,"e_74","\u30a4\u30eb\u30ab","iruka",B.e),A.o(B.G,"\ud83d\udc3b","Bear",p,p,"e_75","\u718a","kuma",B.e),A.o(B.G,"\ud83d\udc05","Tiger",p,p,"e_76","\u864e","tora",B.e),A.o(B.G,"\ud83d\udc27","Penguin",p,p,"e_77","\u30da\u30f3\u30ae\u30f3","pengin",B.e),A.o(B.G,"\ud83e\udd8a","Fox",p,p,"e_78","\u30ad\u30c4\u30cd","kitsune",B.e),A.o(B.G,"\ud83d\udc22","Turtle",p,p,"e_79","\u30ab\u30e1","kame",B.e),A.o(B.G,"\ud83d\udc38","Frog",p,p,"e_80","\u30ab\u30a8\u30eb","kaeru",B.e),A.o(B.z,n,"Nice to meet you (formal)",p,p,"i_01","\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059","yoroshiku onegaishimasu",B.i),A.o(B.z,"\ud83d\ude14","I am very sorry",p,p,"i_02","\u7533\u3057\u8a33\u3042\u308a\u307e\u305b\u3093","moushiwake arimasen",B.i),A.o(B.z,o,"Excuse me (very formal)",p,p,"i_03","\u6050\u308c\u5165\u308a\u307e\u3059","osoreirimasu",B.i),A.o(B.z,"\u2705","Understood",p,p,"i_04","\u627f\u77e5\u3057\u307e\u3057\u305f","shouchi shimashita",B.i),A.o(B.z,"\ud83d\ude0a","Long time no see",p,p,"i_05","\u304a\u4e45\u3057\u3076\u308a\u3067\u3059","ohisashiburi desu",B.i),A.o(B.z,"\ud83d\udcaa","Good work today",p,p,"i_06","\u304a\u75b2\u308c\u69d8\u3067\u3059","otsukaresama desu",B.i),A.o(B.z,b,"Certainly (very formal)",p,p,"i_07","\u304b\u3057\u3053\u307e\u308a\u307e\u3057\u305f","kashikomarimashita",B.i),A.o(B.z,"\ud83d\udeb6","Excuse me (leaving)",p,p,"i_08","\u5931\u793c\u3057\u307e\u3059","shitsurei shimasu",B.i),A.o(B.z,l,"Pardon the intrusion",p,p,"i_09","\u304a\u90aa\u9b54\u3057\u307e\u3059","ojama shimasu",B.i),A.o(B.z,"\ud83d\udc4b","Excuse me for leaving first",p,p,"i_10","\u304a\u5148\u306b\u5931\u793c\u3057\u307e\u3059","osaki ni shitsurei shimasu",B.i),A.o(B.p,l,"Tatami mat",p,p,"i_11","\u7573","tatami",B.i),A.o(B.p,k,"Sliding door",p,p,"i_12","\u8956","fusuma",B.i),A.o(B.p,"\ud83c\udfe1","Veranda",p,p,"i_13","\u7e01\u5074","engawa",B.i),A.o(B.p,o,"Buddhist altar",p,p,"i_14","\u4ecf\u58c7","butsudan",B.i),A.o(B.p,"\ud83e\udeb5","Wood flooring",p,p,"i_15","\u677f\u5f35\u308a","itabari",B.i),A.o(B.p,i,"Shelf",p,p,"i_16","\u56f3\u67b6","zuka",B.i),A.o(B.p,"\ud83e\udeb5","Heated table",p,p,"i_17","\u3053\u305f\u3064","kotatsu",B.i),A.o(B.p,k,"Paper sliding door",p,p,"i_18","\u969c\u5b50","shouji",B.i),A.o(B.p,k,"Closet",p,p,"i_19","\u62bc\u5165\u308c","oshiire",B.i),A.o(B.p,"\ud83d\udca1","Lamp",p,p,"i_20","\u30e9\u30f3\u30d7","ranpu",B.i),A.o(B.t,d,"Parents",p,p,"i_21","\u4e21\u89aa","ryoushin",B.i),A.o(B.t,"\ud83d\udc67","Daughter",p,p,"i_22","\u5a18","musume",B.i),A.o(B.t,"\ud83d\udc66","Son",p,p,"i_23","\u606f\u5b50","musuko",B.i),A.o(B.t,"\ud83d\udc8d","Engagement",p,p,"i_24","\u7d50\u7d0d","yuunou",B.i),A.o(B.t,"\ud83d\udc91","Matchmaking",p,p,"i_25","\u898b\u5408\u3044","omiai",B.i),A.o(B.t,"\ud83c\udf93","Expert",p,p,"i_26","\u5c02\u9580","senmon",B.i),A.o(B.t,m,"Peer",p,p,"i_27","\u540c\u671f","douki",B.i),A.o(B.t,"\ud83d\udc6b",a,p,p,"i_28","\u53cb\u4eba","yuujin",B.i),A.o(B.t,m,a,p,p,"i_29","\u77e5\u308a\u5408\u3044","shiriai",B.i),A.o(B.t,"\ud83d\udd28","Craftsman",p,p,"i_30","\u8077\u4eba","shokunin",B.i),A.o(B.w,"\ud83c\udf57","Grilled chicken",p,p,"i_31","\u713c\u304d\u9ce5","yakitori",B.i),A.o(B.w,"\ud83c\udf59","Rice ball",p,p,"i_32","\u304a\u306b\u304e\u308a","onigiri",B.i),A.o(B.w,"\ud83c\udf61","Rice cake",p,p,"i_33","\u9905","mochi",B.i),A.o(B.w,"\ud83e\udd52","Pickles",p,p,"i_34","\u6f2c\u7269","tsukemono",B.i),A.o(B.w,"\ud83c\udf72","Simmered dish",p,p,"i_35","\u716e\u7269","nimono",B.i),A.o(B.w,"\ud83c\udf5c","Fried noodles",p,p,"i_36","\u713c\u304d\u305d\u3070","yakisoba",B.i),A.o(B.w,"\ud83e\udd5e","Savoury pancake",p,p,"i_37","\u304a\u597d\u307f\u713c\u304d","okonomiyaki",B.i),A.o(B.w,"\ud83d\udc19","Octopus balls",p,p,"i_38","\u305f\u3053\u713c\u304d","takoyaki",B.i),A.o(B.w,"\ud83e\udd69","Meat and potato stew",p,p,"i_39","\u8089\u3058\u3083\u304c","nikujaga",B.i),A.o(B.w,"\ud83c\udf5a","Beef bowl",p,p,"i_40","\u725b\u4e3c","gyudon",B.i),A.o(B.c,"\u26f7\ufe0f","Skiing",p,p,"i_41","\u30b9\u30ad\u30fc","sukii",B.i),A.o(B.c,"\ud83e\uddf3","Travel",p,p,"i_42","\u65c5\u884c","ryokou",B.i),A.o(B.c,"\ud83d\udcf7","Photography",p,p,"i_43","\u5199\u771f","shashin",B.i),A.o(B.c,"\ud83d\udc68\u200d\ud83c\udf73","Cooking",p,p,"i_44","\u6599\u7406","ryouri",B.i),A.o(B.c,"\ud83d\udc83","Dancing",p,p,"i_45","\u8e0a\u308a","odori",B.i),A.o(B.c,g,"Comics",p,p,"i_46","\u6f2b\u753b","manga",B.i),A.o(B.c,"\ud83c\udfac","Anime",p,p,"i_47","\u30a2\u30cb\u30e1","anime",B.i),A.o(B.c,"\ud83c\udfa4","Karaoke",p,p,"i_48","\u30ab\u30e9\u30aa\u30b1","karaoke",B.i),A.o(B.c,"\ud83e\udd4b","Training",p,p,"i_49","\u4fee\u884c","shuugyou",B.i),A.o(B.c,"\ud83c\udfaf","Practice",p,p,"i_50","\u7df4\u7fd2","renshuu",B.i),A.o(B.m,a0,"Shrine",p,p,"i_51","\u795e\u793e","jinja",B.i),A.o(B.m,"\ud83d\ude94","Police box",p,p,"i_52","\u4ea4\u756a","kouban",B.i),A.o(B.m,l,"Townhouse",p,p,"i_53","\u753a\u5bb6","machiya",B.i),A.o(B.m,"\u2668\ufe0f","Public bath",p,p,"i_54","\u92ad\u6e6f","sentou",B.i),A.o(B.m,"\ud83c\udfe1","Inn",p,p,"i_55","\u6c11\u5bbf","minshuku",B.i),A.o(B.m,a1,"Traditional inn",p,p,"i_56","\u65c5\u9928","ryokan",B.i),A.o(B.m,"\ud83c\udfec","Department store",p,p,"i_57","\u30c7\u30d1\u30fc\u30c8","depaato",B.i),A.o(B.m,"\ud83d\udee3\ufe0f","Highway",p,p,"i_58","\u9053\u8def","douro",B.i),A.o(B.m,"\ud83c\udfac","Cinema",p,p,"i_59","\u6620\u753b\u9928","eigakan",B.i),A.o(B.m,"\ud83c\udfa8","Art museum",p,p,"i_60","\u7f8e\u8853\u9928","bijutsukan",B.i),A.o(B.n,"\ud83d\uddd3\ufe0f","Season",p,p,"i_61","\u5b63\u7bc0","kisetsu",B.i),A.o(B.n,"\ud83c\udf0d","Environment",p,p,"i_62","\u74b0\u5883","kankyou",B.i),A.o(B.n,"\ud83c\udf21\ufe0f","Climate",p,p,"i_63","\u6c17\u5019","kikou",B.i),A.o(B.n,"\u26c5","Weather",p,p,"i_64","\u5929\u5019","tenkou",B.i),A.o(B.n,i,"Waterfall",p,p,"i_65","\u6edd","taki",B.i),A.o(B.n,"\ud83c\udf08","Rainbow",p,p,"i_66","\u8679","niji",B.i),A.o(B.n,"\ud83d\udd73\ufe0f","Cave",p,p,"i_67","\u6d1e\u7a9f","doukutsu",B.i),A.o(B.n,"\ud83c\udf3e","Grassland",p,p,"i_68","\u8349\u539f","sougen",B.i),A.o(B.n,"\u26a1","Thunder",p,p,"i_69","\u96f7","kaminari",B.i),A.o(B.n,"\ud83c\udf2a\ufe0f","Storm",p,p,"i_70","\u5d50","arashi",B.i),A.o(B.G,"\ud83e\udd8b","Butterfly",p,p,"i_71","\u8776","chou",B.i),A.o(B.G,"\ud83d\udc1d","Bee",p,p,"i_72","\u8702","hachi",B.i),A.o(B.G,"\ud83d\udc1b","Caterpillar",p,p,"i_73","\u828b\u866b","imomushi",B.i),A.o(B.G,"\ud83d\udc2d","Mouse",p,p,"i_74","\u9f20","nezumi",B.i),A.o(B.G,"\ud83e\udd8a","Fox (spirit)",p,p,"i_75","\u72d0","kitsune",B.i),A.o(B.G,"\ud83e\udd8c","Deer",p,p,"i_76","\u9e7f","shika",B.i),A.o(B.G,"\ud83d\udc38","Frog",p,p,"i_77","\u86d9","kaeru",B.i),A.o(B.G,"\ud83d\udc0d","Snake",p,p,"i_78","\u86c7","hebi",B.i),A.o(B.G,"\ud83d\udc22","Turtle",p,p,"i_79","\u4e80","kame",B.i),A.o(B.G,"\ud83d\udc3a","Wolf",p,p,"i_80","\u72fc","ookami",B.i),A.o(B.z,"\u2709\ufe0f","Dear (letter)",p,p,"a_01","\u62dd\u5553","haikei",B.f),A.o(B.z,"\u2709\ufe0f","Sincerely (letter)",p,p,"a_02","\u656c\u5177","keigu",B.f),A.o(B.z,"\ud83d\udce2","Greetings (formal)",p,p,"a_03","\u3054\u6328\u62f6","goaisatsu",B.f),A.o(B.z,o,"I know you are busy",p,p,"a_04","\u304a\u5fd9\u3057\u3044\u3068\u3053\u308d","oisogashii tokoro",B.f),A.o(B.z,a2,"Please (very formal)",p,p,"a_05","\u4f55\u5352","nanitozo",B.f),A.o(B.z,"\u2709\ufe0f","Dear (casual letter)",p,p,"a_06","\u524d\u7565","zenryaku",B.f),A.o(B.z,"\ud83d\udcdd","Hastily (letter close)",p,p,"a_07","\u8349\u3005","sousou",B.f),A.o(B.z,"\ud83d\udcdd","Heading",p,p,"a_08","\u982d\u66f8","zusho",B.f),A.o(B.z,a2,"A letter",p,p,"a_09","\u4e00\u66f8","issho",B.f),A.o(B.z,a2,"To whom it may concern",p,p,"a_10","\u5553\u4e0a","keijou",B.f),A.o(B.p,"\u2668\ufe0f","Bathhouse",p,p,"a_11","\u98a8\u5442\u5834","furoba",B.f),A.o(B.p,l,"Guest room",p,p,"a_12","\u5ba2\u9593","kyakuma",B.f),A.o(B.p,i,"Storage room",p,p,"a_13","\u7269\u7f6e","monooki",B.f),A.o(B.p,"\u26c5","Dining room",p,p,"a_14","\u98df\u5802","shokudou",B.f),A.o(B.p,"\ud83d\udecb\ufe0f","Living room",p,p,"a_15","\u5c45\u9593","ima",B.f),A.o(B.p,o,"Buddhist room",p,p,"a_16","\u4ecf\u9593","butsuma",B.f),A.o(B.p,l,"Earthen floor",p,p,"a_17","\u571f\u9593","doma",B.f),A.o(B.p,l,"Tatami room",p,p,"a_18","\u5ea7\u6577","zashiki",B.f),A.o(B.p,"\ud83c\udfa8","Alcove",p,p,"a_19","\u5e8a\u306e\u9593","tokonoma",B.f),A.o(B.p,g,"Study",p,p,"a_20","\u66f8\u658e","shosai",B.f),A.o(B.t,"\ud83d\udc68","Husband (formal)",p,p,"a_21","\u4e3b\u4eba","shujin",B.f),A.o(B.t,j,"Wife (polite)",p,p,"a_22","\u5965\u3055\u3093","okusan",B.f),A.o(B.t,b,"Master (formal)",p,p,"a_23","\u3054\u4e3b\u4eba\u69d8","goshujinsama",B.f),A.o(B.t,j,"Mistress (inn)",p,p,"a_24","\u5973\u5c06","okami",B.f),A.o(B.t,d,"Ancestor",p,p,"a_25","\u5148\u7956","senzo",B.f),A.o(B.t,"\ud83d\udc76","Descendant",p,p,"a_26","\u5b50\u5b6b","shison",B.f),A.o(B.t,"\ud83d\udc70","Bride",p,p,"a_27","\u82b1\u5ac1","hanayome",B.f),A.o(B.t,"\ud83e\udd35","Groom",p,p,"a_28","\u82b1\u5a7f","hanamuko",B.f),A.o(B.t,"\ud83d\udc91","Matchmaker",p,p,"a_29","\u4ef2\u4eba","nakodo",B.f),A.o(B.t,b,"Conservative person",p,p,"a_30","\u5805\u7269","katamono",B.f),A.o(B.w,"\ud83e\udd5e","Monjayaki",p,p,"a_31","\u3082\u3093\u3058\u3083\u713c\u304d","monjayaki",B.f),A.o(B.w,"\ud83c\udf5c","Udon",p,p,"a_32","\u3046\u3069\u3093","udon",B.f),A.o(B.w,c,"Kaiseki cuisine",p,p,"a_33","\u61d0\u77f3\u6599\u7406","kaiseki ryouri",B.f),A.o(B.w,"\ud83c\udf63","Sashimi",p,p,"a_34","\u523a\u8eab","sashimi",B.f),A.o(B.w,"\ud83c\udf61","Dumplings",p,p,"a_35","\u56e3\u5b50","dango",B.f),A.o(B.w,"\ud83c\udf6c","Japanese sweets",p,p,"a_36","\u548c\u83d3\u5b50","wagashi",B.f),A.o(B.w,"\ud83e\udd63","Miso soup",p,p,"a_37","\u5473\u564c\u6c41","misoshiru",B.f),A.o(B.w,h,"Matcha tea",p,p,"a_38","\u62b9\u8336","matcha",B.f),A.o(B.w,"\ud83e\udd69","Grilled meat",p,p,"a_39","\u713c\u8089","yakiniku",B.f),A.o(B.w,"\ud83c\udf63","Sushi (formal)",p,p,"a_40","\u5bff\u53f8","sushi",B.f),A.o(B.c,"\ud83d\udcdd","Haiku",p,p,"a_41","\u4ff3\u53e5","haiku",B.f),A.o(B.c,"\ud83d\udc90",a3,p,p,"a_42","\u751f\u82b1","ikebana",B.f),A.o(B.c,"\ud83e\udda2","Origami",p,p,"a_43","\u6298\u308a\u7d19","origami",B.f),A.o(B.c,"\ud83d\udc83","Yosakoi dance",p,p,"a_44","\u3088\u3055\u3053\u3044","yosakoi",B.f),A.o(B.c,"\u2694\ufe0f","Kendo",p,p,"a_45","\u5263\u9053","kendou",B.f),A.o(B.c,"\ud83e\udd3c","Sumo",p,p,"a_46","\u76f8\u64b2","sumou",B.f),A.o(B.c,"\ud83c\udf38","Flower viewing",p,p,"a_47","\u82b1\u898b","hanami",B.f),A.o(B.c,"\ud83c\udf41","Autumn leaf walk",p,p,"a_48","\u7d05\u8449\u72e9\u308a","momijigari",B.f),A.o(B.c,"\ud83e\uddfa","Picnic under blossoms",p,p,"a_49","\u304a\u82b1\u898b","ohanami",B.f),A.o(B.c,"\u270d\ufe0f","Calligraphy",p,p,"a_50","\u66f8\u9053","shodou",B.f),A.o(B.m,"\ud83d\ude82","Level crossing",p,p,"a_51","\u8e0f\u5207","fumikiri",B.f),A.o(B.m,"\ud83c\udd7f\ufe0f","Car park",p,p,"a_52","\u99d0\u8eca\u5834","chuuashajou",B.f),A.o(B.m,"\ud83d\udea6","Intersection",p,p,"a_53","\u4ea4\u5dee\u70b9","kousaten",B.f),A.o(B.m,"\ud83c\udfdb\ufe0f","Town hall",p,p,"a_54","\u5f79\u6240","yakusho",B.f),A.o(B.m,"\ud83d\udea6","Traffic light",p,p,"a_55","\u4fe1\u53f7","shingou",B.f),A.o(B.m,"\ud83d\uded5","Temple",p,p,"a_56","\u5bfa","tera",B.f),A.o(B.m,"\ud83c\udfdb\ufe0f","Museum",p,p,"a_57","\u535a\u7269\u9928","hakubutsukan",B.f),A.o(B.m,a1,"Castle",p,p,"a_58","\u57ce","shiro",B.f),A.o(B.m,h,"Tea room",p,p,"a_59","\u8336\u5ba4","chashitsu",B.f),A.o(B.m,a0,"Shrine",p,p,"a_60","\u795e\u793e","jinja",B.f),A.o(B.n,"\ud83c\udf0b","Volcano",p,p,"a_61","\u706b\u5c71","kazan",B.f),A.o(B.n,"\ud83c\udfd4\ufe0f","Plateau",p,p,"a_62","\u9ad8\u539f","kougen",B.f),A.o(B.n,f,"Valley",p,p,"a_63","\u6e13\u8c37","keikoku",B.f),A.o(B.n,"\ud83c\udfdc\ufe0f","Desert",p,p,"a_64","\u7802\u6f20","sabaku",B.f),A.o(B.n,"\u2728","Constellation",p,p,"a_65","\u661f\u5ea7","seiza",B.f),A.o(B.n,e,"Morning sun",p,p,"a_66","\u671d\u65e5","asahi",B.f),A.o(B.n,"\ud83c\udf07","Evening sun",p,p,"a_67","\u5915\u65e5","yuuhi",B.f),A.o(B.n,"\ud83c\udf2b\ufe0f","Fog",p,p,"a_68","\u9727","kiri",B.f),A.o(B.n,"\u2744\ufe0f","Frost",p,p,"a_69","\u971c","shimo",B.f),A.o(B.n,"\u26a1","Lightning",p,p,"a_70","\u7a32\u5149","inabikari",B.f),A.o(B.G,"\ud83e\udd85","Hawk",p,p,"a_71","\u9df9","taka",B.f),A.o(B.G,"\ud83d\udc0b","Whale",p,p,"a_72","\u9be8","kujira",B.f),A.o(B.G,"\ud83d\udc17","Wild boar",p,p,"a_73","\u732a","inoshishi",B.f),A.o(B.G,"\ud83d\udc07","Hare",p,p,"a_74","\u514e","usagi",B.f),A.o(B.G,"\ud83e\udda9","Crane",p,p,"a_75","\u9db4","tsuru",B.f),A.o(B.G,"\ud83d\udc09","Dragon",p,p,"a_76","\u9f8d","ryuu",B.f),A.o(B.G,"\ud83d\udc12","Monkey (formal)",p,p,"a_77","\u733f","saru",B.f),A.o(B.G,"\ud83d\udc3b","Bear (formal)",p,p,"a_78","\u718a","kuma",B.f),A.o(B.G,"\ud83d\udc05","Tiger (formal)",p,p,"a_79","\u864e","tora",B.f),A.o(B.G,"\ud83e\udd81","Lion (mythic)",p,p,"a_80","\u7345\u5b50","shishi",B.f),A.o(B.z,a2,"Humbly",p,p,"x_01","\u8b39\u3093\u3067","tsutsushinde",B.j),A.o(B.z,a2,"I believe (humble)",p,p,"x_02","\u5b58\u3058\u307e\u3059","zonjimasu",B.j),A.o(B.z,"\ud83c\udfc6","To receive (honourable)",p,p,"x_03","\u8cdc\u308b","tamawaru",B.j),A.o(B.z,"\ud83d\udeb6","To go (humble)",p,p,"x_04","\u53c2\u308b","mairu",B.j),A.o(B.z,o,"To receive (humble)",p,p,"x_05","\u9802\u6234\u3059\u308b","choudai suru",B.j),A.o(B.z,b,"To obey (formal)",p,p,"x_06","\u754f\u307e\u308b","kashikomaru",B.j),A.o(B.z,"\ud83d\ude0a","I am afraid to say",p,p,"x_07","\u619a\u308a\u306a\u304c\u3089","habakarinagara",B.j),A.o(B.z,"\ud83d\udc42","To hear (humble)",p,p,"x_08","\u627f\u308b","uketamawaru",B.j),A.o(B.z,"\u270b","Objection",p,p,"x_09","\u5dee\u3057\u652f\u3048","sashitsukae",B.j),A.o(B.z,"\ud83d\ude0c","Leisure",p,p,"x_10","\u304a\u5bbd\u304e","hirogari",B.j),A.o(B.p,l,"Study style room",p,p,"x_11","\u66f8\u9662\u9020\u308a","shoinzukuri",B.j),A.o(B.p,h,"Tea house style",p,p,"x_12","\u6570\u5bc4\u5c4b\u9020\u308a","sukiya-zukuri",B.j),A.o(B.p,a0,"Gate",p,p,"x_13","\u9580","mon",B.j),A.o(B.p,"\ud83e\uddf1","Wall",p,p,"x_14","\u5840","hei",B.j),A.o(B.p,l,"In front of gate",p,p,"x_15","\u9580\u524d","monzen",B.j),A.o(B.p,l,"Board room",p,p,"x_16","\u677f\u9593","itama",B.j),A.o(B.p,k,"Back door",p,p,"x_17","\u88cf\u53e3","uraguchi",B.j),A.o(B.p,"\ud83c\udf73","Kitchen (old)",p,p,"x_18","\u52dd\u624b","katte",B.j),A.o(B.p,"\ud83d\udc58","House clothes",p,p,"x_19","\u90e8\u5c4b\u7740","heyagi",B.j),A.o(B.p,l,"Freeloader",p,p,"x_20","\u5c45\u5019","isourou",B.j),A.o(B.t,b,"Senior retainer",p,p,"x_21","\u5bb6\u8001","karou",B.j),A.o(B.t,n,"Retainer",p,p,"x_22","\u5bb6\u6765","kerai",B.j),A.o(B.t,"\u2694\ufe0f","Samurai class",p,p,"x_23","\u6b66\u5bb6","buke",B.j),A.o(B.t,"\ud83d\udc51","Court nobility",p,p,"x_24","\u516c\u5bb6","kuge",B.j),A.o(B.t,g,"Village school",p,p,"x_25","\u5bfa\u5b50\u5c4b","terakoya",B.j),A.o(B.t,b,"Head clerk",p,p,"x_26","\u756a\u982d","bantou",B.j),A.o(B.t,"\ud83d\udc54","Assistant clerk",p,p,"x_27","\u624b\u4ee3","teshiro",B.j),A.o(B.t,"\ud83d\udc66","Apprentice boy",p,p,"x_28","\u4e01\u7a1a","dochii",B.j),A.o(B.t,j,"Maid (old)",p,p,"x_29","\u5973\u4e2d","jochuu",B.j),A.o(B.t,n,"Servant (old)",p,p,"x_30","\u4e0b\u7537","genan",B.j),A.o(B.w,h,"Tea utensils",p,p,"x_31","\u8336\u9053\u5177","sadougu",B.j),A.o(B.w,h,"Thin tea",p,p,"x_32","\u8584\u8336","usucha",B.j),A.o(B.w,h,"Thick tea",p,p,"x_33","\u6fc3\u8336","koicha",B.j),A.o(B.w,h,"Tea whisk",p,p,"x_34","\u8336\u7b45","chasen",B.j),A.o(B.w,h,"Tea bowl",p,p,"x_35","\u8336\u7897","chawan",B.j),A.o(B.w,c,"Formal banquet",p,p,"x_36","\u4f1a\u5e2d","kaiseki",B.j),A.o(B.w,"\ud83e\udd6c","Buddhist cuisine",p,p,"x_37","\u7cbe\u9032\u6599\u7406","shoujin ryouri",B.j),A.o(B.w,c,"Formal set meal",p,p,"x_38","\u672c\u81b3\u6599\u7406","honzen ryouri",B.j),A.o(B.w,"\ud83c\udf81","Gift (banquet)",p,p,"x_39","\u5f15\u51fa\u7269","hikidemono",B.j),A.o(B.w,"\ud83e\udd62","Celebration chopsticks",p,p,"x_40","\u795d\u7bb8","iwai-bashi",B.j),A.o(B.c,"\ud83e\udd4b","Judo",p,p,"x_41","\u67d4\u9053","juudou",B.j),A.o(B.c,"\ud83e\udd4b","Karate",p,p,"x_42","\u7a7a\u624b","karate",B.j),A.o(B.c,"\ud83c\udff9","Archery",p,p,"x_43","\u5f13\u9053","kyuudou",B.j),A.o(B.c,"\ud83d\udc83","Bon dance",p,p,"x_44","\u76c6\u8e0a\u308a","bon odori",B.j),A.o(B.c,h,"Way of tea",p,p,"x_45","\u8336\u9053","sadou",B.j),A.o(B.c,"\ud83d\udc90",a3,p,p,"x_46","\u83ef\u9053","kadou",B.j),A.o(B.c,"\ud83e\udeb7","Way of incense",p,p,"x_47","\u9999\u9053","koudou",B.j),A.o(B.c,"\ud83c\udfad","Noh theatre",p,p,"x_48","\u80fd","nou",B.j),A.o(B.c,"\ud83c\udfad","Kabuki",p,p,"x_49","\u6b4c\u821e\u4f0e","kabuki",B.j),A.o(B.c,"\ud83c\udfad","Puppet theatre",p,p,"x_50","\u6587\u697d","bunraku",B.j),A.o(B.m,"\ud83d\ude87","Tunnel",p,p,"x_51","\u30c8\u30f3\u30cd\u30eb","tonneru",B.j),A.o(B.m,"\ud83c\udf3e","Countryside",p,p,"x_52","\u7530\u820e","inaka",B.j),A.o(B.m,"\ud83c\udfd9\ufe0f","City",p,p,"x_53","\u90fd\u4f1a","tokai",B.j),A.o(B.m,a0,"Town before shrine",p,p,"x_54","\u9580\u524d\u753a","monzenmachi",B.j),A.o(B.m,a1,"Post town",p,p,"x_55","\u5bbf\u5834\u753a","shukubamachi",B.j),A.o(B.m,a1,"Castle town",p,p,"x_56","\u57ce\u4e0b\u753a","jokamachi",B.j),A.o(B.m,"\u26f5","Port town",p,p,"x_57","\u6e2f\u753a","minatomachi",B.j),A.o(B.m,"\ud83c\udfd4\ufe0f","Mountain hut",p,p,"x_58","\u5c71\u5c0f\u5c4b","yamagoya",B.j),A.o(B.m,l,"Guardhouse",p,p,"x_59","\u756a\u5c4b","banya",B.j),A.o(B.m,"\ud83c\udfaa","Show booth",p,p,"x_60","\u898b\u4e16\u7269\u5c0f\u5c4b","misemono-goya",B.j),A.o(B.n,"\ud83c\udf0c","Aurora",p,p,"x_61","\u30aa\u30fc\u30ed\u30e9","oorora",B.j),A.o(B.n,"\u2604\ufe0f","Meteor shower",p,p,"x_62","\u6d41\u661f\u7fa4","ryuuseigun",B.j),A.o(B.n,"\ud83c\udf0a","Low tide",p,p,"x_63","\u5e72\u6f6e","hishio",B.j),A.o(B.n,"\ud83e\udeb8","Coral reef",p,p,"x_64","\u73ca\u745a\u7901","sangoshou",B.j),A.o(B.n,"\ud83e\uddca","Glacier",p,p,"x_65","\u6c37\u6cb3","hyouga",B.j),A.o(B.n,"\ud83c\udf0c","Aurora (alt)",p,p,"x_66","\u6975\u5149","kyokkou",B.j),A.o(B.n,"\ud83c\udf2b\ufe0f","Mirage",p,p,"x_67","\u6d77\u5e02\u8703\u697c","kaishirou",B.j),A.o(B.n,e,"Horizon",p,p,"x_68","\u5730\u5e73\u7dda","chiheisen",B.j),A.o(B.n,"\u2b06\ufe0f","Zenith",p,p,"x_69","\u5929\u9802","tenchou",B.j),A.o(B.n,i,"Water surface",p,p,"x_70","\u6c34\u9762","minamo",B.j),A.o(B.G,"\ud83e\udd85","Eagle",p,p,"x_71","\u9df2","washi",B.j),A.o(B.G,"\ud83e\udd85","Peregrine falcon",p,p,"x_72","\u96bc","hayabusa",B.j),A.o(B.G,"\ud83d\udc26\u200d\u2b1b","Crow",p,p,"x_73","\u70cf","karasu",B.j),A.o(B.G,"\ud83d\udc26","Swallow",p,p,"x_74","\u71d5","tsubame",B.j),A.o(B.G,"\ud83e\udeb0","Dragonfly",p,p,"x_75","\u873b\u86c9","tonbo",B.j),A.o(B.G,"\ud83d\udc26","Shrike",p,p,"x_76","\u767e\u820c","mozumuzu",B.j),A.o(B.G,"\ud83d\udc31","Wildcat",p,p,"x_77","\u5c71\u732b","yamaneko",B.j),A.o(B.G,"\ud83e\udda6","Sable",p,p,"x_78","\u8c82","ten",B.j),A.o(B.G,"\ud83e\udda6","Otter",p,p,"x_79","\u6c34\u737a","minotonka",B.j),A.o(B.G,"\ud83e\udda2","Swan",p,p,"x_80","\u767d\u9ce5","hakuchou",B.j)],t.G)
 B.b.D(a4,B.a1W)
 q=t.Tc
